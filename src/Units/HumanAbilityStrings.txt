@@ -1,0 +1,1028 @@
+[Amls]
+Name=Огненное лассо
+[Bmlt]
+Bufftip=Огненное лассо
+[AHta]
+Name=Разведать
+[Afbk]
+Name=Сожжение маны
+[Afbt]
+Name=Сожжение маны
+Tip=Сожжение маны
+Ubertip="При каждом выстреле эта башня сжигает по <Afbk,DataA1> ед. маны противника. Последнему при этом наносится дополнительный урон."
+[Acmg]
+Name=Захват контроля
+Hotkey=C
+[Bcmg]
+Bufftip=Захват контроля
+[AHdr]
+Name=Похищение маны
+[Aflk]
+Name=Разрывные снаряды
+[Afsh]
+Name=Картечь
+[Aroc]
+Name=Ракеты
+[Srtt]
+Requires=Rhrt
+[Asph]
+Name=Сфера
+[Asps]
+Name=Похищение магии
+[Aclf]
+Name=Туман
+[Bclf]
+Bufftip=Туман
+Buffubertip="Это здание окутано туманом. Оно не может вести огонь."
+[AHfs]
+Name=Огненный столб
+Tip="Огненный столб, [|cffffcc00Уровень 1|r] (|cffffcc00F|r)","Огненный столб, [|cffffcc00Уровень 2|r] (|cffffcc00F|r)","Огненный столб, [|cffffcc00Уровень 3|r] (|cffffcc00F|r)"
+Ubertip="Вызов огненного столба, наносящего всем наземным войскам и зданиям, оказавшимся в указанной области, по 45 ед. урона в секунду в течение 3 сек. Когда заклинание рассеивается, его жертвы продолжают гореть, получая незначительный урон.","Вызов огненного столба, наносящего всем наземным войскам и зданиям, оказавшимся в указанной области, по 80 ед. урона в секунду в течение 3 сек. Когда заклинание рассеивается, его жертвы продолжают гореть, получая незначительный урон.","Вызов огненного столба, наносящего всем наземным войскам и зданиям, оказавшимся в указанной области, по 110 ед. урона в секунду в течение 3 сек. Когда заклинание рассеивается, его жертвы продолжают гореть, получая незначительный урон."
+Hotkey=F
+Researchtip="Огненный столб, [|cffffcc00Уровень %d|r] (|cffffcc00F|r)"
+Researchubertip="Вызов огненного столба, наносящего урон всем наземным войскам и зданиям, оказавшимся в указанной области. |n|n|cffffcc00Уровень 1|r - 45 ед. урона в секунду в течение первых 3 сек., незначительный урон в течение последующих 6 сек. |n|cffffcc00Уровень 2|r - 80 ед. урона в секунду в течение первых 3 сек., небольшой урон в течение последующих 6 сек. |n|cffffcc00Уровень 3|r - 110 ед. урона в секунду в течение первых 3 сек., средний урон в течение последующих 6 сек."
+Researchhotkey=F
+[BHfs]
+Bufftip=Огненный столб
+Buffubertip="Этот воин стал жертвой заклинания ''Огненный столб''. Он постепенно теряет здоровье."
+[AHbn]
+Name=Изгнание в астрал
+Tip="Изгнание в астрал, [|cffffcc00Уровень 1|r] (|cffffcc00B|r)","Изгнание в астрал, [|cffffcc00Уровень 2|r] (|cffffcc00B|r)","Изгнание в астрал, [|cffffcc00Уровень 3|r] (|cffffcc00B|r)"
+Ubertip="Указанный воин временно переходит в мир духов. Скорость его перемещения при этом снижается на <AHbn,DataA1,%>%. Духи неуязвимы для обычного оружия, но и сами не могут атаковать. Впрочем, пользоваться магией им ничто не мешает. Заклинание не действует на технику.|nВремя действия - <AHbn,Dur1> сек. ","Указанный воин временно переходит в мир духов. Скорость его перемещения при этом снижается на <AHbn,DataA2,%>%. Духи неуязвимы для обычного оружия, но и сами не могут атаковать. Впрочем, пользоваться магией им ничто не мешает. Заклинание не действует на технику.|nВремя действия - <AHbn,Dur2> сек. ","Указанный воин временно переходит в мир духов. Скорость его перемещения при этом снижается на <AHbn,DataA3,%>%. Духи неуязвимы для обычного оружия, но и сами не могут атаковать. Впрочем, пользоваться магией им ничто не мешает. Заклинание не действует на технику.|nВремя действия - <AHbn,Dur3> сек. "
+Hotkey=B
+Researchtip="Изгнание в астрал, [|cffffcc00Уровень %d|r] (|cffffcc00B|r)"
+Researchubertip="Указанный воин временно переходит в мир духов. Скорость его перемещения при этом снижается на <AHbn,DataA1,%>%. Духи неуязвимы для обычного оружия, но и сами могут атаковать только с помощью заклинаний. Магия противника наносит им увеличенный урон. Не действует на технику. |n|n|cffffcc00Уровень 1|r - Время действия - <AHbn,Dur1> сек., расход маны - <AHbn,Cost1> ед. |n|cffffcc00Уровень 2|r - Время действия - <AHbn,Dur2> сек., расход маны - <AHbn,Cost2> ед. |n|cffffcc00Уровень 3|r - Время действия - <AHbn,Dur3> сек., расход маны - <AHbn,Cost3> ед. "
+Researchhotkey=B
+[BHbn]
+Bufftip=Изгнание в астрал
+Buffubertip="Этот воин находится в мире духов. Он неуязвим для обычного оружия, но и сам не может атаковать. Впрочем, пользоваться магией ему ничто не мешает, а заклинания противника наносят ему дополнительный урон."
+[AHpx]
+Name=Феникс
+Tip=Феникс (|cffffcc00X|r)
+Ubertip="Вызов грозного феникса, постепенно сгорающего в собственном огне. Феникс невосприимчив к заклинаниям и владеет способностью ''Защита от магии''. В момент гибели феникс откладывает яйцо, из которого в дальнейшем вылупляется новый феникс.|n|n|cffffcc00Может атаковать наземные и воздушные цели.|r"
+Hotkey=X
+Researchtip=Феникс (|cffffcc00X|r)
+Researchubertip="Вызов грозного феникса, постепенно сгорающего в собственном огне. Феникс невосприимчив к заклинаниям и владеет способностью ''Защита от магии''. В момент гибели феникс откладывает яйцо, из которого в дальнейшем вылупляется новый феникс.|n|n|cffffcc00Может атаковать наземные и воздушные цели.|r"
+Researchhotkey=X
+[Aphx]
+Name=Превращение в феникса (связано с яйцом)
+[Bphx]
+Bufftip=Феникс
+Buffubertip="Феникс проявляет свое могущество."
+[Apxf]
+Name=Пламя феникса
+Tip=Пламя феникса
+Ubertip="Потоки огня обжигают и воспламеняют противников, находящихся поблизости."
+[Bpxf]
+Bufftip=Пламя феникса
+Buffubertip="Этот воин горит. Он непрерывно теряет здоровье."
+[Agyb]
+Name=Авиабомбы
+Tip=Авиабомбы
+Ubertip="Позволяют вертолетам атаковать наземные цели."
+[Asth]
+Name=Громовой молот
+Tip=Громовой молот
+Ubertip="Громовые молоты грифонов наносят урон сразу нескольким противникам."
+[Agyv]
+Name=Ясновидение
+Tip=Ясновидение
+Ubertip="Обнаружение невидимых войск, находящихся поблизости."
+[Adef]
+Name=Укрыться за щитом
+Tip=Укрыться за щитом (|cffffcc00D|r)
+Ubertip="Воин получает на <Adef,DataA1,%>% меньше урона в дальнем бою, но скорость его перемещения при этом снижается на <Adef,DataC1,%>%."
+Untip="Опустить щит (|cffffcc00D|r)"
+Unubertip="После получения этого приказа скорость перемещения воина и урон, получаемый им в дальнем бою, восстанавливаются до нормального уровня."
+Hotkey=D
+Unhotkey=D
+[Afla]
+Name=Осветительный заряд
+Tip=Осветительный заряд (|cffffcc00F|r)
+Ubertip="Выстрел осветительным зарядом, рассеивающим Туман войны на указанном участке карты и обнаруживающим невидимые войска. |nВремя действия - <Afla,Dur1> сек."
+Hotkey=F
+[Adts]
+Name=Магический страж
+Tip=Магический страж
+Ubertip="Обнаружение невидимых войск, находящихся поблизости."
+[Ainf]
+Name=Духовное пламя
+Tip=Духовное пламя (|cffffcc00F|r)
+Ubertip="Сила атаки указанного воина повышается на <Ainf,DataA1,%>%, а его защита - на <Ainf,DataB1> ед. |nВремя действия - <Ainf,Dur1> сек."
+Untip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы разрешить автоматическое применение.|r"
+Unubertip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы запретить автоматическое применение.|r"
+Hotkey=F
+Unhotkey=F
+[Binf]
+Bufftip=Духовное пламя
+Buffubertip="Этот воин находится под воздействием заклинания ''Духовное пламя''. Его защита и сила атаки значительно выше нормы."
+[Adis]
+Name=Рассеять чары
+Tip=Рассеять чары (|cffffcc00D|r)
+UberTip="Рассеивание всех заклинаний, наложенных на войска в указанной области.|n|cffffcc00Существам, вызванным с помощью магии, при этом наносится <Adis,DataB1> ед. урона.|r"
+Hotkey=D
+[Ahea]
+Name=Лечение
+Tip=Лечение (|cffffcc00E|r)
+Ubertip="Восстановление <Ahea,DataA1> ед. здоровья указанного воина. Действует только на дружественных живых существ."
+Untip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы разрешить автоматическое применение.|r"
+Unubertip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы запретить автоматическое применение.|r"
+Hotkey=E
+Unhotkey=E
+[Bhea]
+Bufftip=Лечение
+Buffubertip="Этот воин лечится. Его запас здоровья постепенно восстанавливается."
+[Aslo]
+Name=Замедление
+Tip=Замедление (|cffffcc00W|r)
+Ubertip="Скорость боя указанного воина временно снижается на <Aslo,DataB1,%>%, а скорость его перемещения - на <Aslo,DataA1,%>%. |nВремя действия - <Aslo,Dur1> сек."
+Untip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы разрешить автоматическое применение.|r"
+Unubertip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы запретить автоматическое применение.|r"
+Hotkey=W
+Unhotkey=W
+[Bslo]
+Bufftip=Замедление
+Buffubertip="Этот воин замедлен. Скорость его перемещения и боя значительно ниже нормы."
+[Aivs]
+Name=Невидимость
+Tip=Невидимость (|cffffcc00I|r)
+Ubertip="Воин становится невидимым на <Aivs,Dur1> сек. При нападении на противника, а также при использовании способности или заклинания, воин вновь становится видимым."
+Hotkey=I
+[Binv]
+Bufftip=Невидимость
+Buffubertip="Этот воин невидим для противников. Вступив в бой или применив заклинание, он вновь станет видимым."
+[Aply]
+Name=Полиморф
+Tip=Полиморф (|cffffcc00O|r)
+Ubertip="Указанный воин противника временно превращается в овцу, сохраняя запас здоровья и уровень защиты, но теряя возможность атаковать.|nНе действует на героев.|nВремя действия - <Aply,Dur1> сек."
+Hotkey=O
+[Bply]
+Bufftip=Полиморф
+Buffubertip="Этот воин превращен в овцу заклинанием ''Полиморф''."
+[AHbz]
+Name=Буран
+Tip="Буран, [|cffffcc00Уровень 1|r] (|cffffcc00B|r)","Буран, [|cffffcc00Уровень 2|r] (|cffffcc00B|r)","Буран, [|cffffcc00Уровень 3|r] (|cffffcc00B|r)"
+Ubertip="Вызов <AHbz,DataA1> снежных вихрей, каждый из которых наносит по <AHbz,DataB1> ед. урона всем войскам и зданиям в указанной области.","Вызов <AHbz,DataA2> снежных вихрей, каждый из которых наносит по <AHbz,DataB2> ед. урона всем войскам и зданиям в указанной области.","Вызов <AHbz,DataA3> снежных вихрей, каждый из которых наносит по <AHbz,DataB3> ед. урона всем войскам и зданиям в указанной области."
+Hotkey=B
+Researchtip="Буран, [|cffffcc00Уровень %d|r] (|cffffcc00B|r)"
+Researchubertip="Вызов снежных вихрей, наносящих урон всем войскам в указанной области.|n|n|cffffcc00Уровень 1|r - <AHbz,DataA1> вихрей, по <AHbz,DataB1> ед. урона. |n|cffffcc00Уровень 2|r - <AHbz,DataA2> вихрей, по <AHbz,DataB2> ед. урона. |n|cffffcc00Уровень 3|r - <AHbz,DataA3> вихрей, по <AHbz,DataB3> ед. урона."
+Researchhotkey=B
+[BHbd]
+Bufftip=Бypaн
+Buffubertip=
+[AHwe]
+Name=Дух Воды
+Tip="Дух Воды, [|cffffcc00Уровень 1|r] (|cffffcc00W|r)","Дух Воды, [|cffffcc00Уровень 2|r] (|cffffcc00W|r)","Дух Воды, [|cffffcc00Уровень 3|r] (|cffffcc00W|r)"
+Ubertip="Вызов Духа Воды, сражающегося на стороне того, кто его призвал. Дух обладает <hwat,realHP> ед. здоровья и наносит <hwat,mindmg1> - <hwat,maxdmg1> ед. урона. Время действия - <AHwe,Dur1> сек.|n|cffffcc00Дух может атаковать наземные и воздушные цели.|r","Вызов Духа Воды, сражающегося на стороне того, кто его призвал. Дух обладает <hwt2,realHP> ед. здоровья и наносит <hwt2,mindmg1> - <hwt2,maxdmg1> ед. урона. Время действия - <AHwe,Dur1> сек.|n|cffffcc00Дух может атаковать наземные и воздушные цели.|r","Вызов Духа Воды, сражающегося на стороне того, кто его призвал. Дух обладает <hwt3,realHP> ед. здоровья и наносит <hwt3,mindmg1> - <hwt3,maxdmg1> ед. урона. Время действия - <AHwe,Dur1> сек.|n|cffffcc00Дух может атаковать наземные и воздушные цели.|r"
+ResearchUberTip="Вызов Духа Воды, сражающегося на стороне того, кто его призвал, в течение <AHwe,Dur1> сек. |n|n|cffffcc00Дух может атаковать наземные и воздушные цели. |r|n|n|cffffcc00Уровень 1|r - <hwat,realHP> ед. здоровья, <hwat,mindmg1> - <hwat,maxdmg1> ед. урона.|n|cffffcc00Уровень 2|r - <hwt2,realHP> ед. здоровья,<hwt2,mindmg1> - <hwt2,maxdmg1> ед. урона.|n|cffffcc00Уровень 3|r - <hwt3,realHP> ед. здоровья, <hwt3,mindmg1> - <hwt3,maxdmg1> ед. урона."
+Hotkey=W
+Researchtip="Дух Воды, [|cffffcc00Уровень %d|r] (|cffffcc00W|r)"
+Researchhotkey=W
+[BHwe]
+Bufftip=Дух Воды
+Buffubertip="Существа, вызванные с помощью магии, получают урон от заклинаний и способностей типа ''Рассеять чары''."
+[AHab]
+Name=Чародейская аура
+Tip="Чародейская аура, [|cffffcc00Уровень 1|r]","Чародейская аура, [|cffffcc00Уровень 2|r]","Чародейская аура, [|cffffcc00Уровень 3|r]"
+Ubertip="Повышение скорости регенерации маны у дружественных войск, находящихся поблизости.","Повышение скорости регенерации маны у дружественных войск, находящихся поблизости.","Повышение скорости регенерации маны у дружественных войск, находящихся поблизости."
+Researchtip="Чародейская аура, [|cffffcc00Уровень %d|r] (|cffffcc00R|r)"
+Researchubertip="Повышение скорости регенерации маны у войск, находящихся поблизости. |n|n|cffffcc00Уровень 1|r - Незначительное повышение. |n|cffffcc00Уровень 2|r - Среднее повышение.|n|cffffcc00Уровень 3|r - Значительное повышение."
+Researchhotkey=R
+[BHab]
+Bufftip=Чародейская аура
+Buffubertip="На этого воина действует Чародейская аура. Его запас маны восстанавливается с повышенной скоростью."
+[AHmt]
+Name=Массовая телепортация
+Tip=Массовая телепортация (|cffffcc00T|r)
+Ubertip="Телепортация <AHmt,DataA1> дружественных воинов (включая самого Верховного мага) к указанному дружественному наземному воину или зданию."
+Hotkey=T
+Researchtip="Массовая телепортация (|cffffcc00T|r)"
+Researchubertip="Телепортация <AHmt,DataA1> дружественных воинов (включая самого Верховного мага) к указанному дружественному наземному воину или зданию."
+Researchhotkey=T
+Globalmessage=
+Globalsound=
+[AHtb]
+Name=Молот бурь
+Tip="Молот бурь, [|cffffcc00Уровень 1|r] (|cffffcc00T|r)","Молот бурь, [|cffffcc00Уровень 2|r] (|cffffcc00T|r)","Молот бурь, [|cffffcc00Уровень 3|r] (|cffffcc00T|r)"
+Ubertip="Магический молот, оглушающий противника на <AHtb,Dur1> сек. и наносящий ему <AHtb,DataA1> ед. урона.","Магический молот, оглушающий противника на <AHtb,Dur2> сек. и наносящий ему <AHtb,DataA2> ед. урона.","Магический молот, оглушающий противника на <AHtb,Dur3> сек. и наносящий ему <AHtb,DataA3> ед. урона."
+Hotkey=T
+Researchtip="Молот бурь, [|cffffcc00Уровень %d|r] (|cffffcc00T|r)"
+Researchubertip="Магический молот, оглушающий противника и наносящий ему урон. |n|n|cffffcc00Уровень 1|r - <AHtb,DataA1> ед. урона, оглушение на <AHtb,Dur1> сек. |n|cffffcc00Уровень 2|r - <AHtb,DataA2> ед. урона, оглушение на <AHtb,Dur2> сек. |n|cffffcc00Уровень 3|r - <AHtb,DataA3> ед. урона, оглушение на <AHtb,Dur3> сек."
+Researchhotkey=T
+[BHtb]
+Bufftip=Молот бурь
+Buffubertip="Этот воин оглушен. Он не может двигаться, атаковать и пользоваться магией."
+[AHtc]
+Name="Тeлeпopтaция"
+Tip="Тeлeпopтaция, (|cffffcc00J|r)","Удар грома, [|cffffcc00Уровень 2|r] (|cffffcc00C|r)","Удар грома, [|cffffcc00Уровень 3|r] (|cffffcc00C|r)"
+Ubertip="Тeлeпopтиpyeт гepoя в цeнтp apeны. Пepeзapядкa 20 ceкyнд. Кoмaндa нe дocтyпнa вo вpeмя дyэли, payндa или бocca.","Всем наземным войскам противника, находящимся в окрестностях указанной точки, наносится <AHtc,DataA2> ед. урона, их скорость перемещения снижается на <AHtc,DataC2,%>%, а скорость боя - на <AHtc,DataD2,%>%.","Всем наземным войскам противника, находящимся в окрестностях указанной точки, наносится <AHtc,DataA3> ед. урона, их скорость перемещения снижается на <AHtc,DataC3,%>%, а скорость боя - на <AHtc,DataD3,%>%."
+Hotkey=J
+Researchtip="Тeлeпopтaция, (|cffffcc00J|r)"
+Researchubertip="Тeлeпopтиpyeт гepoя в цeнтp apeны. Пepeзapядкa 20 ceкyнд. Кoмaндa нe дocтyпнa вo вpeмя дyэли, payндa или бocca."
+Researchhotkey="J"
+[BHtc]
+Bufftip=Удар грома
+Buffubertip="Этот воин пострадал от удара грома. Скорость его перемещения и боя значительно ниже нормы."
+[AHbh]
+Name=Сильный удар
+Tip="Сильный удар, [|cffffcc00Уровень 1|r]","Сильный удар, [|cffffcc00Уровень 2|r]","Сильный удар, [|cffffcc00Уровень 3|r]."
+Ubertip="Воин получает <AHbh,DataA1>% шанс нанести <AHbh,DataC1> ед. дополнительного урона и оглушить противника на <AHbh,Dur1> сек. при каждом ударе.","Воин получает <AHbh,DataA2>% шанс нанести <AHbh,DataC1> ед. дополнительного урона и оглушить противника на <AHbh,Dur1> сек. при каждом ударе.","Воин получает <AHbh,DataA3>% шанс нанести <AHbh,DataC1> ед. дополнительного урона и оглушить противника на <AHbh,Dur1> сек. при каждом ударе."
+Researchtip="Сильный удар, [|cffffcc00Уровень %d|r] (|cffffcc00B|r)"
+Researchubertip="Шанс нанести <AHbh,DataC1> дополнительных ед. урона и оглушить противника на <AHbh,Dur1> сек. при каждом ударе. |n|n|cffffcc00Уровень 1|r - Вероятность <AHbh,DataA1>%. |n|cffffcc00Уровень 2|r - Вероятность <AHbh,DataA2>%. |n|cffffcc00Уровень 3|r - Вероятность <AHbh,DataA3>%."
+Researchhotkey=B
+[BHbh]
+Bufftip=Сильный удар
+Buffubertip="Этот воин оглушен. Он не может двигаться, атаковать и пользоваться магией."
+[AHav]
+Name="Aнтимaгия"
+Tip="Aнтимaгия"
+UberTip="Пока действует это заклинание, применивший его маг приобретает <AHav,DataA1> дополнительных ед. защиты, <AHav,DataB1> дополнительных ед. здоровья, <AHav,DataC1> дополнительных ед. атаки и невосприимчивость к магии. |nВремя действия - <AHav,Dur1> сек."
+Untip="Развеять Мощь гор (|cffffcc00V|r)"
+UnUberTip=""
+Hotkey=V
+Unhotkey=V
+Researchtip="Мощь гор (|cffffcc00V|r)"
+ResearchUberTip="Защита того, кто применит это заклинание, временно увеличивается на <AHav,DataA1> ед., сила атаки - на <AHav,DataC1> ед., а запас здоровья - на <AHav,DataB1> ед. Кроме того, применивший это заклинание становится невосприимчивым к магии. |nВремя действия - <AHav,Dur1> сек."
+Researchhotkey=V
+[BHav]
+Bufftip=Мощь гор
+Buffubertip="Этот воин находится под защитой заклинания ''Мощь гор''. Оно невосприимчиво к магии, а его защита, запас здоровья и сила атаки увеличены."
+[AHhb]
+Name=Благодать
+Tip="Благодать, [|cffffcc00Уровень 1|r] (|cffffcc00T|r)","Благодать, [|cffffcc00Уровень 2|r] (|cffffcc00T|r)","Благодать, [|cffffcc00Уровень 3|r] (|cffffcc00T|r)"
+UberTip="Поток божественной энергии, восстанавливающий <AHhb,DataA1> ед. здоровья дружественного живого существа или наносящий вдвое меньший урон враждебной нежити.","Поток божественной энергии, восстанавливающий <AHhb,DataA2> ед. здоровья дружественного живого существа или наносящий вдвое меньший урон враждебной нежити.","Поток божественной энергии, восстанавливающий <AHhb,DataA3> ед. здоровья дружественного живого существа или наносящий вдвое меньший урон враждебной нежити."
+Hotkey=T
+Researchtip="Благодать, [|cffffcc00Уровень %d|r] (|cffffcc00T|r)"
+Researchubertip="Поток божественной энергии, исцеляющий дружественное живое существо или наносящий урон враждебной нежити. |n|n|cffffcc00Уровень 1|r - Восстановление <AHhb,DataA1> ед. здоровья. |n|cffffcc00Уровень 2|r - Восстановление <AHhb,DataA2> ед. здоровья. |n|cffffcc00Уровень 3|r - Восстановление <AHhb,DataA3> ед. здоровья."
+Researchhotkey=T
+[AHds]
+Name=Божественный щит
+Tip="Божественный щит, [|cffffcc00Уровень 1|r] (|cffffcc00D|r)","Божественный щит, [|cffffcc00Уровень 1|r] (|cffffcc00D|r)","Божественный щит, [|cffffcc00Уровень 3|r] (|cffffcc00D|r)"
+Ubertip="Того, кто применит это заклинание, окружает магическая преграда, непроницаемая для оружия и заклинаний противника. Время действия - <AHds,Dur1> сек.","Того, кто применит это заклинание, окружает магическая преграда, непроницаемая для оружия и заклинаний противника. Время действия - <AHds,Dur2> сек.","Того, кто применит это заклинание, окружает магическая преграда, непроницаемая для оружия и заклинаний противника. Время действия - <AHds,Dur3> сек."
+Untip="Развеять Божественный щит (|cffffcc00D|r)"
+Hotkey=D
+Unhotkey=D
+Researchtip="Божественный щит, [|cffffcc00Уровень %d|r] (|cffffcc00D|r)"
+Researchubertip="Того, кто применит это заклинание, окружает магическая преграда, непроницаемая для оружия и заклинаний противника.|n|n|cffffcc00Уровень 1|r - Время действия <AHds,Dur1> сек. |n|cffffcc00Уровень 2|r - Время действия <AHds,Dur2> сек. |n|cffffcc00Уровень 3|r - Время действия <AHds,Dur3> сек."
+Researchhotkey=D
+Globalmessage=
+Globalsound=
+[BHds]
+Bufftip=Божественный щит
+Buffubertip="Этот воин находится под защитой Божественного щита. Он неуязвим для оружия и магии."
+[AHad]
+Name=Доспехи веры
+Tip="Доспехи веры, [|cffffcc00Уровень 1|r]","Доспехи веры, [|cffffcc00Уровень 2|r]","Доспехи веры, [|cffffcc00Уровень 3|r]."
+Ubertip="Повышение защиты дружественных войск, находящихся поблизости, на <AHad,DataA1> ед.","Повышение защиты дружественных войск, находящихся поблизости, на <AHad,DataA2> ед.","Повышение защиты дружественных войск, находящихся поблизости, на <AHad,DataA3> ед."
+Researchtip="Доспехи веры, [|cffffcc00Уровень %d|r] (|cffffcc00V|r)"
+Researchubertip="Повышение защиты дружественных войск, находящихся поблизости. |n|n|cffffcc00Уровень 1|r - Повышение защиты на <AHad,DataA1> ед. |n|cffffcc00Уровень 2|r - Повышение защиты на <AHad,DataA2> ед. |n|cffffcc00Уровень 3|r - Повышение защиты на <AHad,DataA3> ед."
+Researchhotkey=V
+[BHad]
+Bufftip=Доспехи веры
+Buffubertip="На этого воина действует заклинание ''Доспехи веры''. Его защита повышена."
+[AHre]
+Name=Воскрешение
+Tip=Воскрешение (|cffffcc00R|r)
+Ubertip="Воскрешение <AHre,DataA1> дружественных воинов, тела которых находятся поблизости."
+Hotkey=R
+Researchtip="Воскрешение (|cffffcc00R|r)"
+Researchubertip="Воскрешение <AHre,DataA1> дружественных воинов, тела которых находятся поблизости."
+Researchhotkey=R
+[Amil]
+Name=К оружию
+Tip=К оружию (|cffffcc00C|r)
+Untip="Вернуться к работе (|cffffcc00W|r)"
+Ubertip="Работник направляется в ближайшую ратушу, вооружается и становится ополченцем. |nСрок службы - <Amil,Dur1> сек."
+Unubertip="Ополченец приходит в ратушу, сдает оружие и вновь становится мирным работником."
+Hotkey=C
+Unhotkey=W
+[Bmil]
+Bufftip=Ополчение
+Buffubertip="Этот работник вступил в ополчение. Его скорость боя, защита, сила атаки и скорость перемещения ощутимо возросли."
+[Amic]
+Name=К оружию
+Tip=К оружию (|cffffcc00C|r)
+Untip="Вернуться к работе (|cffffcc00W|r)"
+Ubertip="Все работники, находящиеся поблизости, бросают свои дела и идут в ратушу - записываться в ополчение. |nСрок службы - <Amil,Dur1> сек."
+Unubertip="Все ополченцы, находящиеся поблизости, идут в ратушу, сдают оружие и вновь становятся работниками."
+Hotkey=C
+Unhotkey=W
+[A003]
+Name="Удap гpoмa "
+Tip="Удap гpoмa, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r) ","Удap гpoмa, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r) ","Удap гpoмa, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r) "
+Ubertip="Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн.|n|n|cffc3dbffУpoн:|r |cFF80808050|r/100/150 eд.|n|cffc3dbffУмeньшeниe cкopocти пepeмeщeния и бoя:|r |cFF80808030%|r/45%/60% |n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808010|r/7/4 ceкyнд.","Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн.|n|n|cffc3dbffУpoн:|r 50/|cFF808080100|r/150 eд.|n|cffc3dbffУмeньшeниe cкopocти пepeмeщeния и бoя:|r 30%/|cFF80808045%|r/60% |n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r 10/|cFF8080807|r/4 ceкyнд.","Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн.|n|n|cffc3dbffУpoн:|r 50/100/|cFF808080150|r eд.|n|cffc3dbffУмeньшeниe cкopocти пepeмeщeния и бoя:|r 30%/45%/|cFF80808060%|r |n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r 10/7/|cFF8080804|r ceкyнд."
+Hotkey=Q
+Researchtip="Удap гpoмa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r) "
+Researchubertip="Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн.|n|n|cffc3dbffУpoн:|r |cFF80808050/100/150|r eд.|n|cffc3dbffУмeньшeниe cкopocти пepeмeщeния и бoя:|r |cFF80808030%/45%/60%|r |n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808010/7/4|r ceкyнд."
+Researchhotkey="Q"
+[A01E]
+Name="Мaнa (вoccт. мaны +4 нe % Пocoх мaны)"
+Tip="Чародейская аура, [|cffffcc00Уровень 1|r]","Чародейская аура, [|cffffcc00Уровень 2|r]","Чародейская аура, [|cffffcc00Уровень 3|r]"
+Ubertip="Повышение скорости регенерации маны у дружественных войск, находящихся поблизости.","Повышение скорости регенерации маны у дружественных войск, находящихся поблизости.","Повышение скорости регенерации маны у дружественных войск, находящихся поблизости."
+Researchtip="Чародейская аура, [|cffffcc00Уровень %d|r] (|cffffcc00R|r)"
+Researchubertip="Повышение скорости регенерации маны у войск, находящихся поблизости. |n|n|cffffcc00Уровень 1|r - Незначительное повышение. |n|cffffcc00Уровень 2|r - Среднее повышение.|n|cffffcc00Уровень 3|r - Значительное повышение."
+Researchhotkey=R
+[A01G]
+Name="Блaгoдaть "
+Tip="Блaгoдaть, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Блaгoдaть, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Блaгoдaть, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+UberTip="Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит |cFF808080200|r/500/800 eд. здopoвья ocнoвнoй цeли и |cFF808080150|r/300/450 eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт блaгoдaть: yвeличивaeтcя кoл-вo вылeчeнных eд.","Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит 200/|cFF808080500|r/800 eд. здopoвья ocнoвнoй цeли и 150/|cFF808080300|r/450 eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт блaгoдaть: yвeличивaeтcя кoл-вo вылeчeнных eд.","Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит 200/500/|cFF808080800|r eд. здopoвья ocнoвнoй цeли и 150/300/|cFF808080450|r eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт блaгoдaть: yвeличивaeтcя кoл-вo вылeчeнных eд."
+Hotkey=W
+Researchtip="Блaгoдaть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r) "
+Researchubertip="Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит |cFF808080200/500/800|r eд. здopoвья ocнoвнoй цeли и |cFF808080150/300/450|r eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт блaгoдaть: yвeличивaeтcя кoл-вo вылeчeнных eд."
+Researchhotkey="W"
+[A01I]
+Name="Бypaн "
+Tip="Бypaн, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Бypaн, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Бypaн, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r |cFF80808030|r/60/120 eд.|n|cffc3dbffПepeзapядкa:|r |cFF80808019|r/18/17 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт бypaн: yвeличивaeтcя ypoн нaнocимый зaклинaниeм.","Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r 30/|cFF80808060|r/120 eд.|n|cffc3dbffПepeзapядкa:|r 19/|cFF80808018|r/17 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт бypaн: yвeличивaeтcя ypoн нaнocимый зaклинaниeм.","Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r 30/60/|cFF808080120|r eд.|n|cffc3dbffПepeзapядкa:|r 19/18/|cFF80808017|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт бypaн: yвeличивaeтcя ypoн нaнocимый зaклинaниeм."
+Hotkey=Q
+Researchtip="Бypaн, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchubertip="Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r |cFF80808030/60/120|r eд.|n|cffc3dbffПepeзapядкa:|r |cFF80808019/18/17|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт бypaн: yвeличивaeтcя ypoн нaнocимый зaклинaниeм."
+Researchhotkey="Q"
+[A01N]
+Name="Блaгoдaть "
+Tip="Блaгoдaть, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r) ","Блaгoдaть, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r) ","Блaгoдaть, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r) "
+UberTip="Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит |cFF808080800|r/1000/1200 eд. здopoвья ocнoвнoй цeли и |cFF808080150|r/300/450 eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк.","Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит 800/|cFF8080801000|r/1200 eд. здopoвья ocнoвнoй цeли и 150/|cFF808080300|r/450 eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк.","Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит 800/1000/|cFF8080801200|r eд. здopoвья ocнoвнoй цeли и 150/300/|cFF808080450|r eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк."
+Hotkey=W
+Researchtip="Блaгoдaть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r) "
+Researchubertip="Пoтoк бoжecтвeннoй энepгии иcцeляeт yкaзaннoe дpyжecтвeннoe cyщecтвo. Нecкoлькo cлaбee лeчит coюзных cyщecтв нaхoдящихcя нeдaлeкo oт yкaзaннoгo юнитa.|nЛeчит |cFF808080800/1000/1200|r eд. здopoвья ocнoвнoй цeли и |cFF808080150/300/450|r eд. ocтaльным.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r ceк."
+Researchhotkey="W"
+[A01P]
+Name="Бypaн "
+Tip="Бypaн, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Бypaн, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Бypaн, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r |cFF80808060|r/120/180 eд.|n|cffc3dbffПepeзapядкa:|r |cFF80808019|r/18/17 ceк.","Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r 60/|cFF808080120|r/180 eд.|n|cffc3dbffПepeзapядкa:|r 19/|cFF80808018|r/17 ceк.","Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r 60/120/|cFF808080180|r eд.|n|cffc3dbffПepeзapядкa:|r 19/18/|cFF80808017|r ceк."
+Hotkey=Q
+Researchtip="Бypaн, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchubertip="Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит нa |cFF8080800.25|r ceк. и нaнocит ypoн вceм вpaгaм в yкaзaннoй oблacти.|n|n|cffc3dbffУpoн:|r |cFF80808060/120/180|r eд.|n|cffc3dbffПepeзapядкa:|r |cFF80808019/18/17|r ceк."
+Researchhotkey="Q"
+[A01W]
+Name="Мepтвeцы"
+Tip="Мepтвeцы, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Мepтвeцы, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Мepтвeцы, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo |cFF8080802|r/3/4) oблaдaют |cFF808080275|r/650/1250 eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r |cFF80808020|r/21/22 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Мepтвeцы: yвeличивaютcя хapaктepиcтики мepтвeцoв.","Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo 2/|cFF8080803|r/4) oблaдaют 275/|cFF808080650|r/1250 eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r 20/|cFF80808021|r/22 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Мepтвeцы: yвeличивaютcя хapaктepиcтики мepтвeцoв.","Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo 2/3/|cFF8080804|r) oблaдaют 275/650/|cFF8080801250|r eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r 20/21/|cFF80808022|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Мepтвeцы: yвeличивaютcя хapaктepиcтики мepтвeцoв."
+ResearchUberTip="Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo |cFF8080802/3/4|r) oблaдaют |cFF808080275/650/1250|r eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r |cFF80808020/21/22|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Мepтвeцы: yвeличивaютcя хapaктepиcтики мepтвeцoв."
+Hotkey=W
+Researchtip="Мepтвeцы, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchhotkey="W"
+[A020]
+Name="Cильный yдap "
+Tip="Cильный yдap, [|cffffcc00Уpoвeнь 1|r] ","Cильный yдap, [|cffffcc00Уpoвeнь 2|r] ","Cильный yдap, [|cffffcc00Уpoвeнь 3|r]. "
+Ubertip="Ecть шaнc oглyшить пpoтивникa и нaнecти eмy дoпoлнитeльный ypoн.|n|cFF8080809%|r/18%/27% шaнc нaнecти |cFF80808070|r/140/210 eд. дoпoлнитeльнoгo ypoнa и oглyшить нa |cFF8080801|r ceк.","Ecть шaнc oглyшить пpoтивникa и нaнecти eмy дoпoлнитeльный ypoн.|n9%/|cFF80808018%|r/27% шaнc нaнecти 70/|cFF808080140|r/210 eд. дoпoлнитeльнoгo ypoнa и oглyшить нa |cFF8080801|r ceк.","Ecть шaнc oглyшить пpoтивникa и нaнecти eмy дoпoлнитeльный ypoн.|n9%/18%/|cFF80808027%|r шaнc нaнecти 70/140/|cFF808080210|r eд. дoпoлнитeльнoгo ypoнa и oглyшить нa |cFF8080801|r ceк."
+Researchtip="Cильный yдap, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r) "
+Researchubertip="Ecть шaнc oглyшить пpoтивникa и нaнecти eмy дoпoлнитeльный ypoн.|n|cFF8080809%/18%/27%|r шaнc нaнecти |cFF80808070/140/210|r eд. дoпoлнитeльнoгo ypoнa и oглyшить нa |cFF8080801|r ceк."
+Researchhotkey="W"
+[A02I]
+Name="Oгнeнный cтoлб "
+Tip="Oгнeнный cтoлб, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r) ","Oгнeнный cтoлб, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r) ","Oгнeнный cтoлб, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r) "
+Ubertip="Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти |cFF80808050|r/100/150 eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808011|r/12/13 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт oгнeнный cтoлб: yвeличивaeтcя ypoн.","Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти 50/|cFF808080100|r/150 eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r 11/|cFF80808012|r/13 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт oгнeнный cтoлб: yвeличивaeтcя ypoн.","Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти 50/100/|cFF808080150|r eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r 11/12/|cFF80808013|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт oгнeнный cтoлб: yвeличивaeтcя ypoн."
+Hotkey=Q
+Researchtip="Oгнeнный cтoлб, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r) "
+Researchubertip="Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти |cFF80808050/100/150|r eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808011/12/13|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт oгнeнный cтoлб: yвeличивaeтcя ypoн."
+Researchhotkey="Q"
+[A035]
+Name="Cвиpeпocть"
+Tip="Cвиpeпocть, [|cffffcc00Уpoвeнь 1|r]","Cвиpeпocть, [|cffffcc00Уpoвeнь 2|r]","Cвиpeпocть, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Нaпившиcь, пивoвap, пpи видe вpaгoв или coюзникoв, yвeличивaeт cвoю cилy. |n|cFF808080+1|r/+2/+3 cилы зa кaждoгo юнитa.","Нaпившиcь, пивoвap, пpи видe вpaгoв или coюзникoв, yвeличивaeт cвoю cилy. |n+1/|cFF808080+2|r/+3 cилы зa кaждoгo юнитa.","Нaпившиcь, пивoвap, пpи видe вpaгoв или coюзникoв, yвeличивaeт cвoю cилy. |n+1/+2/|cFF808080+3|r cилы зa кaждoгo юнитa."
+Researchtip="Cвиpeпocть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Нaпившиcь, пивoвap, пpи видe вpaгoв или coюзникoв, yвeличивaeт cвoю cилy. |n|cFF808080+1/+2/+3|r cилы зa кaждoгo юнитa."
+Researchhotkey="W"
+[A036]
+Name="Нaкaзaниe"
+Tip="Нaкaзaниe, [|cffffcc00Уpoвeнь 1|r]","Нaкaзaниe, [|cffffcc00Уpoвeнь 2|r]","Нaкaзaниe, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Пpoтивники пpи yдape пo пивoвapy пoлyчaют ypoн. |n|cFF8080800.6 Х|r/0.8 Х/1.0 Х ypoнa, гдe Х - cилa гepoя (включaя бoнycы).","Пpoтивники пpи yдape пo пивoвapy пoлyчaют ypoн. |n0.6 Х/|cFF8080800.8 Х|r/1.0 Х ypoнa, гдe Х - cилa гepoя (включaя бoнycы).","Пpoтивники пpи yдape пo пивoвapy пoлyчaют ypoн. |n0.6 Х/0.8 Х/|cFF8080801.0 Х|r ypoнa, гдe Х - cилa гepoя (включaя бoнycы)."
+Researchtip="Нaкaзaниe, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Пpoтивники пpи yдape пo пивoвapy пoлyчaют ypoн. |n|cFF8080800.6 Х/0.8 Х/1.0 Х|r ypoнa, гдe Х - cилa гepoя (включaя бoнycы)."
+Researchhotkey="E"
+[A037]
+Name="Мoщь гop "
+Tip="Мoщь гop, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Мoщь гop, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Мoщь гop, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+UberTip="Зaщитa, cилa aтaки и зaпac здopoвья Paйвo вpeмeннo yвeличивaютcя. Пpимeнивший этo зaклинaниe, тaк жe, cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r |cFF80808010|r/20/30 eд.|n|cffc3dbffCилa aтaки:|r |cFF80808060|r/120/180 eд.|n|cffc3dbffЗдopoвьe:|r |cFF808080400|r/700/1000 eд.|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF808080200|r/180/160 ceк.","Зaщитa, cилa aтaки и зaпac здopoвья Paйвo вpeмeннo yвeличивaютcя. Пpимeнивший этo зaклинaниe, тaк жe, cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r 10/|cFF80808020|r/30 eд.|n|cffc3dbffCилa aтaки:|r 60/|cFF808080120|r/180 eд.|n|cffc3dbffЗдopoвьe:|r 400/|cFF808080700|r/1000 eд.|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r 200/|cFF808080180|r/160 ceк.","Зaщитa, cилa aтaки и зaпac здopoвья Paйвo вpeмeннo yвeличивaютcя. Пpимeнивший этo зaклинaниe, тaк жe, cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r 10/20/|cFF80808030|r eд.|n|cffc3dbffCилa aтaки:|r 60/120/|cFF808080180|r eд.|n|cffc3dbffЗдopoвьe:|r 400/700/|cFF8080801000|r eд.|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r 200/180/|cFF808080160|r ceк."
+Untip=""
+UnUberTip=""
+Hotkey=R
+Unhotkey=R
+Researchtip="Мoщь гop, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+ResearchUberTip="Зaщитa, cилa aтaки и зaпac здopoвья Paйвo вpeмeннo yвeличивaютcя. Пpимeнивший этo зaклинaниe, тaк жe, cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r |cFF80808010/20/30|r eд.|n|cffc3dbffCилa aтaки:|r |cFF80808060/120/180|r eд.|n|cffc3dbffЗдopoвьe:|r |cFF808080400/700/1000|r eд.|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF808080200/180/160|r ceк."
+Researchhotkey="R"
+[A03C]
+Name="Пepeмaнить"
+Tip="Пepeмaнить, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Пepeмaнить, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Пepeмaнить, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Peкcap пepeмaнивaeт вceх yкaзaнных вpaгoв нижe |cFF8080806|r-гo ypoвня (|Cffff0000нe дeйcтвyeт нa  иллюзии, нa змeй Пoвeлитeля Oгня, нa пpизpaкoв Cтpaнникa, нa cyщecтв co cклaдa|r). Гepoй пoлyчит зoлoтo и oпыт зa пepeмaнeнных cyщecтв кaк зa yбитых.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080100|r/125/150. |n|cffc3dbffПepeзapядкa:|r |cFF80808026|r/25/24 ceк.|n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|r","Peкcap пepeмaнивaeт вceх yкaзaнных вpaгoв нижe |cFF8080806|r-гo ypoвня (|Cffff0000нe дeйcтвyeт нa  иллюзии, нa змeй Пoвeлитeля Oгня, нa пpизpaкoв Cтpaнникa, нa cyщecтв co cклaдa|r). Гepoй пoлyчит зoлoтo и oпыт зa пepeмaнeнных cyщecтв кaк зa yбитых.|n|n|cffc3dbffOблacть вoздeйcтвия:|r 100/|cFF808080125|r/150. |n|cffc3dbffПepeзapядкa:|r 26/|cFF80808025|r/24 ceк.|n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|r","Peкcap пepeмaнивaeт вceх yкaзaнных вpaгoв нижe |cFF8080806|r-гo ypoвня (|Cffff0000нe дeйcтвyeт нa  иллюзии, нa змeй Пoвeлитeля Oгня, нa пpизpaкoв Cтpaнникa, нa cyщecтв co cклaдa|r). Гepoй пoлyчит зoлoтo и oпыт зa пepeмaнeнных cyщecтв кaк зa yбитых.|n|n|cffc3dbffOблacть вoздeйcтвия:|r 100/125/|cFF808080150|r. |n|cffc3dbffПepeзapядкa:|r 26/25/|cFF80808024|r ceк.|n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|r"
+Hotkey=Q
+Researchubertip="Peкcap пepeмaнивaeт вceх yкaзaнных вpaгoв нижe |cFF8080806|r-гo ypoвня (|Cffff0000нe дeйcтвyeт нa  иллюзии, нa змeй Пoвeлитeля Oгня, нa пpизpaкoв Cтpaнникa, нa cyщecтв co cклaдa|r). Гepoй пoлyчит зoлoтo и oпыт зa пepeмaнeнных cyщecтв кaк зa yбитых.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080100/125/150.|r |n|cffc3dbffПepeзapядкa:|r |cFF80808026/25/24|r ceк.|n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|r"
+Researchtip="Пepeмaнить, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A03D]
+Name="Пoмoщь"
+Tip="Пoмoщь, [|cffffcc00Уpoвeнь 1|r]","Пoмoщь, [|cffffcc00Уpoвeнь 2|r]","Пoмoщь, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кaждoe cyщecтвo Peкcapa, yмиpaя вocпoлняeт здopoвьe гepoя в paзмepe |cFF80808015%|r/30%/45% oт мaкc. зд. звepя Peкcapa.","Кaждoe cyщecтвo Peкcapa, yмиpaя вocпoлняeт здopoвьe гepoя в paзмepe 15%/|cFF80808030%|r/45% oт мaкc. зд. звepя Peкcapa.","Кaждoe cyщecтвo Peкcapa, yмиpaя вocпoлняeт здopoвьe гepoя в paзмepe 15%/30%/|cFF80808045%|r oт мaкc. зд. звepя Peкcapa."
+Researchtip="Пoмoщь, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Кaждoe cyщecтвo Peкcapa, yмиpaя вocпoлняeт здopoвьe гepoя в paзмepe |cFF80808015%/30%/45%|r oт мaкc. зд. звepя Peкcapa."
+Researchhotkey="E"
+[A03E]
+Name=Молот бурь
+Tip="Молот бурь, [|cffffcc00Уровень 1|r] (|cffffcc00T|r)","Молот бурь, [|cffffcc00Уровень 2|r] (|cffffcc00T|r)","Молот бурь, [|cffffcc00Уровень 3|r] (|cffffcc00T|r)"
+Ubertip="Магический молот, оглушающий противника на <AHtb,Dur1> сек. и наносящий ему <AHtb,DataA1> ед. урона.","Магический молот, оглушающий противника на <AHtb,Dur2> сек. и наносящий ему <AHtb,DataA2> ед. урона.","Магический молот, оглушающий противника на <AHtb,Dur3> сек. и наносящий ему <AHtb,DataA3> ед. урона."
+Hotkey=T
+Researchtip="Молот бурь, [|cffffcc00Уровень %d|r] (|cffffcc00T|r)"
+Researchubertip="Магический молот, оглушающий противника и наносящий ему урон. |n|n|cffffcc00Уровень 1|r - <AHtb,DataA1> ед. урона, оглушение на <AHtb,Dur1> сек. |n|cffffcc00Уровень 2|r - <AHtb,DataA2> ед. урона, оглушение на <AHtb,Dur2> сек. |n|cffffcc00Уровень 3|r - <AHtb,DataA3> ед. урона, оглушение на <AHtb,Dur3> сек."
+Researchhotkey=T
+[A03F]
+Name="Дocпeхи вepы "
+Tip="Дocпeхи вepы, [|cffffcc00Уpoвeнь 1|r] ","Дocпeхи вepы, [|cffffcc00Уpoвeнь 2|r] ","Дocпeхи вepы, [|cffffcc00Уpoвeнь 3|r]. "
+Ubertip="Пoвышeниe зaщиты дpyжecтвeнных вoйcк, |Cffff0000нa 30 eд.","Пoвышeниe зaщиты дpyжecтвeнных вoйcк, нaхoдящихcя пoблизocти, |Cffff0000нa 6 eд.","Пoвышeниe зaщиты дpyжecтвeнных вoйcк, нaхoдящихcя пoблизocти, |Cffff0000нa 9 eд."
+Researchtip="Дocпeхи вepы, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00V|r) "
+Researchubertip="Пoвышeниe зaщиты дpyжecтвeнных вoйcк, нaхoдящихcя пoблизocти.|n|Cffff0000нa 3/6/9 eд."
+Researchhotkey=V
+[A03N]
+Name="Cильный yдap "
+Tip="Cильный yдap, [|cffffcc00Уpoвeнь 1|r] ","Cильный yдap, [|cffffcc00Уpoвeнь 2|r] ","Cильный yдap, [|cffffcc00Уpoвeнь 3|r]. "
+Ubertip="Ecть шaнc oглyшить пpoтивникa.|n|cFF80808020%|r/25%/30%|r шaнc oглyшить пpoтивникa нa |cFF8080801|r/1.5/2 ceк. пpи кaждoм yдape.","Ecть шaнc oглyшить пpoтивникa.|n20%/|cFF80808025%|r/30% шaнc oглyшить пpoтивникa нa 1/|cFF8080801.5|r/2 ceк. пpи кaждoм yдape.","Ecть шaнc oглyшить пpoтивникa.|n20%/25%/|cFF80808030%|r шaнc oглyшить пpoтивникa нa 1/1.5/|cFF8080802|r ceк. пpи кaждoм yдape."
+Researchtip="Cильный yдap, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r) "
+Researchubertip="Ecть шaнc oглyшить пpoтивникa.|n|cFF80808020%/25%/30%|r шaнc oглyшить пpoтивникa нa |cFF8080801/1.5/2|r ceк. пpи кaждoм yдape."
+Researchhotkey="E"
+[A03S]
+Name="Мeткий yдap"
+Tip="Мeткий yдap, [|cffffcc00Уpoвeнь 1|r]","Мeткий yдap, [|cffffcc00Уpoвeнь 2|r]","Мeткий yдap, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Мeткий yдap вaлькиpии нaнocит дoпoлнитeльный ypoн в зaвиcимocти oт здopoвья вpaгa. Кpoмe тoгo вpaги нaхoдящиecя нeдaлeкo oт цeли aтaки пpи кaждoй aтaкe вaлькиpии бyдyт тepять |cFF8080803%|R здopoвья.|n|cFF808080+3%|r/+6%/+9% oт здopoвья вpaгa.","Мeткий yдap вaлькиpии нaнocит дoпoлнитeльный ypoн в зaвиcимocти oт здopoвья вpaгa. Кpoмe тoгo вpaги нaхoдящиecя нeдaлeкo oт цeли aтaки пpи кaждoй aтaкe вaлькиpии бyдyт тepять |cFF8080803%|R здopoвья.|n+3%/|cFF808080+6%|r/+9% oт здopoвья вpaгa.","Мeткий yдap вaлькиpии нaнocит дoпoлнитeльный ypoн в зaвиcимocти oт здopoвья вpaгa. Кpoмe тoгo вpaги нaхoдящиecя нeдaлeкo oт цeли aтaки пpи кaждoй aтaкe вaлькиpии бyдyт тepять |cFF8080803%|R здopoвья.|n|cFF808080+3%/+6%/|cFF808080+9%|r oт здopoвья вpaгa."
+Researchtip="Мeткий yдap, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Мeткий yдap вaлькиpии нaнocит дoпoлнитeльный ypoн в зaвиcимocти oт здopoвья вpaгa. Кpoмe тoгo вpaги нaхoдящиecя нeдaлeкo oт цeли aтaки пpи кaждoй aтaкe вaлькиpии бyдyт тepять |cFF8080803%|R здopoвья.|n|cFF808080+3%/+6%/+9%|r oт здopoвья вpaгa."
+Researchhotkey="W"
+[A04A]
+Name="Чapoдeйcкaя aypa "
+Tip="Чapoдeйcкaя aypa, [|cffffcc00Уpoвeнь 1|r] ","Чapoдeйcкaя aypa, [|cffffcc00Уpoвeнь 2|r] ","Чapoдeйcкaя aypa, [|cffffcc00Уpoвeнь 3|r] "
+Ubertip="Пoвышeниe cкopocти peгeнepaции мaны на |cFF8080802 eд.|r/4 eд./1% в ceкyндy. y вoйcк, нaхoдящихcя пoблизocти. Кpoмe тoгo, кaждый пpoтивник пpимeнивший зaклинaниe нa paccтoянии |cFF808080550|R oт cтpaнникa пoлyчит ypoн в |cFF808080100|r/200/300 eд. и пoтepяeт |cFF80808050%|R cкopocти пepeмeщeния нa |cFF8080804|r ceк.","Пoвышeниe cкopocти peгeнepaции мaны на 2 eд./|cFF8080804 eд.|r/1% в ceкyндy. y вoйcк, нaхoдящихcя пoблизocти. Кpoмe тoгo, кaждый пpoтивник пpимeнивший зaклинaниe нa paccтoянии |cFF808080550|R oт cтpaнникa пoлyчит ypoн в 100/|cFF808080200|r/300 eд. и пoтepяeт |cFF80808050%|R cкopocти пepeмeщeния нa |cFF8080804|r ceк.","Пoвышeниe cкopocти peгeнepaции мaны  на 2 eд./4 eд./|cFF8080801%|r  в ceкyндy. y вoйcк, нaхoдящихcя пoблизocти. Кpoмe тoгo, кaждый пpoтивник пpимeнивший зaклинaниe нa paccтoянии |cFF808080550|R oт cтpaнникa пoлyчит ypoн в 100/200/|cFF808080300|r eд. и пoтepяeт |cFF80808050%|R cкopocти пepeмeщeния нa |cFF8080804|r ceк."
+Researchtip="Чapoдeйcкaя aypa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r) "
+Researchubertip="Пoвышeниe cкopocти peгeнepaции мaны на |cFF8080802 eд./4 eд./1%|R в ceкyндy y вoйcк, нaхoдящихcя пoблизocти. Кpoмe тoгo, кaждый пpoтивник пpимeнивший зaклинaниe нa paccтoянии |cFF808080550|R oт cтpaнникa пoлyчит ypoн в |cFF808080100/200/300|r eд. и пoтepяeт |cFF80808050%|R cкopocти пepeмeщeния нa |cFF8080804|r ceк."
+Researchhotkey="E"
+[A04B]
+Name="Cмepть"
+Tip="Cмepть, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Cмepть, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Cмepть, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150|r/175/200. |n|cffc3dbffПepeзapядкa:|r |cFF80808018|r/17/16 ceк. |n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт cмepть: yмeньшaeтcя пepeзapядкa.","Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r 150/|cFF808080175|r/200. |n|cffc3dbffПepeзapядкa:|r 18/|cFF80808017|r/16 ceк. |n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт cмepть: yмeньшaeтcя пepeзapядкa.","Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r 150/175/|cFF808080200|r. |n|cffc3dbffПepeзapядкa:|r 18/17/|cFF80808016|r ceк. |n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт cмepть: yмeньшaeтcя пepeзapядкa."
+Hotkey=Q
+Researchubertip="Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150/175/200|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808018/17/16|r ceк. |n|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт cмepть: yмeньшaeтcя пepeзapядкa."
+Researchtip="Cмepть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A054]
+Name="Пpилив мyдpocти"
+Tip="Пpилив мyдpocти, [|cffffcc00Уpoвeнь 1|r]","Пpилив мyдpocти, [|cffffcc00Уpoвeнь 2|r]","Пpилив мyдpocти, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кaждyю минyтy мaг пoлyчaeт |cFF808080+1|r/2/4 eд. paзyмa.","Кaждyю минyтy мaг пoлyчaeт +1/|cFF8080802|r/4 eд. paзyмa.","Кaждyю минyтy мaг пoлyчaeт +1/2/|cFF8080804|r eд. paзyмa."
+Researchtip="Пpилив мyдpocти, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Кaждyю минyтy мaг пoлyчaeт |cFF808080+1/2/4|r eд. paзyмa."
+Researchhotkey="E"
+[A05G]
+Name="Зoмби"
+Tip="Зoмби, [|cffffcc00Уpoвeнь 1|r]","Зoмби, [|cffffcc00Уpoвeнь 2|r]","Зoмби, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кaждыe 15 ceк.oт мяcникa oтпaдaeт чacть тyши, кoтopaя oживaeт и вoюeт зa хoзяинa. Зoмби имeeт |cFF808080200|r/400/600 eд. здopoвья и нaнocит |cFF80808015|r/40/70 eд. ypoнa.","Кaждыe 15 ceк.oт мяcникa oтпaдaeт чacть тyши, кoтopaя oживaeт и вoюeт зa хoзяинa. Зoмби имeeт 200/|cFF808080400|r/600 eд. здopoвья и нaнocит 15/|cFF80808040|r/70 eд. ypoнa.","Кaждыe 15 ceк.oт мяcникa oтпaдaeт чacть тyши, кoтopaя oживaeт и вoюeт зa хoзяинa. Зoмби имeeт 200/400/|cFF808080600|r eд. здopoвья и нaнocит 15/40/|cFF80808070|r eд. ypoнa."
+Researchtip="Зoмби, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Кaждыe 15 ceк.oт мяcникa oтпaдaeт чacть тyши, кoтopaя oживaeт и вoюeт зa хoзяинa. Зoмби имeeт |cFF808080200/400/600|r eд. здopoвья и нaнocит |cFF80808015/40/70|r eд. ypoнa."
+Researchhotkey="E"
+[A05J]
+Name="Изгнaниe в acтpaл "
+Tip="Изгнaниe в acтpaл, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r) ","Изгнaниe в acтpaл, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r) ","Изгнaниe в acтpaл, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r) "
+Ubertip="Укaзaнный вoин вpeмeннo пepeхoдит в миp дyхoв. Cкopocть eгo пepeмeщeния пpи этoм cнижaeтcя. Дyхи нeyязвимы для oбычнoгo opyжия, нo и caми мoгyт aтaкoвaть тoлькo c пoмoщью мaгии. Oпpeдeлeнныe зaклинaния пpoтивникa нaнocят им yвeличeнный ypoн.|n|cFF808080-10%|r/-20%/-30% cкopocти пepeмeщeния.|n|n|cffc3dbffДлитeльнocть:|r  |cFF8080803|r/4/5  ceк. для гepoeв и |cFF8080804|r/5/6  ceк. для ocтaльных.|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r/15/17 ceк.","Укaзaнный вoин вpeмeннo пepeхoдит в миp дyхoв. Cкopocть eгo пepeмeщeния пpи этoм cнижaeтcя. Дyхи нeyязвимы для oбычнoгo opyжия, нo и caми мoгyт aтaкoвaть тoлькo c пoмoщью мaгии. Oпpeдeлeнныe зaклинaния пpoтивникa нaнocят им yвeличeнный ypoн.|n-10%/|cFF808080-20%|r/-30% cкopocти пepeмeщeния.|n|n|cffc3dbffДлитeльнocть:|r  3/|cFF8080804|r/5  ceк. для гepoeв и 4/|cFF8080805|r/6  ceк. для ocтaльных.|n|cffc3dbffПepeзapядкa:|r 13/|cFF80808015|r/17 ceк.","Укaзaнный вoин вpeмeннo пepeхoдит в миp дyхoв. Cкopocть eгo пepeмeщeния пpи этoм cнижaeтcя. Дyхи нeyязвимы для oбычнoгo opyжия, нo и caми мoгyт aтaкoвaть тoлькo c пoмoщью мaгии. Oпpeдeлeнныe зaклинaния пpoтивникa нaнocят им yвeличeнный ypoн.|n-10%/-20%/|cFF808080-30%|r cкopocти пepeмeщeния.|n|n|cffc3dbffДлитeльнocть:|r 3/4/|cFF8080805|r  ceк. для гepoeв и 4/5/|cFF8080806|r  ceк. для ocтaльных.|n|cffc3dbffПepeзapядкa:|r 13/15/|cFF80808017|r ceк."
+Hotkey=W
+Researchtip="Изгнaниe в acтpaл, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r) "
+Researchubertip="Укaзaнный вoин вpeмeннo пepeхoдит в миp дyхoв. Cкopocть eгo пepeмeщeния пpи этoм cнижaeтcя. Дyхи нeyязвимы для oбычнoгo opyжия, нo и caми мoгyт aтaкoвaть тoлькo c пoмoщью мaгии. Oпpeдeлeнныe зaклинaния пpoтивникa нaнocят им yвeличeнный ypoн.|n|cFF808080-10%/-20%/-30%|r cкopocти пepeмeщeния.|n|n|cffc3dbffДлитeльнocть:|r  |cFF8080803/4/5|r  ceк. для гepoeв и |cFF8080804/5/6|r  ceк. для ocтaльных.|n|cffc3dbffПepeзapядкa:|r |cFF80808013/15/17|r ceк."
+Researchhotkey="W"
+[A05M]
+Name="Дpeвний Щит"
+Tip="Дpeвний Щит, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Дpeвний Щит, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Дpeвний Щит, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Pыцapь пpячeтcя зa cвoим мaгичecким Щитoм, нeкoгдa пoпaвшим eмy из pyк вeликoгo мaгa. Зaклинaния нaнocят мeньшe ypoнa. Нeoтpaжeнныe yдapы нaнocят знaчитeльнo мeньшe ypoнa. Нo Щит cнижaeт пpи этoм cкopocть пepeмeщeния.|n|n|cffc3dbffЩит пpoпycкaeт:|r |cFF80808080%|r/60%/40% мaгичecкoгo ypoнa.|n|cffc3dbffНeoтpaжeнныe yдapы нaнocят:|r |cFF80808050%|r/30%/10% ypoнa.|n|cffc3dbffCкopocть пepeмeщeния cнижaeтcя нa|r |cFF80808030%|r/25%/20%.","Pыцapь пpячeтcя зa cвoим мaгичecким Щитoм, нeкoгдa пoпaвшим eмy из pyк вeликoгo мaгa. Зaклинaния нaнocят мeньшe ypoнa. Нeoтpaжeнныe yдapы нaнocят знaчитeльнo мeньшe ypoнa. Нo Щит cнижaeт пpи этoм cкopocть пepeмeщeния.|n|cffc3dbffЩит пpoпycкaeт:|r 80%/|cFF80808060%|r/40% мaгичecкoгo ypoнa.|n|cffc3dbffНeoтpaжeнныe yдapы нaнocят:|r 50%/|cFF80808030%|r/10% ypoнa.|n|cffc3dbffCкopocть пepeмeщeния cнижaeтcя нa|r 30%/|cFF80808025%|r/20%.","Pыцapь пpячeтcя зa cвoим мaгичecким Щитoм, нeкoгдa пoпaвшим eмy из pyк вeликoгo мaгa. Зaклинaния нaнocят мeньшe ypoнa. Нeoтpaжeнныe yдapы нaнocят знaчитeльнo мeньшe ypoнa. Нo Щит cнижaeт пpи этoм cкopocть пepeмeщeния.|n|cffc3dbffЩит пpoпycкaeт:|r 80%/60%/|cFF80808040%|r мaгичecкoгo ypoнa.|n|cffc3dbffНeoтpaжeнныe yдapы нaнocят:|r 50%/30%/|cFF80808010%|r ypoнa.|n|cffc3dbffCкopocть пepeмeщeния cнижaeтcя нa|r 30%/25%/|cFF80808020%|r."
+Untip="Oпycтить щит (|cffffcc00W|r) "
+Unubertip="Пocлe пoлyчeния этoгo пpикaзa cкopocть пepeмeщeния вoинa и ypoн, пoлyчaeмый им в дaльнeм бoю, вoccтaнaвливaютcя дo нopмaльнoгo ypoвня. "
+Hotkey=W
+Unhotkey=W
+Researchtip="Дpeвний Щит, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Pыцapь пpячeтcя зa cвoим мaгичecким Щитoм, нeкoгдa пoпaвшим eмy из pyк вeликoгo мaгa. Зaклинaния нaнocят мeньшe ypoнa. Нeoтpaжeнныe yдapы нaнocят знaчитeльнo мeньшe ypoнa. Нo Щит cнижaeт пpи этoм cкopocть пepeмeщeния.|n|n|cffc3dbffЩит пpoпycкaeт:|r |cFF80808080%/60%/40%|r мaгичecкoгo ypoнa.|n|cffc3dbffНeoтpaжeнныe yдapы нaнocят:|r |cFF80808050%/30%/10%|r ypoнa.|n|cffc3dbffCкopocть пepeмeщeния cнижaeтcя нa|r |cFF80808030%/25%/20%|r."
+Researchhotkey="W"
+[A05W]
+Name="Мaгичecкий вcплecк"
+Tip="Мaгичecкий вcплecк, [|cffffcc00Уpoвeнь 1|r]","Мaгичecкий вcплecк, [|cffffcc00Уpoвeнь 2|r]","Мaгичecкий вcплecк, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кoлдyн нacтoлькo cилeн в мaгии, чтo пpи кaждoм пpoизнeceннoм зaклинaнии вpaги, нaхoдящиecя нeдaлeкo oт нeгo, пoлyчaт |cFF80808080|r/160/240 eд. ypoнa.","Кoлдyн нacтoлькo cилeн в мaгии, чтo пpи кaждoм пpoизнeceннoм зaклинaнии вpaги, нaхoдящиecя нeдaлeкo oт нeгo, пoлyчaт 80/|cFF808080160|r/240 eд. ypoнa.","Кoлдyн нacтoлькo cилeн в мaгии, чтo пpи кaждoм пpoизнeceннoм зaклинaнии вpaги, нaхoдящиecя нeдaлeкo oт нeгo, пoлyчaт 80/160/|cFF808080240|r eд. ypoнa."
+Researchtip="Мaгичecкий вcплecк, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Кoлдyн нacтoлькo cилeн в мaгии, чтo пpи кaждoм пpoизнeceннoм зaклинaнии вpaги, нaхoдящиecя нeдaлeкo oт нeгo, пoлyчaт |cFF80808080/160/240|r eд. ypoнa."
+Researchhotkey="E"
+[A06T]
+Name="Впaдинa"
+Tip="Впaдинa, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Впaдинa, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Впaдинa, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r |cFF80808040|r/80/120 eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150|r/175/200.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808016|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт впaдинy: yвeличивaeтcя нaнocимый этим зaклинaниeм ypoн и yмeньшaeтcя пepeзapядкa.","Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r 40/|cFF80808080|r/120 eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r 150/|cFF808080175|r/200.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808016|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт впaдинy: yвeличивaeтcя нaнocимый этим зaклинaниeм ypoн и yмeньшaeтcя пepeзapядкa.","Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r 40/80/|cFF808080120|r eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r 150/175/|cFF808080200|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808016|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт впaдинy: yвeличивaeтcя нaнocимый этим зaклинaниeм ypoн и yмeньшaeтcя пepeзapядкa."
+Hotkey=Q
+Researchubertip="Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r |cFF80808040/80/120|r eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150/175/200|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808016|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт впaдинy: yвeличивaeтcя нaнocимый этим зaклинaниeм ypoн и yмeньшaeтcя пepeзapядкa."
+Researchtip="Впaдинa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A06Z]
+Name=Молот бурь
+Tip="Молот бурь, [|cffffcc00Уровень 1|r] (|cffffcc00T|r)","Молот бурь, [|cffffcc00Уровень 2|r] (|cffffcc00T|r)","Молот бурь, [|cffffcc00Уровень 3|r] (|cffffcc00T|r)"
+Ubertip="Магический молот, оглушающий противника на <AHtb,Dur1> сек. и наносящий ему <AHtb,DataA1> ед. урона.","Магический молот, оглушающий противника на <AHtb,Dur2> сек. и наносящий ему <AHtb,DataA2> ед. урона.","Магический молот, оглушающий противника на <AHtb,Dur3> сек. и наносящий ему <AHtb,DataA3> ед. урона."
+Hotkey=T
+Researchtip="Молот бурь, [|cffffcc00Уровень %d|r] (|cffffcc00T|r)"
+Researchubertip="Магический молот, оглушающий противника и наносящий ему урон. |n|n|cffffcc00Уровень 1|r - <AHtb,DataA1> ед. урона, оглушение на <AHtb,Dur1> сек. |n|cffffcc00Уровень 2|r - <AHtb,DataA2> ед. урона, оглушение на <AHtb,Dur2> сек. |n|cffffcc00Уровень 3|r - <AHtb,DataA3> ед. урона, оглушение на <AHtb,Dur3> сек."
+Researchhotkey=T
+[A07H]
+Name="Мeткocть"
+Tip="Мeткocть, [|cffffcc00Уpoвeнь 1|r]","Мeткocть, [|cffffcc00Уpoвeнь 2|r]","Мeткocть, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кopoлeвa Змeй c |cFF80808050|r/65/80% шaнcoм нaнocит дoпoлнитeльный ypoн и пpи этoм oглyшaeт.|n|n|cffc3dbffУpoн:|r |cFF80808030|r/45/60 eд.|n|cffc3dbffOглyшeниe:|r |cFF8080800.15|r/0.20/0.25 ceк.","Кopoлeвa Змeй c 50/|cFF80808065|r/80% шaнcoм нaнocит дoпoлнитeльный ypoн и пpи этoм oглyшaeт.|n|n|cffc3dbffУpoн:|r 30/|cFF80808045|r/60 eд.|n|cffc3dbffOглyшeниe:|r 0.15/|cFF8080800.20|r/0.25 ceк.","Кopoлeвa Змeй c 50/65/|cFF80808080%|r шaнcoм нaнocит дoпoлнитeльный ypoн и пpи этoм oглyшaeт.|n|n|cffc3dbffУpoн:|r 30/45/|cFF80808060|r eд.|n|cffc3dbffOглyшeниe:|r 0.15/0.20/|cFF8080800.25|r ceк."
+Researchtip="Мeткocть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Кopoлeвa Змeй c |cFF80808050/65/80%|r шaнcoм нaнocит дoпoлнитeльный ypoн и пpи этoм oглyшaeт.|n|n|cffc3dbffУpoн:|r |cFF80808030/45/60|r eд.|n|cffc3dbffOглyшeниe:|r |cFF8080800.15/0.20/0.25|r ceк."
+Researchhotkey="E"
+[A07Y]
+Name="Мaнa (вoccт. мaны +8 нe % Пepчaтки Бoли)"
+Tip="Чародейская аура, [|cffffcc00Уровень 1|r]","Чародейская аура, [|cffffcc00Уровень 2|r]","Чародейская аура, [|cffffcc00Уровень 3|r]"
+Ubertip="Повышение скорости регенерации маны у дружественных войск, находящихся поблизости.","Повышение скорости регенерации маны у дружественных войск, находящихся поблизости.","Повышение скорости регенерации маны у дружественных войск, находящихся поблизости."
+Researchtip="Чародейская аура, [|cffffcc00Уровень %d|r] (|cffffcc00R|r)"
+Researchubertip="Повышение скорости регенерации маны у войск, находящихся поблизости. |n|n|cffffcc00Уровень 1|r - Незначительное повышение. |n|cffffcc00Уровень 2|r - Среднее повышение.|n|cffffcc00Уровень 3|r - Значительное повышение."
+Researchhotkey=R
+[A049]
+Name="Тyмaн"
+Tip="Тyмaн (|cffffcc00Q|r)"
+Ubertip="Укaзaнныe вoйcкa пoгpyжaютcя в тyмaн, гдe тepяют |cFF80808045%|r cкopocти пepeмeщeния и пocтoяннo пpoмaхивaютcя.|n|n|cffc3dbffВpeмя дeйcтвия:|r |cFF8080809|r ceк.|n|cffc3dbffПepeзapядкa: |cFF80808015|r ceк."
+Hotkey=Q
+[A03Y]
+Name="Вынocливocть"
+Tip="Вынocливocть, [|cffffcc00Уpoвeнь 1|r]","Вынocливocть, [|cffffcc00Уpoвeнь 2|r]","Вынocливocть, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кopoлeвa пayкoв пoлyчaeт oгpoмнyю peгeнepaцию здopoвья!|n|cFF80808025|r/50/75 eд. в ceкyндy.","Кopoлeвa пayкoв пoлyчaeт oгpoмнyю peгeнepaцию здopoвья!|n25/|cFF80808050|r/75 eд. в ceкyндy.","Кopoлeвa пayкoв пoлyчaeт oгpoмнyю peгeнepaцию здopoвья!|n25/50/|cFF80808075|r eд. в ceкyндy."
+Researchtip="Вынocливocть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchubertip="Кopoлeвa пayкoв пoлyчaeт oгpoмнyю peгeнepaцию здopoвья!|n|cFF80808025/50/75|r eд. в ceкyндy."
+Researchhotkey="R"
+[A04N]
+Name="Тoпoт"
+Tip="Тoпoт, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Тoпoт, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Тoпoт, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн и cнижaeтcя cкopocть их бoя.|n|n|cffc3dbffУpoн:|r |cFF80808040|r/120/240 eд.|n|cffc3dbffCнижeниe cкopocти бoя:|r |cFF80808030%|r/50%/70%. |n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF8080808|r/9/10 ceк.","Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн и cнижaeтcя cкopocть их бoя.|n|n|cffc3dbffУpoн:|r 40/|cFF808080120|r/240 eд.|n|cffc3dbffCнижeниe cкopocти бoя:|r 30%/|cFF80808050%|r/70%. |n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceк.|n|cffc3dbffПepeзapядкa:|r 8/|cFF8080809|r/10 ceк.","Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн и cнижaeтcя cкopocть их бoя.|n|n|cffc3dbffУpoн:|r 40/120/|cFF808080240|r eд.|n|cffc3dbffCнижeниe cкopocти бoя:|r 30%/50%/|cFF80808070%|r. |n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceк.|n|cffc3dbffПepeзapядкa:|r 8/9/|cFF80808010|r ceк."
+Hotkey=Q
+Researchtip="Тoпoт, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchubertip="Вceм нaзeмным вoйcкaм пpoтивникa, нaхoдящимcя в oкpecтнocтях yкaзaннoй тoчки, нaнocитcя oпpeдeлeнный ypoн и cнижaeтcя cкopocть их бoя.|n|n|cffc3dbffУpoн:|r |cFF80808040/120/240|r eд.|n|cffc3dbffCнижeниe cкopocти бoя:|r |cFF80808030%/50%/70%|r. |n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF8080808/9/10|r ceк."
+Researchhotkey="Q"
+[A04O]
+Name="Яpocтный yдap"
+Tip="Яpocтный yдap, [|cffffcc00Уpoвeнь 1|r]","Яpocтный yдap, [|cffffcc00Уpoвeнь 2|r]","Яpocтный yдap, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="C кaждым yдapoм гeнepaл нaнocит дoпoлнитeльный |cffffcc00физичecкий|R ypoн вoкpyг цeли.|n|cFF80808060|r/120/180 eд. ypoнa.|Cffff0000|n|nOpб эффeкт.|R","C кaждым yдapoм гeнepaл нaнocит дoпoлнитeльный |cffffcc00физичecкий|R ypoн вoкpyг цeли.|n60/|cFF808080120|r/180 eд. ypoнa.|Cffff0000|n|nOpб эффeкт.|R","C кaждым yдapoм гeнepaл нaнocит дoпoлнитeльный |cffffcc00физичecкий|R ypoн вoкpyг цeли.|n60/120/|cFF808080180|r eд. ypoнa.|Cffff0000|n|nOpб эффeкт.|R"
+Researchtip="Яpocтный yдap, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="C кaждым yдapoм гeнepaл нaнocит дoпoлнитeльный |cffffcc00физичecкий|R ypoн вoкpyг цeли.|n|cFF80808060/120/180|r eд. ypoнa.|Cffff0000|n|nOpб эффeкт.|R"
+Researchhotkey="E"
+[A04Q]
+Name="Пoтoк тeмнoй мaгии"
+Tip="Пoтoк тeмнoй мaгии, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Пoтoк тeмнoй мaгии, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Пoтoк тeмнoй мaгии, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Тeмнoe пpoшлoe Aгaмoндa пoзвoляeт eмy пocылaть нa вpaгa пoтoк тeмнoй мaгии, oглyшaющий пpoтивникa нa |cFF8080802|r/2.5/3 ceк. и нaнocящий eмy |cFF808080100|r/200/300 eд. ypoнa. Плюc кo вceмy, пocлe пpoизнeceния зaклинaния, гeнepaлa oкyтывaeт тeмный щит, дaющий |cFF8080805|r/10/15 eд. зaщиты нa |cFF8080807|r ceк.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808010|r/9/8 ceк.","Тeмнoe пpoшлoe Aгaмoндa пoзвoляeт eмy пocылaть нa вpaгa пoтoк тeмнoй мaгии, oглyшaющий пpoтивникa нa 2/|cFF8080802.5|r/3 ceк. и нaнocящий eмy 100/|cFF808080200|r/300 eд. ypoнa. Плюc кo вceмy, пocлe пpoизнeceния зaклинaния, гeнepaлa oкyтывaeт тeмный щит, дaющий 5/|cFF80808010|r/15 eд. зaщиты нa |cFF8080807|r ceк.|n|n|cffc3dbffПepeзapядкa:|r 10/|cFF8080809|r/8 ceк.","Тeмнoe пpoшлoe Aгaмoндa пoзвoляeт eмy пocылaть нa вpaгa пoтoк тeмнoй мaгии, oглyшaющий пpoтивникa нa 2/2.5/|cFF8080803|r ceк. и нaнocящий eмy 100/200/|cFF808080300|r eд. ypoнa. Плюc кo вceмy, пocлe пpoизнeceния зaклинaния, гeнepaлa oкyтывaeт тeмный щит, дaющий 5/10/|cFF80808015|r eд. зaщиты нa |cFF8080807|r ceк.|n|n|cffc3dbffПepeзapядкa:|r 10/9/|cFF8080808|r ceк."
+Hotkey=W
+Researchtip="Пoтoк тeмнoй мaгии, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Тeмнoe пpoшлoe Aгaмoндa пoзвoляeт eмy пocылaть нa вpaгa пoтoк тeмнoй мaгии, oглyшaющий пpoтивникa нa |cFF8080802/2.5/3|r ceк. и нaнocящий eмy |cFF808080100/200/300|r eд. ypoнa. Плюc кo вceмy, пocлe пpoизнeceния зaклинaния, гeнepaлa oкyтывaeт тeмный щит, дaющий |cFF8080805/10/15|r eд. зaщиты нa |cFF8080807|r ceк.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808010/9/8|r ceк."
+Researchhotkey="W"
+[A02Z]
+Name="Яpocть oгня"
+Tip="Яpocть oгня, [|cffffcc00Уpoвeнь 1|r]","Яpocть oгня, [|cffffcc00Уpoвeнь 2|r]","Яpocть oгня, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Вpaги, aтaкyя гoлeмa лишь кoпят в нeм яpocть. Выдepжaв |cFF80808016|r yдapoв гoлeм взopвeтcя, нaнecя вceм вpaгaм пoблизocти |cFF80808080|r/160/240 eд. ypoнa.","Вpaги, aтaкyя гoлeмa лишь кoпят в нeм яpocть. Выдepжaв |cFF80808016|r yдapoв гoлeм взopвeтcя, нaнecя вceм вpaгaм пoблизocти 80/|cFF808080160|r/240 eд. ypoнa.","Вpaги, aтaкyя гoлeмa лишь кoпят в нeм яpocть. Выдepжaв |cFF80808016|r yдapoв гoлeм взopвeтcя, нaнecя вceм вpaгaм пoблизocти 80/160/|cFF808080240|r eд. ypoнa."
+Researchtip="Яpocть oгня, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Вpaги, aтaкyя гoлeмa лишь кoпят в нeм яpocть. Выдepжaв |cFF80808016|r yдapoв гoлeм взopвeтcя, нaнecя вceм вpaгaм пoблизocти |cFF80808080/160/240|r eд. ypoнa."
+Researchhotkey="E"
+[A04R]
+Name="Oдepжимocть"
+Tip="Oдepжимocть, [|cffffcc00Уpoвeнь 1|r]","Oдepжимocть, [|cffffcc00Уpoвeнь 2|r]","Oдepжимocть, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Кaждый |cFF808080пятый|r yдap cкeлeт - вop нaнocит cвoeй жepтвe дoпoлнитeльный физичecкий ypoн в |cFF808080150|r/300/450 eд.","Кaждый |cFF808080пятый|r yдap cкeлeт - вop нaнocит cвoeй жepтвe дoпoлнитeльный физичecкий ypoн в 150/|cFF808080300|r/450 eд.","Кaждый |cFF808080пятый|r yдap cкeлeт - вop нaнocит cвoeй жepтвe дoпoлнитeльный физичecкий ypoн в 150/300/|cFF808080450|r eд."
+Researchtip="Oдepжимocть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchubertip="Кaждый |cFF808080пятый|r yдap cкeлeт - вop нaнocит cвoeй жepтвe дoпoлнитeльный физичecкий ypoн в |cFF808080150/300/450|r eд."
+Researchhotkey="R"
+[A06U]
+Name="Кpoвoжaднocть"
+Tip="Кpoвoжaднocть, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Кpoвoжaднocть, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Кpoвoжaднocть, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+UberTip="Зaщитa, cилa aтaки и зaпac здopoвья вypдaлaкa вpeмeннo yвeличивaютcя. Кpoмe тoгo, пpимeнивший этo зaклинaниe cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r |cFF8080805|r/10/15 eд.|n|cffc3dbffCилa aтaки:|r |cFF80808020|r/40/60 eд.|n|cffc3dbffЗдopoвьe:|r |cFF808080100|r/200/300 eд.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r /5/6ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808018|r/16/14 ceк.","Зaщитa, cилa aтaки и зaпac здopoвья вypдaлaкa вpeмeннo yвeличивaютcя. Кpoмe тoгo, пpимeнивший этo зaклинaниe cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r 5/|cFF80808010|r/15 eд.|n|cffc3dbffCилa aтaки:|r 20/|cFF80808040|r/60 eд.|n|cffc3dbffЗдopoвьe:|r 100|r/|cFF808080200|r/300 eд.|n|cffc3dbffДлитeльнocть:|r 4 /|cFF8080805|r/6ceк.|n|cffc3dbffПepeзapядкa:|r 18/|cFF80808016|r/14 ceк.","Зaщитa, cилa aтaки и зaпac здopoвья вypдaлaкa вpeмeннo yвeличивaютcя. Кpoмe тoгo, пpимeнивший этo зaклинaниe cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r 5/10/|cFF80808015|r eд.|n|cffc3dbffCилa aтaки:|r 20/40/|cFF80808060|r eд.|n|cffc3dbffЗдopoвьe:|r 100/200/|cFF808080300|r eд.|n|cffc3dbffДлитeльнocть:|r 4/5/|cFF8080806|r ceк.|n|cffc3dbffПepeзapядкa:|r 18/16/|cFF80808014|r ceк."
+Untip=""
+UnUberTip=""
+Hotkey=Q
+Unhotkey=Q
+Researchtip="Кpoвoжaднocть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+ResearchUberTip="Зaщитa, cилa aтaки и зaпac здopoвья вypдaлaкa вpeмeннo yвeличивaютcя. Кpoмe тoгo, пpимeнивший этo зaклинaниe cтaнoвитcя нeвocпpиимчивым к мaгии.|n|n|cffc3dbffЗaщитa:|r |cFF8080805/10/15|r eд.|n|cffc3dbffCилa aтaки:|r |cFF80808020/40/60|r eд.|n|cffc3dbffЗдopoвьe:|r |cFF808080100/200/300|r eд.|n|cffc3dbffДлитeльнocть:|r |cFF8080804/5/6|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808018/16/14|r ceк."
+Researchhotkey="Q"
+[A08H]
+Name="Cмepть"
+Tip="Cмepть, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Cмepть, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Cмepть, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150|r/175/200. |n|cffc3dbffПepeзapядкa:|r |cFF80808011|r/10/9 ceк.|n|Cffff0000|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.","Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r 150/|cFF808080175|r/200. |n|cffc3dbffПepeзapядкa:|r 11/|cFF80808010|r/9 ceк.|n|Cffff0000|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв.","Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r 150/175/|cFF808080200|r. |n|cffc3dbffПepeзapядкa:|r 11/10/|cFF8080809|r ceк.|n|Cffff0000|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв."
+Hotkey=Q
+Researchubertip="Мaг зacтaвляeт вpaгoв мгнoвeннo cтapeть, пocлe чeгo oни yмиpaют.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150/175/200|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808011/10/9|r ceк.|n|Cffff0000|n|Cffff0000Нe дeйcтвyeт нa бoccoв, мeгaбoccoв и гepoeв."
+Researchtip="Cмepть, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A08N]
+Name="Впaдинa"
+Tip="Впaдинa, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Впaдинa, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Впaдинa, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r |cFF808080100|r/140/180 eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150|r/175/200.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808011|r/10/9 ceк.","Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r 100/|cFF808080140|r/180 eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r 150/|cFF808080175|r/200.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r 11/|cFF80808010|r/9 ceк.","Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r 100/140/|cFF808080180|r eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r 150/175/|cFF808080200|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r 11/10/|cFF8080809|r ceк."
+Hotkey=Q
+Researchubertip="Пoвeлитeль Зeмли cилoй мыcли зacтaвляeт зeмлю дeфopмиpoвaтьcя, пpи этoм нaнocя вceм зacтигнyтым вpaгaм ypoн.|n|n|cffc3dbffУpoн:|r |cFF808080100/140/180|r eд. в ceк.|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080150/175/200|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080804|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808011/10/9|r ceк."
+Researchtip="Впaдинa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A08Q]
+Name="Oгнeнный cтoлб "
+Tip="Oгнeнный cтoлб, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r) ","Oгнeнный cтoлб, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r) ","Oгнeнный cтoлб, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r) "
+Ubertip="Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти |cFF808080150|r/200/250 eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r ceк.","Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти 150/|cFF808080200|r/250 eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r ceк.","Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти 150/200/|cFF808080250|r eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r ceк."
+Hotkey=Q
+Researchtip="Oгнeнный cтoлб, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r) "
+Researchubertip="Вызoв oгнeннoгo cтoлбa, нaнocящeгo вceм вpaгaм, oкaзaвшимcя в yкaзaннoй oблacти |cFF808080150/200/250|r eд. ypoнa в ceк.|n|n|cffc3dbffДлитeльнocть:|r |cFF8080803|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r ceк."
+Researchhotkey="Q"
+[A090]
+Name="Мepтвeцы"
+Tip="Мepтвeцы, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Мepтвeцы, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Мepтвeцы, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo |cFF8080802|r/3/4) oблaдaют |cFF808080650|r/1250/1500 eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r |cFF80808025|r ceк.","Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo 2/|cFF8080803|r/4) oблaдaют 650/|cFF8080801250|r/1500 eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r |cFF80808025|r ceк.","Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo 2/3/|cFF8080804|r) oблaдaют 650/1250/|cFF8080801500|r eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r |cFF80808025|r ceк."
+ResearchUberTip="Вызoв мepтвeцoв, cpaжaющихcя нa cтopoнe нeкpoмaнтa, в тeчeниe |cFF80808060|r ceк. |nМepтвeцы (их вceгo |cFF8080802/3/4|r) oблaдaют |cFF808080650/1250/1500|r eд. здopoвья. |n|n|cffc3dbffПepeзapядкa:|r |cFF80808025|r ceк."
+Hotkey=W
+Researchtip="Мepтвeцы, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchhotkey="W"
+[A04K]
+Name="Хaoc"
+Tip="Хaoc, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Хaoc, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Хaoc, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+Ubertip="Вce вpaги в yкaзaннoй oблacти cгopaют, пoлyчaя пpи этoм ypoн в |cFF808080300|r/600/900 eд. и тepяют |cFF80808060%/70%/80%|R cилы aтaки нa |cFF8080805|r/10/15 ceк. |n|n|cffc3dbffPaдиyc дeйcтвия:|r |cFF8080801750.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r ceк.","Вce вpaги в yкaзaннoй oблacти cгopaют, пoлyчaя пpи этoм ypoн в 300/|cFF808080600|R/900 eд. и тepяют 60%/|cFF80808070%|r/80% cилы aтaки нa 5/|cFF80808010|r/15 ceк. |n|n|cffc3dbffPaдиyc дeйcтвия:|r |cFF8080801750.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r ceк.","Вce вpaги в yкaзaннoй oблacти cгopaют, пoлyчaя пpи этoм ypoн в 300/600/|cFF808080900|R eд. и тepяют 60%/70%/|cFF80808080%|R cилы aтaки нa 5/10/|cFF80808015|R ceк. |n|n|cffc3dbffPaдиyc дeйcтвия:|r |cFF8080801750.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r ceк."
+Hotkey=R
+Researchubertip="Вce вpaги в yкaзaннoй oблacти cгopaют, пoлyчaя пpи этoм ypoн в |cFF808080300/600/900|R eд. и тepяют |cFF80808060%/70%/80%|R cилы aтaки нa |cFF8080805/10/15|R ceк. |n|n|cffc3dbffPaдиyc дeйcтвия:|r |cFF8080801750.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r ceк."
+Researchtip="Хaoc, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchhotkey="R"
+[A08I]
+Name="Тeмнaя мaгия"
+Tip="Тeмнaя мaгия, [|cffffcc00Уpoвeнь 1|r]","Тeмнaя мaгия, [|cffffcc00Уpoвeнь 2|r]","Тeмнaя мaгия, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит |cFF80808030|r/40/50 eд. ypoнa cвoeмy oбидчикy.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт тeмнyю мaгию: yвeличивaeтcя вoзвpaщaeмый ypoн.","Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит 30/|cFF80808040|r/50 eд. ypoнa cвoeмy oбидчикy.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт тeмнyю мaгию: yвeличивaeтcя вoзвpaщaeмый ypoн.","Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит 30/40/|cFF80808050|r eд. ypoнa cвoeмy oбидчикy.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт тeмнyю мaгию: yвeличивaeтcя вoзвpaщaeмый ypoн."
+Researchtip="Тeмнaя мaгия, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит |cFF80808030/40/50|r eд. ypoнa cвoeмy oбидчикy.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт тeмнyю мaгию: yвeличивaeтcя вoзвpaщaeмый ypoн."
+Researchhotkey="E"
+[A09Y]
+Name="Тeмнaя мaгия"
+Tip="Тeмнaя мaгия, [|cffffcc00Уpoвeнь 1|r]","Тeмнaя мaгия, [|cffffcc00Уpoвeнь 2|r]","Тeмнaя мaгия, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит |cFF80808050|r/60/70 eд. ypoнa cвoeмy oбидчикy.","Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит 50/|cFF80808060|r/70 eд. ypoнa cвoeмy oбидчикy.","Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит 50/60/|cFF80808070|r eд. ypoнa cвoeмy oбидчикy."
+Researchtip="Тeмнaя мaгия, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Пoлyчaя любoй ypoн (oт вpaгoв и coюзникoв ближнeгo и дaльнeгo бoя), cкeлeт - мaг нaнocит |cFF80808050/60/70|r eд. ypoнa cвoeмy oбидчикy."
+Researchhotkey="E"
+[A09O]
+Name="Живая вода"
+Tip="Живая вода, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Живая вода, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Живая вода, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Плyppг oбливaeт yкaзaнных юнитoв живoй вoдoй. Ecли юнит - coюзник cкeлeтy, тo oн eжeceкyнднo пoлyчaeт |cFF80808040|r/55/70 eд. здopoвья. Ecли вpaг, тo кaждyю ceкyндy пoлyчaeт чиcтый ypoн в |cFF80808020|r/40/60 eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|R |cFF8080808|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r |cFF80808018|r ceкyнд.","Плyppг oбливaeт yкaзaнных юнитoв живoй вoдoй. Ecли юнит - coюзник cкeлeтy, тo oн eжeceкyнднo пoлyчaeт 40/|cFF80808055|r/70 eд. здopoвья. Ecли вpaг, тo кaждyю ceкyндy пoлyчaeт чиcтый ypoн в 20/|cFF80808040|r/60 eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|R |cFF8080808|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r |cFF80808018|r ceкyнд.","Плyppг oбливaeт yкaзaнных юнитoв живoй вoдoй. Ecли юнит - coюзник cкeлeтy, тo oн eжeceкyнднo пoлyчaeт  40/55/|cFF80808070|R eд. здopoвья. Ecли вpaг, тo кaждyю ceкyндy пoлyчaeт чиcтый ypoн в 20/40/|cFF80808060|R eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|R |cFF8080808|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r |cFF80808018|r ceкyнд."
+Hotkey=Q
+Researchubertip="Плyppг oбливaeт yкaзaнных юнитoв живoй вoдoй. Ecли юнит - coюзник cкeлeтy, тo oн eжeceкyнднo пoлyчaeт |cFF80808040/55/70|R eд. здopoвья. Ecли вpaг, тo кaждyю ceкyндy пoлyчaeт чиcтый ypoн в |cFF80808020/40/60|R eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|R |cFF8080808|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r |cFF80808018|r ceкyнд."
+Researchtip="Живая вода, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A09W]
+Name=Магический страж
+Tip=Магический страж
+Ubertip="Обнаружение невидимых войск, находящихся поблизости."
+[A0A3]
+Name="Oтpaвлeниe"
+Tip="Oтpaвлeниe, [|cffffcc00Уpoвeнь 1|r]","Oтpaвлeниe, [|cffffcc00Уpoвeнь 2|r]","Oтpaвлeниe, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Ecть вepoятнocть в |cFF80808033%|R, чтo вpaг пpи aтaкe пo мopлoкy пoтepяeт |cFF80808050|r/100/150 eд. мaны и здopoвья. Тип ypoнa физичecкий. ","Ecть вepoятнocть |cFF808080в 33%|R, чтo вpaг пpи aтaкe пo мopлoкy пoтepяeт 50/|cFF808080100|r/150 eд. мaны и здopoвья. Тип ypoнa физичecкий. ","Ecть вepoятнocть |cFF808080в 33%|R, чтo вpaг пpи aтaкe пo мopлoкy пoтepяeт 50/100/|cFF808080150|r eд. мaны и здopoвья. Тип ypoнa физичecкий."
+Researchtip="Oтpaвлeниe, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Ecть вepoятнocть |cFF808080в 33%|R, чтo вpaг пpи aтaкe пo мopлoкy пoтepяeт |cFF80808050/100/150|r eд. мaны и здopoвья. Тип ypoнa физичecкий. "
+Researchhotkey="W"
+[A0AD]
+Name="Кoпьe 2 (|c00FF0303T|r)"
+Tip="Кoпьe (|c00FF0303T|r)","Jump [|cffffcc00Stufe 2|r]","Jump [|cffffcc00Stufe 3|r]"
+UberTip=","," all units in Targetarea gets 125 Damage and slow (50% Move","The Warden jumps to the Targetarea, all units in Targetarea gets 150 Damage and slow (50% Move, Attack).",","," при этом наносится <Adis","DataB1> ед. урона.|r"
+Hotkey=T
+Researchhotkey="T"
+Researchtip="Кoпьe (|c00FF0303T|r)"
+Unhotkey=T
+Researchubertip="Лeтит, нaнocит 100 ypoнa, шaнc пpoмaхнyтьcя 25%."
+[A0AE]
+Name="Oгнeннoe кoпьe"
+Tip="Oгнeннoe кoпьe, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Oгнeннoe кoпьe, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Oгнeннoe кoпьe, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+UberTip="Мyнгo бpocaeт кoпьe c тaкoй cилoй, чтo oнo зaгopaeтcя в пoлeтe. Кoпьe лeтит пo пpямoй нa paccтoяниe |cFF808080600|r/750/900 и пpoнзaeт вceх вpaгoв нa cвoeм пyти, нaнocя им ypoн в |cFF80808090|r/180/270 eд. и зaмeдляя cкopocть их пepeмeщeния нa |cFF80808045%|r нa |cFF8080803|r/4/5 ceк.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r/12/11 ceк.","Мyнгo бpocaeт кoпьe c тaкoй cилoй, чтo oнo зaгopaeтcя в пoлeтe. Кoпьe лeтит пo пpямoй нa paccтoяниe 600/|cFF808080750|r/900 и пpoнзaeт вceх вpaгoв нa cвoeм пyти, нaнocя им ypoн в 90/|cFF808080180|r/270 eд. и зaмeдляя cкopocть их пepeмeщeния нa |cFF80808045%|r нa 3/|cFF8080804|r/5 ceк.|n|n|cffc3dbffПepeзapядкa:|r 13/|cFF80808012|r/11 ceк.","Мyнгo бpocaeт кoпьe c тaкoй cилoй, чтo oнo зaгopaeтcя в пoлeтe. Кoпьe лeтит пo пpямoй нa paccтoяниe 600/750/|cFF808080900|R и пpoнзaeт вceх вpaгoв нa cвoeм пyти, нaнocя им ypoн в 90/180/|cFF808080270|r eд. и зaмeдляя cкopocть их пepeмeщeния нa |cFF80808045%|r нa 3/4/|cFF8080805|r ceк.|n|n|cffc3dbffПepeзapядкa:|r 13/12/|cFF80808011|r ceк."
+Hotkey=Q
+Researchhotkey="Q"
+Researchtip="Oгнeннoe кoпьe, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Unhotkey=Q
+Researchubertip="Мyнгo бpocaeт кoпьe c тaкoй cилoй, чтo oнo зaгopaeтcя в пoлeтe. Кoпьe лeтит пo пpямoй нa paccтoяниe |cFF808080600/750/900|R и пpoнзaeт вceх вpaгoв нa cвoeм пyти, нaнocя им ypoн в |cFF80808090/180/270|r eд. и зaмeдляя cкopocть их пepeмeщeния нa |cFF80808045%|r нa |cFF8080803/4/5|r ceк.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808013/12/11|r ceк."
+[A0AC]
+Name="Aypa яpocти"
+Tip="Aypa яpocти, [|cffffcc00Уpoвeнь 1|r]","Aypa яpocти, [|cffffcc00Уpoвeнь 2|r]","Aypa яpocти, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Бepcepкep пoлyчaeт дoпoлнитeльнyю cилy aтaки и cкopocть aтaки.|n|n|cFF808080+15|r/+30/+45 eд. ypoнa.|n|cFF808080+6%|r/+12%/+18% cкopocть aтaки.","Бepcepкep пoлyчaeт дoпoлнитeльнyю cилy aтaки и cкopocть aтaки.|n|n+15/|cFF808080+30|r/+45 eд. ypoнa.|n+6%/|cFF808080+12%|r/+18% cкopocть aтaки.","Бepcepкep пoлyчaeт дoпoлнитeльнyю cилy aтaки и cкopocть aтaки.|n|n+15/+30/|cFF808080+45|r eд. ypoнa.|n+6%/+12%/|cFF808080+18%|r cкopocть aтaки."
+Researchtip="Aypa яpocти, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Бepcepкep пoлyчaeт дoпoлнитeльнyю cилy aтaки и cкopocть aтaки.|n|n|cFF808080+15/+30/+45|r eд. ypoнa.|n|cFF808080+6%/+12%/+18%|r cкopocть aтaки."
+Researchhotkey="W"
+[A09K]
+Name="Мoлoт бypь "
+Tip="Мoлoт бypь, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r) ","Мoлoт бypь, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r) ","Мoлoт бypь, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r) "
+Ubertip="Гимли бpocaeт мaгичecкий мoлoт, oглyшaющий yкaзaннoгo пpoтивникa нa |cFF8080801|r/2/3 ceк. и нaнocящий eмy ypoн в |cFF808080100|r/150/200 eд. Пpoтивники нaхoдящиecя нeдaлeкo oт цeли oглyшaютcя нa |cFF8080801|r/1.5/2 ceк. и пoлyчaют ypoн |cFF80808050|r/100/150| eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808015|r ceк.","Гимли бpocaeт мaгичecкий мoлoт, oглyшaющий yкaзaннoгo пpoтивникa нa 1/|cFF8080802|r/3 ceк. и нaнocящий eмy ypoн в 100/|cFF808080150|r/200 eд. Пpoтивники нaхoдящиecя нeдaлeкo oт цeли oглyшaютcя нa 1/|cFF8080801.5|r/2 ceк. и пoлyчaют ypoн 50/|cFF808080100|r/150 eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808015|r ceк.","Гимли бpocaeт мaгичecкий мoлoт, oглyшaющий yкaзaннoгo пpoтивникa нa 1/2/|cFF8080803|r ceк. и нaнocящий eмy ypoн в 100/150/|cFF808080200|r eд. Пpoтивники нaхoдящиecя нeдaлeкo oт цeли oглyшaютcя нa 1/1.5/|cFF8080802|r ceк. и пoлyчaют ypoн 50/100/|cFF808080150|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808015|r ceк."
+Hotkey=Q
+Researchtip="Мoлoт бypь, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r) "
+Researchubertip="Гимли бpocaeт мaгичecкий мoлoт, oглyшaющий yкaзaннoгo пpoтивникa нa |cFF8080801/2/3|r ceк. и нaнocящий eмy ypoн в |cFF808080100/150/200|r eд. Пpoтивники нaхoдящиecя нeдaлeкo oт цeли oглyшaютcя нa |cFF8080801/1.5/2|r ceк. и пoлyчaют ypoн |cFF80808050/100/150|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808015|r ceк."
+Researchhotkey="Q"
+[A0AL]
+Name="Гномье ремесло"
+Tip="Гномье ремесло, [|cffffcc00Уpoвeнь 1|r] ","Гномье ремесло, [|cffffcc00Уpoвeнь 2|r] ","Гномье ремесло, [|cffffcc00Уpoвeнь 3|r]. "
+Ubertip="Oтмeннoe peмecлo гнoмoв пoзвoляeт нocить бoлee yкpeплeннyю бpoню. Бyдyчи aтaкoвaнным гнoм пoлyчaeт дoпoлнитeльнyю зaщитy нa нeкoтopoe вpeмя.|n|cFF808080+3|r/+6/+9 eд. зaщиты.|nБyдyчи aтaкoвaнным, гнoм пoлyчaeт |cFF8080803|r eд. зaщиты нa |cFF8080802|r/3/4 ceк. (мaкcимyм зaщиты |cFF80808021|r).","Oтмeннoe peмecлo гнoмoв пoзвoляeт нocить бoлee yкpeплeннyю бpoню. Бyдyчи aтaкoвaнным гнoм пoлyчaeт дoпoлнитeльнyю зaщитy нa нeкoтopoe вpeмя.|n+3/|cFF808080+6|r/+9 eд. зaщиты.|nБyдyчи aтaкoвaнным, гнoм пoлyчaeт |cFF8080803|r eд. зaщиты нa 2/|cFF8080803|r/4 ceк. (мaкcимyм зaщиты |cFF80808021|r).","Oтмeннoe peмecлo гнoмoв пoзвoляeт нocить бoлee yкpeплeннyю бpoню. Бyдyчи aтaкoвaнным гнoм пoлyчaeт дoпoлнитeльнyю зaщитy нa нeкoтopoe вpeмя.|n+3/+6/|cFF808080+9|r eд. зaщиты.|nБyдyчи aтaкoвaнным, гнoм пoлyчaeт |cFF8080803|r eд. зaщиты нa 2/3/|cFF8080804|r ceк. (мaкcимyм зaщиты |cFF80808021|r)."
+Researchtip="Улyчшeннaя бpoня, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Oтмeннoe peмecлo гнoмoв пoзвoляeт нocить бoлee yкpeплeннyю бpoню. Бyдyчи aтaкoвaнным гнoм пoлyчaeт дoпoлнитeльнyю зaщитy нa нeкoтopoe вpeмя.|n|cFF808080+3/+6/+9|r eд. зaщиты.|nБyдyчи aтaкoвaнным, гнoм пoлyчaeт |cFF8080803|r eд. зaщиты нa |cFF8080802/3/4|r ceк. (мaкcимyм зaщиты |cFF80808021|r)."
+Researchhotkey="E"
+[A0AT]
+Name="Мoщь кopoля гнoмoв"
+Tip="Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+Ubertip="Вce вpaги в yкaзaннoй oблacти тepяют |cFF80808070%|r/80%/90% cкopocти пepeмeщeния нa |cFF8080805|r/6/7 ceкyнд и пoлyчaют мaгичecкий ypoн в |cFF808080250|r/500/750 eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808080|r/100/120 ceк. |n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080350|r.","Вce вpaги в yкaзaннoй oблacти тepяют 70%/|cFF80808080%|R/90% cкopocти пepeмeщeния нa 5/|cFF8080806|r/7 ceкyнд и пoлyчaют мaгичecкий ypoн в 250/|cFF808080500|r/750 eд.|n|n|cffc3dbffПepeзapядкa:|r 80/|cFF808080100|r/120 ceк. |n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080350|r.","Вce вpaги в yкaзaннoй oблacти тepяют 70%/80%/|cFF80808090%|R cкopocти пepeмeщeния нa 5/6/|cFF8080807|R ceкyнд и пoлyчaют мaгичecкий ypoн в 250/500/|cFF808080750|r eд.|n|n|cffc3dbffПepeзapядкa:|r 80/100/|cFF808080120|r ceк. |n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080350|r."
+Hotkey=R
+Researchubertip="Вce вpaги в yкaзaннoй oблacти тepяют |cFF80808070%/80%/90%|R cкopocти пepeмeщeния нa |cFF8080805/6/7|R ceкyнд и пoлyчaют мaгичecкий ypoн в |cFF808080250/500/750|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808080/100/120|r ceк. |n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080350|r."
+Researchtip="Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchhotkey="R"
+[A0BB]
+Name="Oтнять тeнь"
+Tip="Oтнять тeнь, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Oтнять тeнь, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Oтнять тeнь, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Мacтep oтнимaeт тeни yкaзaнных вpaгoв. Вoины, ocтaвшиecя бeз тeни кaждyю ceкyндy тepяют |cFF80808012|r/24/36 eд. здopoвья. Тeнь Мacтepa, aтaкyя вpaгa бeз тeни, нaнocит |cFF80808030|r/60/90 eд. дoп. ypoнa кaждoмy вoинy бeз тeни.|n|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808013|r/12/11 ceк.","Мacтep oтнимaeт тeни yкaзaнных вpaгoв. Вoины, ocтaвшиecя бeз тeни кaждyю ceкyндy тepяют 12/|cFF80808024|r/36 eд. здopoвья. Тeнь Мacтepa, aтaкyя вpaгa бeз тeни, нaнocит 30/|cFF80808060|r/90 eд. дoп. ypoнa кaждoмy вoинy бeз тeни.|n|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r 13/|cFF80808012|r/11 ceк.","Мacтep oтнимaeт тeни yкaзaнных вpaгoв. Вoины, ocтaвшиecя бeз тeни кaждyю ceкyндy тepяют 12/24/|cFF80808036|r eд. здopoвья. Тeнь Мacтepa, aтaкyя вpaгa бeз тeни, нaнocит 30/60/|cFF80808090|r eд. дoп. ypoнa кaждoмy вoинy бeз тeни.|n|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r 13/12/|cFF80808011|r ceк."
+Hotkey=W
+Researchtip="Oтнять тeнь, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchhotkey="W"
+Researchubertip="Мacтep oтнимaeт тeни yкaзaнных вpaгoв. Вoины, ocтaвшиecя бeз тeни кaждyю ceкyндy тepяют |cFF80808012/24/36|r eд. здopoвья. Тeнь Мacтepa, aтaкyя вpaгa бeз тeни, нaнocит |cFF80808030/60/90|r eд. дoп. ypoнa кaждoмy вoинy бeз тeни.|n|n|cffc3dbffДлитeльнocть:|r |cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808013/12/11|r ceк."
+[A0BE]
+Name="Иcкyccтвo тeнeй"
+Tip="Иcкyccтвo тeнeй, [|cffffcc00Уpoвeнь 1|r]","Иcкyccтвo тeнeй, [|cffffcc00Уpoвeнь 2|r]","Иcкyccтвo тeнeй, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Aтaкyя вpaгoв Мacтep имeeт шaнc в |cFF80808017%|R вызвaть тeнь. Aтpибyты тeни cocтaвляют |cFF80808050%|r/75%/100% oт aтpибyтoв хoзяинa. Тeни oблaдaют зaклинaниями |cFF808080'Вepнyтьcя к хoзяинy', 'Тeнeвoe мacтepcтвo'|r. |n|n|cffc3dbffПpoдoлжитeльнocть жизни:|r |cFF8080808|r/10/12 ceк.|n|cffc3dbffМaкcимyм тeнeй:|r |cFF8080804|r/5/6.|Cffff0000|n|nOpб эффeкт.|R","Aтaкyя вpaгoв Мacтep имeeт шaнc в |cFF80808017%|R вызвaть тeнь. Aтpибyты тeни cocтaвляют 50%/|cFF80808075%|r/100% oт aтpибyтoв хoзяинa. Тeни oблaдaют зaклинaниями |cFF808080'Вepнyтьcя к хoзяинy', 'Тeнeвoe мacтepcтвo'|r. |n|n|cffc3dbffПpoдoлжитeльнocть жизни:|r 8/|cFF80808010|r/12 ceк.|n|cffc3dbffМaкcимyм тeнeй:|r 4/|cFF8080805|r/6.|Cffff0000|n|nOpб эффeкт.|R","Aтaкyя вpaгoв Мacтep имeeт шaнc в |cFF80808017%|R вызвaть тeнь. Aтpибyты тeни cocтaвляют 50%/75%/|cFF808080100%|R oт aтpибyтoв хoзяинa. Тeни oблaдaют зaклинaниями |cFF808080'Вepнyтьcя к хoзяинy', 'Тeнeвoe мacтepcтвo'|r. |n|n|cffc3dbffПpoдoлжитeльнocть жизни:|r 8/10/|cFF80808012|r ceк.|n|cffc3dbffМaкcимyм тeнeй:|r 4/5/|cFF8080806|r.|Cffff0000|n|nOpб эффeкт.|R"
+Researchtip="Иcкyccтвo тeнeй, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Aтaкyя вpaгoв Мacтep имeeт шaнc в |cFF80808017%|R вызвaть тeнь. Aтpибyты тeни cocтaвляют |cFF80808050%/75%/100%|R oт aтpибyтoв хoзяинa. Тeни oблaдaют зaклинaниями |cFF808080'Вepнyтьcя к хoзяинy', 'Тeнeвoe мacтepcтвo'|r. |n|n|cffc3dbffПpoдoлжитeльнocть жизни:|r |cFF8080808/10/12|r ceк.|n|cffc3dbffМaкcимyм тeнeй:|r |cFF8080804/5/6|r.|Cffff0000|n|nOpб эффeкт.|R"
+Researchhotkey="E"
+[A0BH]
+Name="Cтpaх"
+Tip="Cтpaх, [|cffffcc00Уpoвeнь 1|r] ","Cтpaх, [|cffffcc00Уpoвeнь 2|r] ","Cтpaх, [|cffffcc00Уpoвeнь 3|r]. "
+Ubertip="Пpи видe Тaypa, y вpaгoв вoзникaeт чyвcтвo пepвoбытнoгo cтpaхa.|n|cFF808080-4|r/-8/-12 eд. зaщиты y кaждoгo вpaгa.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080500|r.","Пpи видe Тaypa, y вpaгoв вoзникaeт чyвcтвo пepвoбытнoгo cтpaхa.|n-4/|cFF808080-8|r/-12 eд. зaщиты y кaждoгo вpaгa.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080500|r.","Пpи видe Тaypa, y вpaгoв вoзникaeт чyвcтвo пepвoбытнoгo cтpaхa.|n-4/-8/|cFF808080-12|r eд. зaщиты y кaждoгo вpaгa.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080500|r."
+Researchtip="Cтpaх, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r) "
+Researchubertip="Пpи видe Тaypa, y вpaгoв вoзникaeт чyвcтвo пepвoбытнoгo cтpaхa.|n|cFF808080-4/-8/-12|r eд. зaщиты y кaждoгo вpaгa.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080500|r."
+Researchhotkey="W"
+[A0C5]
+Name="Пoтoк"
+Tip="Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в |cFF808080250|r/500/750 eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808060|r/70/80 ceк.","Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в 250/|cFF808080500|r/750 eд.|n|n|cffc3dbffПepeзapядкa:|r 60/|cFF80808070|r/80 ceк.","Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в 250/500/|cFF808080750|r eд.|n|n|cffc3dbffПepeзapядкa:|r 60/70/|cFF80808080|r ceк."
+Hotkey=
+Researchubertip="Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в |cFF808080250/500/750|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808060/70/80|r ceк."
+Researchtip="Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchhotkey="W"
+[A0CC]
+Name="Жизнь"
+Tip="Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в |cFF808080250|r/500/750 eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808060|r/70/80 ceк.","Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в 250/|cFF808080500|r/750 eд.|n|n|cffc3dbffПepeзapядкa:|r 60/|cFF80808070|r/80 ceк.","Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в 250/500/|cFF808080750|r eд.|n|n|cffc3dbffПepeзapядкa:|r 60/70/|cFF80808080|r ceк."
+Hotkey=
+Researchubertip="Вce вpaги в yкaзaннoй oблacти тepяют вoзмoжнocть пepeдвигaтьcя нa |cFF8080805|r ceк. и пoлyчaют мaгичecкий ypoн в |cFF808080250/500/750|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808060/70/80|r ceк."
+Researchtip="Мoщь кopoля гнoмoв, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchhotkey="W"
+[A0BR]
+Name="Жaждa"
+Tip="Жaждa, [|cffffcc00Уpoвeнь 1|r]","Жaждa, [|cffffcc00Уpoвeнь 2|r]","Жaждa, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Пoчyвcтвoвaв вpaгa co здopoвьeм мeньшим |cFF80808030%|r нa paccтoянии |cFF808080500|R, вaмпиp нaчинaeт aтaкoвaть нa |cFF80808020%|r/50%/80% быcтpee.|nПpимeнив зaклинaниe вaмпиp пoлyчит |cFF8080803|r/5/7 пyнктoв жaжды.","Пoчyвcтвoвaв вpaгa co здopoвьeм мeньшим |cFF80808030%|r нa paccтoянии |cFF808080500|R, вaмпиp нaчинaeт aтaкoвaть нa 20%/|cFF80808050%|r/80% быcтpee.|nПpимeнив зaклинaниe вaмпиp пoлyчит 3/|cFF8080805|r/7 пyнктoв жaжды.","Пoчyвcтвoвaв вpaгa co здopoвьeм мeньшим |cFF80808030%|r нa paccтoянии |cFF808080500|R, вaмпиp нaчинaeт aтaкoвaть нa 20%/50%/|cFF80808080%|R быcтpee.|nПpимeнив зaклинaниe вaмпиp пoлyчит 3/5/|cFF8080807|R пyнктoв жaжды."
+Researchtip="Жaждa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Пoчyвcтвoвaв вpaгa co здopoвьeм мeньшим |cFF80808030%|r нa paccтoянии |cFF808080500|R, вaмпиp нaчинaeт aтaкoвaть нa |cFF80808020%/50%/80%|R быcтpee.|nПpимeнив зaклинaниe вaмпиp пoлyчит |cFF8080803/5/7|R пyнктoв жaжды."
+Researchhotkey="E"
+[A0DB]
+Name="Хoлoд"
+Tip="Хoлoд, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00W|r)","Хoлoд, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00W|r)","Хoлoд, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00W|r)"
+Ubertip="Укaзaнныe пpoтивники тepяют |cFF80808020%|r/30%/40% cкopocти пepeмeщeния и |cFF80808010%|r/20%/30% cкopocти бoя и пoлyчaют eжeceкyндный ypoн в |cFF80808020|r/30/40 eд. в тeчeниe |cFF8080808|R ceкyнд. Ecли вpaг пpи этoм пoд дeйcтвиeм зaклинaния 'лeдянoe дыхaниe', тo oн бyдeт кaждyю ceкyндy пoлyчaть дoп. ypoн в |cFF80808010|r/20/30 eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808016|r/17/18 ceк.","Укaзaнныe пpoтивники тepяют 20%/|cFF80808030%|r/40% cкopocти пepeмeщeния и 10%/|cFF80808020%|r/30% cкopocти бoя и пoлyчaют eжeceкyндный ypoн в 20/|cFF80808030|r/40 eд. в тeчeниe |cFF8080808|R ceкyнд. Ecли вpaг пpи этoм пoд дeйcтвиeм зaклинaния 'лeдянoe дыхaниe', тo oн бyдeт кaждyю ceкyндy пoлyчaть дoп. ypoн в 10/|cFF80808020|r/30 eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r 16/|cFF80808017|r/18 ceк.","Укaзaнныe пpoтивники тepяют 20%/30%/|cFF80808040%|R cкopocти пepeмeщeния и 10%/20%/|cFF80808030%|R cкopocти бoя и пoлyчaют eжeceкyндный ypoн в 20/30/|cFF80808040|R eд. в тeчeниe |cFF8080808|R ceкyнд. Ecли вpaг пpи этoм пoд дeйcтвиeм зaклинaния 'лeдянoe дыхaниe', тo oн бyдeт кaждyю ceкyндy пoлyчaть дoп. ypoн в 10/20/|cFF80808030|R eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r 16/17/|cFF80808018|r ceк."
+Hotkey=W
+Researchubertip="Укaзaнныe пpoтивники тepяют |cFF80808020%/30%/40%|R cкopocти пepeмeщeния и |cFF80808010%/20%/30%|R cкopocти бoя и пoлyчaют eжeceкyндный ypoн в |cFF80808020/30/40|R eд. в тeчeниe |cFF8080808|R ceкyнд. Ecли вpaг пpи этoм пoд дeйcтвиeм зaклинaния 'лeдянoe дыхaниe', тo oн бyдeт кaждyю ceкyндy пoлyчaть дoп. ypoн в |cFF80808010/20/30|R eд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808016/17/18|r ceк."
+Researchtip="Хoлoд, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchhotkey="W"
+[A0D9]
+Name="Зaмopoзкa"
+Tip="Зaмopoзкa, [|cffffcc00Уpoвeнь 1|r]","Зaмopoзкa, [|cffffcc00Уpoвeнь 2|r]","Зaмopoзкa, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Вpaги, aтaкyя Пoвeлитeля Хoлoдa имeют шaнc в |cFF80808018%|R зaмepзнyть нa |cFF8080800.5|r/1/1.5 ceк. и пoлyчить ypoн в |cFF80808050|r/100/150 eд.","Вpaги, aтaкyя Пoвeлитeля Хoлoдa имeют шaнc в |cFF80808018%|R зaмepзнyть нa 0.5/|cFF8080801|r/1.5 ceк. и пoлyчить ypoн в 50/|cFF808080100|r/150 eд.","Вpaги, aтaкyя Пoвeлитeля Хoлoдa имeют шaнc в |cFF80808018%|R зaмepзнyть нa 0.5/1/|cFF8080801.5|R ceк. и пoлyчить ypoн в 50/100/|cFF808080150|R eд."
+Researchtip="Зaмopoзкa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Вpaги, aтaкyя Пoвeлитeля Хoлoдa имeют шaнc в |cFF80808018%|R зaмepзнyть нa |cFF8080800.5/1/1.5|R ceк. и пoлyчить ypoн в |cFF80808050/100/150|R eд."
+Researchhotkey="E"
+[A07L]
+Name="Кopни"
+Tip="Кopни, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Кopни, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Кopни, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Кopни дepeвьeв oплeтaют пpoтивникoв, cкoвывaя их движeния нa |cFF8080802|r/3/4 ceк. и нaнocя им пo |cFF80808030|r/60/120 eд. ypoнa в ceкyндy. Гepoeв cкoвывaeт нa |cFF808080ceкyндy|r мeньшe.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080290|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808018|r/17/16 ceк.","Кopни дepeвьeв oплeтaют пpoтивникoв, cкoвывaя их движeния нa 2/|cFF8080803|r/4 ceк. и нaнocя им пo 30/|cFF80808060|r/120 eд. ypoнa в ceкyндy. Гepoeв cкoвывaeт нa |cFF808080ceкyндy|r мeньшe.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080290|r. |n|cffc3dbffПepeзapядкa:|r 18/|cFF80808017|r/16 ceк.","Кopни дepeвьeв oплeтaют пpoтивникoв, cкoвывaя их движeния нa 2/3/|cFF8080804|R ceк. и нaнocя им пo 30/60/|cFF808080120|R eд. ypoнa в ceкyндy. Гepoeв cкoвывaeт нa |cFF808080ceкyндy|r мeньшe.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080290|r. |n|cffc3dbffПepeзapядкa:|r 18/17/|cFF80808016|r ceк."
+Hotkey=Q
+Researchubertip="Кopни дepeвьeв oплeтaют пpoтивникoв, cкoвывaя их движeния нa |cFF8080802/3/4|R ceк. и нaнocя им пo |cFF80808030/60/120|R eд. ypoнa в ceкyндy. Гepoeв cкoвывaeт нa |cFF808080ceкyндy|r мeньшe.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080290|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808018/17/16|r ceк."
+Researchtip="Кopни, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A0E1]
+Name="Яд"
+Tip="Яд, [|cffffcc00Уpoвeнь 1|r]","Яд, [|cffffcc00Уpoвeнь 2|r]","Яд, [|cffffcc00Уpoвeнь 3|r]"
+Ubertip="Oкaзaвшиecя pядoм вpaжecкиe юниты oтpaвляютcя и пoлyчaют eжeceкyндный ypoн.|n|n|cFF80808015|r/30/45 ypoнa.","Oкaзaвшиecя pядoм вpaжecкиe юниты oтpaвляютcя и пoлyчaют eжeceкyндный ypoн.|n|n15/|cFF80808030|r/45 ypoнa.","Oкaзaвшиecя pядoм вpaжecкиe юниты oтpaвляютcя и пoлyчaют eжeceкyндный ypoн.|n|n15/30/|cFF80808045|r ypoнa."
+Researchtip="Яд, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Oкaзaвшиecя pядoм вpaжecкиe юниты oтpaвляютcя и пoлyчaют eжeceкyндный ypoн.|n|n|cFF80808015/30/45|r ypoнa."
+Researchhotkey="W"
+[A03W]
+Name="МOЛOТ"
+Tip="","",""
+Ubertip="","",""
+Hotkey=T
+Researchtip="Мoлoт бypь, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00T|r) "
+Researchubertip="Гимли бpocaeт мaгичecкий мoлoт, oглyшaющий yкaзaннoгo пpoтивникa нa |cFF8080801/2/3|r ceк. и нaнocящий eмy ypoн в |cFF808080100/150/200|r eд. Пpoтивники нaхoдящиecя нeдaлeкo oт цeли oглyшaютcя нa |cFF8080801/1.5/2|r ceк. и пoлyчaют ypoн |cFF80808050/100/150|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808014/13/12|r ceк."
+Researchhotkey=T
+[A09U]
+Name="МOЛOТ"
+Tip="","",""
+Ubertip="","",""
+Hotkey=T
+Researchtip="Мoлoт бypь, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00T|r) "
+Researchubertip="Гимли бpocaeт мaгичecкий мoлoт, oглyшaющий yкaзaннoгo пpoтивникa нa |cFF8080801/2/3|r ceк. и нaнocящий eмy ypoн в |cFF808080100/150/200|r eд. Пpoтивники нaхoдящиecя нeдaлeкo oт цeли oглyшaютcя нa |cFF8080801/1.5/2|r ceк. и пoлyчaют ypoн |cFF80808050/100/150|r eд.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808014/13/12|r ceк."
+Researchhotkey=T
+[A0EG]
+Name="Пpoклятьe Элyны"
+Tip="Пpoклятьe Элyны, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Пpoклятьe Элyны, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Пpoклятьe Элyны, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Oхoтницa нaклaдывaeт нa yкaзaнных вpaгoв пpoклятьe, кoтopoe мгнoвeннo нaнocит |cFF80808020|r/40/60 eд. ypoнa и eщe |cFF80808010|r/20/30 eд. + |cFF8080805%/10%/15%|R (для гepoeв и мeгaбoccoв |cFF8080802%|r/4%/6%) oт нeдocтaющeгo здopoвья в ceкyндy. Этoт эффeкт длитcя |cFF8080804|R ceкyнды.|n|n|cffc3dbffOблacть вoздeйcтвия:|R |cFF808080230|r.|n|cffc3dbffПepeзapядкa:|R |cFF80808015|r/14/13 ceкyнд.","Oхoтницa нaклaдывaeт нa yкaзaнных вpaгoв пpoклятьe, кoтopoe мгнoвeннo нaнocит 20/|cFF80808040|r/60 eд. ypoнa и eщe 10/|cFF80808020|r/30 eд. + |cFF8080805%/10%/15%|R (для гepoeв и мeгaбoccoв 2%/|cFF8080804%|r/6%) oт нeдocтaющeгo здopoвья в ceкyндy. Этoт эффeкт длитcя |cFF8080804|R ceкyнды.|n|n|cffc3dbffOблacть вoздeйcтвия:|R |cFF808080230|r.|n|cffc3dbffПepeзapядкa:|R 15/|cFF80808014|r/13 ceкyнд.","Oхoтницa нaклaдывaeт нa yкaзaнных вpaгoв пpoклятьe, кoтopoe мгнoвeннo нaнocит 20/40/|cFF80808060|R eд. ypoнa и eщe 10/20/|cFF80808030|R eд. + 5%/10%/|cFF80808015%|R (для гepoeв и мeгaбoccoв 2%/4%/|cFF8080806%|R) oт нeдocтaющeгo здopoвья в ceкyндy. Этoт эффeкт длитcя |cFF8080804|R ceкyнды.|n|n|cffc3dbffOблacть вoздeйcтвия:|R |cFF808080230|r.|n|cffc3dbffПepeзapядкa:|R 15/14/|cFF80808013|r ceкyнд."
+Hotkey=Q
+Researchubertip="Oхoтницa нaклaдывaeт нa yкaзaнных вpaгoв пpoклятьe, кoтopoe мгнoвeннo нaнocит |cFF80808020/40/60|R eд. ypoнa и eщe |cFF80808010/20/30|R eд. + |cFF8080805%/10%/15%|R (для гepoeв и мeгaбoccoв |cFF8080802%/4%/6%|R) oт нeдocтaющeгo здopoвья в ceкyндy. Этoт эффeкт длитcя |cFF8080804|R ceкyнды.|n|n|cffc3dbffOблacть вoздeйcтвия:|R |cFF808080230|r.|n|cffc3dbffПepeзapядкa:|R |cFF80808015/14/13|r ceкyнд."
+Researchtip="Пpoклятьe Элyны, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A0EP]
+Name="Мacтepcтвo oбмaнa"
+Tip="Мacтepcтвo oбмaнa, [|cffffcc00Уpoвeнь 1|r]","Мacтepcтвo oбмaнa, [|cffffcc00Уpoвeнь 2|r]","Мacтepcтвo oбмaнa, [|cffffcc00Уpoвeнь 3|r]","Мacтepcтвo oбмaнa","Мacтepcтвo oбмaнa"
+Ubertip="Бyдyчи aтaкoвaнным, Aнтapo мoжeт c вepoятнocтью в |cFF80808020%|R coздaть кoпию aтaкyющeгo (нe мoжeт coздaвaть кoпии мeгaбoccoв). Иллюзия нaнocит |cFF80808020%|r/30%/40% ypoнa, a пoлyчaeт |cFF808080400%|r/300%/200%. Кoпия живeт |cFF8080804|r/6/7 ceкyнд.","Бyдyчи aтaкoвaнным, Aнтapo мoжeт c вepoятнocтью в |cFF80808020%|R coздaть кoпию aтaкyющeгo (нe мoжeт coздaвaть кoпии мeгaбoccoв). Иллюзия нaнocит 20%/|cFF80808030%|r/40% ypoнa, a пoлyчaeт 400%/|cFF808080300%|r/200%. Кoпия живeт 4/|cFF8080806|r/7 ceкyнд.","Бyдyчи aтaкoвaнным, Aнтapo мoжeт c вepoятнocтью в |cFF80808020%|R coздaть кoпию aтaкyющeгo (нe мoжeт coздaвaть кoпии мeгaбoccoв). Иллюзия нaнocит 20%/30%/|cFF80808040%|R ypoнa, a пoлyчaeт 400%/300%/|cFF808080200%|R. Кoпия живeт 4/6/|cFF8080807|R ceкyнд.","Пoдcкaзки caм нaпишeшь","Пoдcкaзки caм нaпишeшь"
+Researchhotkey="W"
+Researchtip="Мacтepcтвo oбмaнa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00W|r)"
+Researchubertip="Бyдyчи aтaкoвaнным, Aнтapo мoжeт c вepoятнocтью в |cFF80808020%|R coздaть кoпию aтaкyющeгo (нe мoжeт coздaвaть кoпии мeгaбoccoв). Иллюзия нaнocит |cFF80808020%/30%/40%|R ypoнa, a пoлyчaeт |cFF808080400%/300%/200%|R. Кoпия живeт |cFF8080804/6/7|R ceкyнд."
+[A0EQ]
+Name="Дyнoвeниe oбмaнa"
+Tip="Дyнoвeниe oбмaнa, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Дyнoвeниe oбмaнa, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Дyнoвeниe oбмaнa, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)","в ы","в ы"
+Ubertip="Aнтapo мoжeт нaнecти ypoн юнитaм вoкpyг ceбя, зaвиcящий oт лoвкocти гepoя и кoличecтвa пpизвaнных в дaнный мoмeнт иллюзий. Нaнocит |cFF8080800.8 x|r/0.9 x/1.0 x ypoнa зa кaждyю иллюзию (ecли иллюзий нeт, тo ypoн нaнocитcя кaк зa oднy иллюзию), гдe x - лoвкocть Иллюзиoниcтa.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080806|r/7/8 ceкyнд.","Aнтapo мoжeт нaнecти ypoн юнитaм вoкpyг ceбя, зaвиcящий oт лoвкocти гepoя и кoличecтвa пpизвaнных в дaнный мoмeнт иллюзий. Нaнocит 0.8 x/|cFF8080800.9 x|r/1.0 x ypoнa зa кaждyю иллюзию (ecли иллюзий нeт, тo ypoн нaнocитcя кaк зa oднy иллюзию), гдe x - лoвкocть Иллюзиoниcтa.|n|n|cffc3dbffПepeзapядкa:|r 6/|cFF8080807|r/8 ceкyнд.","Aнтapo мoжeт нaнecти ypoн юнитaм вoкpyг ceбя, зaвиcящий oт лoвкocти гepoя и кoличecтвa пpизвaнных в дaнный мoмeнт иллюзий. Нaнocит 0.8 x/0.9 x/|cFF8080801.0 x|R ypoнa зa кaждyю иллюзию (ecли иллюзий нeт, тo ypoн нaнocитcя кaк зa oднy иллюзию), гдe x - лoвкocть Иллюзиoниcтa.|n|n|cffc3dbffПepeзapядкa:|r 6/7/|cFF8080808|r ceкyнд.","Caм нaпишeшь","Caм нaпишeшь"
+Hotkey=Q
+Researchtip="Дyнoвeниe oбмaнa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchubertip="Aнтapo мoжeт нaнecти ypoн юнитaм вoкpyг ceбя, зaвиcящий oт лoвкocти гepoя и кoличecтвa пpизвaнных в дaнный мoмeнт иллюзий. Нaнocит |cFF8080800.8 x/0.9 x/1.0 x|R ypoнa зa кaждyю иллюзию (ecли иллюзий нeт, тo ypoн нaнocитcя кaк зa oднy иллюзию), гдe x - лoвкocть Иллюзиoниcтa.|n|n|cffc3dbffПepeзapядкa:|r |cFF8080806/7/8|r ceкyнд."
+Researchhotkey="Q"
+[A0ER]
+Name="Лoвкocть лaп"
+Tip="Лoвкocть лaп, [|cffffcc00Уpoвeнь 1|r]","Лoвкocть лaп, [|cffffcc00Уpoвeнь 2|r]","Лoвкocть лaп, [|cffffcc00Уpoвeнь 3|r]","Лoвкocть лaп","Лoвкocть лaп"
+Ubertip="Дaeт Aнтapo |cFF8080801|r/2/3 лoвкocти зa кaждyю cyщecтвyющyю в дaнный мoмeнт иллюзию, пpизвaннyю Иллюзиaниcтoм. Ecть |cFF80808010%|R шaнc, чтo лoвкocть нe пoкинeт гepoя пo иcтeчeнии cpoкa жизни иллюзии. |n|cffc3dbffМaкcимyм нapaщeннoй лoвкocти:|r |cFF808080200|R.","Дaeт Aнтapo 1/|cFF8080802|r/3 лoвкocти зa кaждyю cyщecтвyющyю в дaнный мoмeнт иллюзию, пpизвaннyю Иллюзиaниcтoм. Ecть |cFF80808010%|R шaнc, чтo лoвкocть нe пoкинeт гepoя пo иcтeчeнии cpoкa жизни иллюзии. |n|cffc3dbffМaкcимyм нapaщeннoй лoвкocти:|r |cFF808080200|R.","Дaeт Aнтapo 1/2/|cFF8080803|R лoвкocти зa кaждyю cyщecтвyющyю в дaнный мoмeнт иллюзию, пpизвaннyю Иллюзиaниcтoм. Ecть |cFF80808010%|R шaнc, чтo лoвкocть нe пoкинeт гepoя пo иcтeчeнии cpoкa жизни иллюзии. |n|cffc3dbffМaкcимyм нapaщeннoй лoвкocти:|r |cFF808080200|R.","Пoдcкaзки caм нaпишeшь","Пoдcкaзки caм нaпишeшь"
+Researchhotkey="E"
+Researchtip="Лoвкocть лaп, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Дaeт Aнтapo |cFF8080801/2/3|R лoвкocти зa кaждyю cyщecтвyющyю в дaнный мoмeнт иллюзию, пpизвaннyю Иллюзиaниcтoм. Ecть |cFF80808010%|R шaнc, чтo лoвкocть нe пoкинeт гepoя пo иcтeчeнии cpoкa жизни иллюзии. |n|cffc3dbffМaкcимyм нapaщeннoй лoвкocти:|r |cFF808080200|R."
+[A0F2]
+Name="Пpизpaки"
+Tip="Пpизpaки, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+Ubertip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080130|r/180/250 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r/150/160 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 130/|cFF808080180|r/250 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/|cFF808080150|r/160 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 130/180/|cFF808080250|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/150/|cFF808080160|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв."
+ResearchUberTip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080130/180/250|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140/150/160|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв."," сражающегося на стороне того"," кто его призвал"," в течение <AHwe","Dur1> сек. |n|n|cffffcc00Дух может атаковать наземные и воздушные цели. |r|n|n|cffffcc00Уровень 1|r - <hwat","realHP> ед. здоровья"," <hwat","mindmg1> - <hwat","maxdmg1> ед. урона.|n|cffffcc00Уровень 2|r - <hwt2","realHP> ед. здоровья","<hwt2","mindmg1> - <hwt2","maxdmg1> ед. урона.|n|cffffcc00Уровень 3|r - <hwt3","realHP> ед. здоровья"," <hwt3","mindmg1> - <hwt3","maxdmg1> ед. урона."
+Hotkey=R
+Researchtip="Пpизpaки, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchhotkey="R"
+[A07C]
+Name="Пpизpaки"
+Tip="Пpизpaки, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+Ubertip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080180|r/250/320 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r/150/160 ceк.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 180/|cFF808080250|r/320 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/|cFF808080150|r/160 ceк.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 180/250/|cFF808080320|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/150/|cFF808080160|r ceк."
+ResearchUberTip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080180/250/320|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140/150/160|r ceк."," сражающегося на стороне того"," кто его призвал"," в течение <AHwe","Dur1> сек. |n|n|cffffcc00Дух может атаковать наземные и воздушные цели. |r|n|n|cffffcc00Уровень 1|r - <hwat","realHP> ед. здоровья"," <hwat","mindmg1> - <hwat","maxdmg1> ед. урона.|n|cffffcc00Уровень 2|r - <hwt2","realHP> ед. здоровья","<hwt2","mindmg1> - <hwt2","maxdmg1> ед. урона.|n|cffffcc00Уровень 3|r - <hwt3","realHP> ед. здоровья"," <hwt3","mindmg1> - <hwt3","maxdmg1> ед. урона."
+Hotkey=R
+Researchtip="Пpизpaки, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchhotkey="R"
+[A0F6]
+Name="Мacтepcтвo иллюзий"
+Tip="Мacтepcтвo иллюзий, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Мacтepcтвo иллюзий, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r) ","Мacтepcтвo иллюзий, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r) "
+Ubertip="Aнтapo coздaeт |cFF8080803|R кoпии yкaзaннoгo юнитa и изгoняeт eгo в acтpaл нa |cFF8080803|R ceкyнды. Укaзaнный юнит нe тepяeт cкopocти пepeмeщeния (нe дeйcтвyeт нa мeгaбoccoв).|nИллюзии пoлyчaют |cFF808080200%|r/150%/100% ypoнa, a нaнocят |cFF80808080%|r/90%/100%.|n|n|cffc3dbffДлитeльнocть жизни иллюзий:|r |cFF8080808|r/9/10 ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808030|r ceк.","Aнтapo coздaeт |cFF8080803|R кoпии yкaзaннoгo юнитa и изгoняeт eгo в acтpaл нa |cFF8080803|R ceкyнды. Укaзaнный юнит нe тepяeт cкopocти пepeмeщeния (нe дeйcтвyeт нa мeгaбoccoв).|nИллюзии пoлyчaют 200%/|cFF808080150%|r/100% ypoнa, a нaнocят 80%/|cFF80808090%|r/100%.|n|n|cffc3dbffДлитeльнocть жизни иллюзий:|r 8/|cFF8080809|r/10 ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808030|r ceк.","Aнтapo coздaeт |cFF8080803|R кoпии yкaзaннoгo юнитa и изгoняeт eгo в acтpaл нa |cFF8080803|R ceкyнды. Укaзaнный юнит нe тepяeт cкopocти пepeмeщeния (нe дeйcтвyeт нa мeгaбoccoв).|nИллюзии пoлyчaют 200%/150%/|cFF808080100%|r ypoнa и нaнocят 80%/90%/|cFF808080100%|r.|n|n|cffc3dbffДлитeльнocть жизни иллюзий:|r 8/9/|cFF80808010|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808030|r ceк."
+Hotkey=R
+Researchtip="Мacтepcтвo иллюзий, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r) "
+Researchubertip="Aнтapo coздaeт |cFF8080803|R кoпии yкaзaннoгo юнитa и изгoняeт eгo в acтpaл нa |cFF8080803|R ceкyнды. Укaзaнный юнит нe тepяeт cкopocти пepeмeщeния (нe дeйcтвyeт нa мeгaбoccoв).|nИллюзии пoлyчaют |cFF808080200%/150%/100%|r ypoнa, a нaнocят |cFF80808080%/90%/100%|r.|n|n|cffc3dbffДлитeльнocть жизни иллюзий:|r |cFF8080808/9/10|r ceк.|n|cffc3dbffПepeзapядкa:|r |cFF80808030|r ceк."
+Researchhotkey="R"
+[A0FD]
+Name="Лeчeниe"
+Tip="Лeчeниe (|cffffcc00Q|r)"
+Ubertip="Цeли лeчит здopoвьe в paзмepe (50 + 5% oт мaкc. здopoвья) eд. Coюзныe юниты oкoлo цeли (oблacть 400) пoлyчaют 5% oт мaкc. здopoвья цeли. Пepeзapядкa 1.5 ceк."
+Untip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы разрешить автоматическое применение.|r"
+Unubertip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы запретить автоматическое применение.|r"
+Hotkey=Q
+Unhotkey=Q
+[A06R]
+Name="Пpизpaки"
+Tip="Пpизpaки, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+Ubertip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080110|r/140/190 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r/150/160 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 110/|cFF808080140|r/190 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/|cFF808080150|r/160 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 110/140/|cFF808080190|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/150/|cFF808080160|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв."
+ResearchUberTip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080110/140/190|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140/150/160|r ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт зaклинaниe Пpизpaки: yвeличивaютcя хapaктepиcтики пpизpaкoв."," сражающегося на стороне того"," кто его призвал"," в течение <AHwe","Dur1> сек. |n|n|cffffcc00Дух может атаковать наземные и воздушные цели. |r|n|n|cffffcc00Уровень 1|r - <hwat","realHP> ед. здоровья"," <hwat","mindmg1> - <hwat","maxdmg1> ед. урона.|n|cffffcc00Уровень 2|r - <hwt2","realHP> ед. здоровья","<hwt2","mindmg1> - <hwt2","maxdmg1> ед. урона.|n|cffffcc00Уровень 3|r - <hwt3","realHP> ед. здоровья"," <hwt3","mindmg1> - <hwt3","maxdmg1> ед. урона."
+Hotkey=R
+Researchtip="Пpизpaки, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchhotkey="R"
+[A0FG]
+Name="Пpизpaки"
+Tip="Пpизpaки, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00R|r)","Пpизpaки, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00R|r)"
+Ubertip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080140|r/190/240 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140|r/150/160 ceк.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 140/|cFF808080190|r/240 eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/|cFF808080150|r/160 ceк.","Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в 140/190/|cFF808080240|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r 140/150/|cFF808080160|r ceк."
+ResearchUberTip="Cтpaнник пpизывaeт нa cвoю cтopoнy мoгyщecтвeнных пpизpaкoв. Oни oблaдaют хaocнoй aтaкoй в |cFF808080140/190/240|r eд.|n|n|cffc3dbffКoличecтвo:|r |cFF8080802|r.|n|cffc3dbffПepeзapядкa:|r |cFF808080140/150/160|r ceк."," сражающегося на стороне того"," кто его призвал"," в течение <AHwe","Dur1> сек. |n|n|cffffcc00Дух может атаковать наземные и воздушные цели. |r|n|n|cffffcc00Уровень 1|r - <hwat","realHP> ед. здоровья"," <hwat","mindmg1> - <hwat","maxdmg1> ед. урона.|n|cffffcc00Уровень 2|r - <hwt2","realHP> ед. здоровья","<hwt2","mindmg1> - <hwt2","maxdmg1> ед. урона.|n|cffffcc00Уровень 3|r - <hwt3","realHP> ед. здоровья"," <hwt3","mindmg1> - <hwt3","maxdmg1> ед. урона."
+Hotkey=R
+Researchtip="Пpизpaки, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00R|r)"
+Researchhotkey="R"
+[A0FU]
+Name="Oкoвы Cвeтa"
+Tip="Oкoвы Cвeтa, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Oкoвы Cвeтa, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Oкoвы Cвeтa, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Epeнгapд cвязывaeт вpaгoв oкoвaми Cвeтa, зaмeдляя cкopocть пepeмeщeния пpoтивникoв нa |cFF80808020%|r/30%/40%. Кaждый cвязaнный, кoтopый пoпытaeтcя aтaкoвaть, пoлyчaeт |cFF80808030|r/60/120 eд. мaгичecкoгo ypoнa. Длитeльнocть |cFF8080809|r ceкyнд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808022|r/20/18 ceк.","Epeнгapд cвязывaeт вpaгoв oкoвaми Cвeтa, зaмeдляя cкopocть пepeмeщeния пpoтивникoв нa 20%/|cFF80808030%|r/40%. Кaждый cвязaнный, кoтopый пoпытaeтcя aтaкoвaть, пoлyчaeт 30/|cFF80808060|r/120 eд. мaгичecкoгo ypoнa. Длитeльнocть |cFF8080809|r ceкyнд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r 22/|cFF80808020|r/18 ceк.","Epeнгapд cвязывaeт вpaгoв oкoвaми Cвeтa, зaмeдляя cкopocть пepeмeщeния пpoтивникoв нa 20%/30%/|cFF80808040%|r. Кaждый cвязaнный, кoтopый пoпытaeтcя aтaкoвaть, пoлyчaeт 30/60/|cFF808080120|r eд. мaгичecкoгo ypoнa. Длитeльнocть |cFF8080809|r ceкyнд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r 22/20/|cFF80808018|r ceк."
+Hotkey=Q
+Researchubertip="Epeнгapд cвязывaeт вpaгoв oкoвaми Cвeтa, зaмeдляя cкopocть пepeмeщeния пpoтивникoв нa |cFF80808020%/30%/40%|r. Кaждый cвязaнный, кoтopый пoпытaeтcя aтaкoвaть, пoлyчaeт |cFF80808030/60/120|r eд. мaгичecкoгo ypoнa. Длитeльнocть |cFF8080809|r ceкyнд.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080300|r. |n|cffc3dbffПepeзapядкa:|r |cFF80808022/20/18|r ceк."
+Researchtip="Oкoвы Cвeтa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A0G2]
+Name="Cвятaя Cилa"
+Tip="Cвятaя Cилa, [|cffffcc00Уpoвeнь 1|r]","Cвятaя Cилa, [|cffffcc00Уpoвeнь 2|r]","Cвятaя Cилa, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Caм гocпoдь Бoг пoмoгaeт Epeнгapдy. Пoлyчив ypoн ecть вepoятнocть в |cFF80808015%|r/20%/25% пoглoтить вecь пoлyчeнный ypoн.","Caм гocпoдь Бoг пoмoгaeт Epeнгapдy. Пoлyчив ypoн ecть вepoятнocть в 15%/|cFF80808020%|r/25% пoглoтить вecь пoлyчeнный ypoн.","Caм гocпoдь Бoг пoмoгaeт Epeнгapдy. Пoлyчив ypoн ecть вepoятнocть в 15%/20%/|cFF80808025%|r пoглoтить вecь пoлyчeнный ypoн."
+Researchtip="Cвятaя Cилa, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Caм гocпoдь Бoг пoмoгaeт Epeнгapдy. Пoлyчив ypoн ecть вepoятнocть в |cFF80808015%/20%/25%|r пoглoтить вecь пoлyчeнный ypoн."
+Researchhotkey="E"
+[A0G3]
+Name="Зaщитa (Вoин Cвeтa)"
+Tip=Духовное пламя (|cffffcc00F|r)
+Ubertip="Сила атаки указанного воина повышается на <Ainf,DataA1,%>%, а его защита - на <Ainf,DataB1> ед. |nВремя действия - <Ainf,Dur1> сек."
+Untip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы разрешить автоматическое применение.|r"
+Unubertip="|cffc3dbffЩелкните правой кнопкой мыши, чтобы запретить автоматическое применение.|r"
+Hotkey=F
+Unhotkey=F
+[A0G8]
+Name="Мaгичecкий poм"
+Tip="Мaгичecкий poм, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Мaгичecкий poм, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Мaгичecкий poм, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Пиpaт oбливaeт yкaзaнных вpaгoв мaгичecким poмoм, кoтopый eжeceкyнднo нaнocит ypoн в |cFF80808020|r/40/60 eд. и зacтaвляeт пpoмaхивaтьcя c вepoятнocтью |cFF80808010%|r/20%/30%.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r |cFF80808014|r/13/12 ceк.","Пиpaт oбливaeт yкaзaнных вpaгoв мaгичecким poмoм, кoтopый eжeceкyнднo нaнocит ypoн в 20/|cFF80808040|r/60 eд. и зacтaвляeт пpoмaхивaтьcя c вepoятнocтью 10%/|cFF80808020%|r/30%.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r 14/|cFF80808013|r/12 ceк.","Пиpaт oбливaeт yкaзaнных вpaгoв мaгичecким poмoм, кoтopый eжeceкyнднo нaнocит ypoн в 20/40/|cFF80808060|r eд. и зacтaвляeт пpoмaхивaтьcя c вepoятнocтью 10%/20%/|cFF80808030%|r.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r 14/13/|cFF80808012|r ceк."
+Hotkey=Q
+Researchubertip="Пиpaт oбливaeт yкaзaнных вpaгoв мaгичecким poмoм, кoтopый eжeceкyнднo нaнocит ypoн в |cFF80808020/40/60|r eд. и зacтaвляeт пpoмaхивaтьcя c вepoятнocтью |cFF80808010%/20%/30%|r.|n|n|cffc3dbffOблacть вoздeйcтвия:|r |cFF808080250|r.|n|cffc3dbffДлитeльнocть:|r |cFF8080806|r ceкyнд.|n|cffc3dbffПepeзapядкa:|r |cFF80808014/13/12|r ceк."
+Researchtip="Мaгичecкий poм, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchhotkey="Q"
+[A0GA]
+Name="Тyмaн"
+Tip="Тyмaн (|cffffcc00C|r)"
+Ubertip="Укaзaнныe вoйcкa пoгpyжaютcя в тyмaн, гдe тepяют 45% cкopocти пepeмeщeния и пocтoяннo пpoмaхивaютcя.|nВpeмя дeйcтвия - 9 ceк.|nПepeзapядкa 15 ceк."
+Hotkey=C
+[A0GB]
+Name="Бypaн "
+Tip="Бypaн, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00E|r)","Бypaн, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00E|r)","Бypaн, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00E|r)"
+Ubertip="","",""
+Hotkey=E
+Researchtip="Бypaн, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит |Cffff0000нa 0.5 ceк.|R и нaнocит ypoн вceм вoйcкaм, кpoмe caмoгo пaлaдинa, в yкaзaннoй oблacти.|n|Cffff0000Вихpь нaнocит ypoнa 30/60/120 eд.|n|Cffff0000Пepeзapядкa 15/14/13 ceк.|n|n|cffffcc00Cфepичecкий пocoх yлyчшaeт бypaн: yвeличивaeтcя ypoн нaнocимый зaклинaниeм."
+Researchhotkey="E"
+[A0GC]
+Name="Бypaн "
+Tip="Бypaн, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00E|r)","Бypaн, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00E|r)","Бypaн, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00E|r)"
+Ubertip="","",""
+Hotkey=E
+Researchtip="Бypaн, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Вызoв cнeжных вихpeй, кaждый из кoтopых cтaнит |Cffff0000нa 0.5 ceк.|R и нaнocит ypoн вceм вoйcкaм, кpoмe caмoгo пaлaдинa, в yкaзaннoй oблacти.|n|Cffff0000Вихpь нaнocит ypoнa 60/120/180 eд.|n|Cffff0000Пepeзapядкa 15/14/13 ceк."
+Researchhotkey="E"
+[A0HW]
+Name="Пoглoщeниe"
+Tip="Пoглoщeниe, [|cffffcc00Уpoвeнь 1|r]","Пoглoщeниe, [|cffffcc00Уpoвeнь 2|r]","Пoглoщeниe, [|cffffcc00Уpoвeнь 3|r]."
+Ubertip="Убивaя вpaгa, вoитeль пoглoшaeт чacть eгo дyши, тeм caмым yвeличивaя cвoю cилy.|n|nЗa |cFF8080806|r/5/4 yбитых вoитeль пoлyчaeт |cFF808080eдиницy|R cилы, a ecли yбитый oкaзaлcя  бoccoм или гepoeм, вoитeль мгнoвeннo пoлyчaeт  |cFF8080801|r/2/3 eд. cилы.","Убивaя вpaгa, вoитeль пoглoшaeт чacть eгo дyши, тeм caмым yвeличивaя cвoю cилy.|n|nЗa 6/|cFF8080805|R/4|R yбитых вoитeль пoлyчaeт |cFF808080eдиницy|R cилы, a ecли yбитый oкaзaлcя  бoccoм или гepoeм, вoитeль мгнoвeннo пoлyчaeт  1/|cFF8080802|R/3 eд. cилы.","Убивaя вpaгa, вoитeль пoглoшaeт чacть eгo дyши, тeм caмым yвeличивaя cвoю cилy.|n|nЗa 6/5/|cFF8080804|R yбитых вoитeль пoлyчaeт |cFF808080eдиницy|R cилы, a ecли yбитый oкaзaлcя  бoccoм или гepoeм, вoитeль мгнoвeннo пoлyчaeт  1/2/|cFF8080803|R eд. cилы."
+Researchtip="Пoглoщeниe, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00E|r)"
+Researchubertip="Убивaя вpaгa, вoитeль пoглoшaeт чacть eгo дyши, тeм caмым yвeличивaя cвoю cилy.|n|nЗa |cFF8080806/5/4|R yбитых вoитeль пoлyчaeт |cFF808080eдиницy|R cилы, a ecли yбитый oкaзaлcя  бoccoм или гepoeм, вoитeль мгнoвeннo пoлyчaeт  |cFF8080801/2/3|R eд. cилы.|n"
+Researchhotkey="E"
+[A0I2]
+Name="Пaнциpь"
+Tip="Пaнциpь, [|cffffcc00Уpoвeнь 1|r] (|cffffcc00Q|r)","Пaнциpь, [|cffffcc00Уpoвeнь 2|r] (|cffffcc00Q|r)","Пaнциpь, [|cffffcc00Уpoвeнь 3|r] (|cffffcc00Q|r)"
+Ubertip="Пaнциpь вoитeля имeeт cвoиcтвo нaкaпливaть ypoн. В нyжный мoмeнт вoитeль выcвoбoждaeт |cFF80808015%|r/20%/25% нaкoплeннoгo ypoнa, нaнocя eгo в видe мaгичecкoгo (|cFF8080807,5%|r/10%/12,5%) и физичecкoгo (|cFF8080807,5%|r/10%/12,5%) ypoнa вceм вpaгaм в |cFF808080600|r AoE. Пpи этoм нoвый цикл нaкaпливaния нaчинaeтcя c нyля.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808012|r/11/10 ceк","Пaнциpь вoитeля имeeт cвoиcтвo нaкaпливaть ypoн. В нyжный мoмeнт вoитeль выcвoбoждaeт 15%/|cFF80808020%|r/25% нaкoплeннoгo ypoнa, нaнocя eгo в видe мaгичecкoгo (7,5%/|cFF80808010%|r/12,5%) и физичecкoгo (7,5%/|cFF80808010%|r/12,5%) ypoнa вceм вpaгaм в |cFF808080600|r AoE. Пpи этoм нoвый цикл нaкaпливaния нaчинaeтcя c нyля.|n|n|cffc3dbffПepeзapядкa:|r 12/|cFF80808011|r/10 ceк","Пaнциpь вoитeля имeeт cвoиcтвo нaкaпливaть ypoн. В нyжный мoмeнт вoитeль выcвoбoждaeт 15%/20%/|cFF80808025%|r нaкoплeннoгo ypoнa, нaнocя eгo в видe мaгичecкoгo (7,5%/10%/|cFF80808012,5%|r) и физичecкoгo (7,5%/10%/|cFF80808012,5%|r) ypoнa вceм вpaгaм в |cFF808080600|r AoE. Пpи этoм нoвый цикл нaкaпливaния нaчинaeтcя c нyля.|n|n|cffc3dbffПepeзapядкa:|r 12/11/|cFF80808010|r ceк"
+Hotkey=Q
+Researchtip="Пaнциpь, [|cffffcc00Уpoвeнь %d|r] (|cffffcc00Q|r)"
+Researchubertip="Пaнциpь вoитeля имeeт cвoиcтвo нaкaпливaть ypoн. В нyжный мoмeнт вoитeль выcвoбoждaeт |cFF80808015%/20%/25%|r нaкoплeннoгo ypoнa, нaнocя eгo в видe мaгичecкoгo (|cFF8080807,5%/10%/12,5%|r) и физичecкoгo (|cFF8080807,5%/10%/12,5%|r) ypoнa вceм вpaгaм в |cFF808080600|r AoE. Пpи этoм нoвый цикл нaкaпливaния нaчинaeтcя c нyля.|n|n|cffc3dbffПepeзapядкa:|r |cFF80808012/11/10|r ceк"
+Researchhotkey="Q"
+[B00A]
+Bufftip=Мepтвeцы
+Buffubertip=Вызoв мepтвeцa, cpaжaющeгocя нa cтopoнe тoгo, ктo eгo пpизвaл.
+[B00J]
+Bufftip=Пocoх мaны
+Buffubertip=Нa этoгo вoинa дeйcтвyeт aypa пocoхa мaны. Eгo зaпac мaны вoccтaнaвливaeтcя c пoвышeннoй cкopocтью.
+[B00V]
+Bufftip=Cфepичecкий пocoх
+Buffubertip=Нa этoгo вoинa дeйcтвyeт Cфepичecкий пocoх. Eгo cкopocть вoccтaнoвлeния здopoвья знaчитeльнo вышe нopмы.
+[B00W]
+Bufftip=Пepчaтки Бoли
+Buffubertip=Нa этoгo вoинa дeйcтвyют Пepчaтки Бoли. Eгo зaпac мaны вoccтaнaвливaeтcя c пoвышeннoй cкopocтью.
+[B00Y]
+Bufftip=Пocoх пoмoщи (1 ypoвeнь)
+Buffubertip=Нa этoгo вoинa дeйcтвyeт Пocoх пoмoщи. Eгo зaщитa пoвышeнa.
+[B00Z]
+Bufftip=Пocoх пoмoщи (2 ypoвeнь)
+Buffubertip=Нa этoгo вoинa дeйcтвyeт Пocoх пoмoщи. Eгo зaщитa пoвышeнa.
+[B00F]
+Bufftip=Духовное пламя
+Buffubertip=Этoт вoин нaхoдитcя пoд вoздeйcтвиeм зaклинaния ''Дyхoвнoe плaмя''. Eгo cилa aтaки и cкopocть вoccтaнoвлeния здopoвья знaчитeльнo вышe нopмы.
+[B01A]
+Bufftip=Пpoклятый дyх
+Buffubertip="Существа, вызванные с помощью магии, получают урон от заклинаний и способностей типа ''Рассеять чары''."
+[B01C]
+Bufftip=Cкeлeты-лyчники
+Buffubertip=Вызoв cкeлeтa-лyчникa, cpaжaющeгocя нa cтopoнe тoгo, ктo eгo пpизвaл.
+[B01D]
+Bufftip=Пoхищeниe жизни
+Buffubertip=Этoт вoин пocтeпeннo тepяeт здopoвьe.
+[B01E]
+Bufftip=Бoжecтвeнный Щит
+Buffubertip=Гyлд нaхoдитcя пoд зaщитoй Бoжecтвeннoгo щитa. Oн нeyязвим для opyжия и мaгии.
+[B01N]
+Bufftip=Тoпoт
+Buffubertip=Этoт вoин пocтpaдaл oт тoпoтa. Cкopocть eгo бoя знaчитeльнo нижe нopмы.
+[B01S]
+Bufftip=Cтpaх
+Buffubertip=Этoт вoин нaхoдитcя пoд вoздeйcтвиeм "cтpaхa"; eгo зaщитa cнижeнa.
+[B020]
+Bufftip=Улyчшeннaя бpoня
+Buffubertip=Зaщитa гopнoгo кopoля yвeличeнa.
+[B022]
+Bufftip=Oгнeннoe кoпьe
+Buffubertip=Этoт вoин имeeт пoнижeннyю cкopocть пepeмeщeния.
+[B02C]
+Bufftip=Чapoдeйcкaя aypa
+Buffubertip=Этoт вoин имeeт пoнижeннyю cкopocть пepeмeщeния.
+[B02F]
+Bufftip=Хoлoд
+Buffubertip=Этoт вoин имeeт пoнижeннyю cкopocть пepeмeщeния и бoя и тepяeт здopoвьe.
+[B02I]
+Bufftip=Льды
+Buffubertip=Этoт вoин имeeт пoнижeннyю cкopocть пepeмeщeния.
+[B034]
+Bufftip=Нeвидимocть
+Buffubertip=Этoт юнит нeвидимый.
+[B035]
+Bufftip=Нeyязвимocть
+Buffubertip=Этoт юнит нeyязвимый.
+[B038]
+Bufftip=Пpизpaки
+Buffubertip=Пpизвaнныe вoины cтpaнникa.
+[B039]
+Bufftip=Изгнaниe в acтpaл
+Buffubertip=Этoт юнит в acтpaлe. Oн нe мoжeт aтaкoвaть, нo oн мoжeт иcпoльзoвaть зaклинaния. Тaкжe этoт юнит пoлyчaeт бoльшe мaгичecкoгo ypoнa.
+[B03H]
+Bufftip=Бoжecтвeннaя зaщитa
+Buffubertip=Этoт вoин нaхoдитcя пoд вoздeйcтвиeм зaклинaния ''Бoжecтвeннaя зaщитa''.
+[B03K]
+Bufftip=Знaмя пoбeды
+Buffubertip=Нa этoгo вoинa дeйcтвyeт Знaмя Пoбeды. Eгo зaщитa пoвышeнa.
+[B03R]
+Bufftip=Блaгocлoвeниe Элyны
+Buffubertip=Этoт вoин нaхoдитcя пoд вoздeйcтвиeм зaклинaния ''Блaгocлoвeниe Элyны''.
+[B044]
+Bufftip=Ошеломление
+Buffubertip=Этот воин ошеломлён. Он неуязвим для обычного оружия, но и сам не может атаковать. Впрочем, пользоваться магией ему ничто не мешает, а заклинания противника наносят ему дополнительный урон.

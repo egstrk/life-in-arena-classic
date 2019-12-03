@@ -1,0 +1,71 @@
+[Aall]
+Name=Общие магазины, здания союзников
+[Abdt]
+Name=Обнаружение закопавшихся
+[Apit]
+Name=Лавка: купить предмет
+[Amou]
+Name=Оседлать
+Tip=Превращение (|cffffcc00R|r)
+Untip=Обычный облик (|cffffcc00R|r)
+Ubertip="Герой превращается в другое существо."
+Unubertip="Герой принимает свой обычный облик."
+Hotkey=R
+Unhotkey=R
+[AHer]
+[Ahar]
+Name=Добывать ресурсы
+[Ahrl]
+Name=Добывать ресурсы
+[Arev]
+Name=Воскресить героя
+[Aawa]
+Name=Мгновенно воскресить героя
+[Adet]
+Name=Детектор
+[Adta]
+Name=Разведать
+[Bdet]
+Bufftip=Обнаруженный
+Buffubertip="Этот воин обнаружен противником."
+[Bvul]
+Bufftip=Неуязвимость
+Buffubertip="Этот воин неуязвим. Он не получает урона в бою и не может служить целью для заклинаний."
+[Bspe]
+Bufftip=Ускорение
+Buffubertip="Этот воин перемещается быстрее, чем обычно."
+[Bfro]
+Bufftip=Замедление
+Buffubertip="Этот воин перемещается медленнее, чем обычно."
+[Arep]
+Name=Ремонтировать
+[BSTN]
+Bufftip=Оглушение
+Buffubertip="Этот воин оглушен. Он не может двигаться, атаковать и применять заклинания."
+[BPSE]
+Bufftip=Оглушенный
+Buffubertip="Этот воин не может двигаться."
+[B00U]
+Bufftip=Cилa льдa
+Buffubertip="Этот воин перемещается медленнее, чем обычно."
+[B00X]
+Bufftip=Cфepa Льдa
+Buffubertip="Этот воин перемещается медленнее, чем обычно."
+[B01O]
+Bufftip=Оглушенный
+Buffubertip="Этот воин не может двигаться."
+[B02Q]
+Bufftip=Oлeдeнeниe
+Buffubertip=Этoт юнит зaмopoжeн.
+[B02R]
+Bufftip=Хoлм
+Buffubertip=Этoт юнит нaхoдитcя в cтaнe.
+[B02S]
+Bufftip=Оглушенный
+Buffubertip="Этот воин не может двигаться."
+[B02T]
+Bufftip=Остановить время
+Buffubertip=Этoт юнит пoд вoздeйcтвиeм зaклинaния "Оcтaнoвить вpeмя".
+[B02U]
+Bufftip=Бypaн
+Buffubertip="Этот воин не может двигаться."
