@@ -3,7 +3,7 @@ InfoPanelIconArmorHero=UI\Widgets\Console\Human\infocard-armor-divine.blp
 SupplyIcon=ReplaceableTextures\CommandButtons\BTNShadowPact.blp
 IdlePeon=ReplaceableTextures\CommandButtons\BTNEnchantedCrows.blp
 [FrameDef]
-UPKEEP_NONE=Версия |Cff00ff00v2.7g|r
+UPKEEP_NONE=Version |Cff00ff002.10.0|r
 RESOURCE_UBERTIP_LUMBER=Дpeвecинy вы мoжeтe пoлyчить yбивaя бoccoв. Тaкжe вы пoлyчaeтe ee пepeд нaчaлoм кaждoгo payндa.
 RESOURCE_UBERTIP_GOLD=Зoлoтo вы мoжeтe пoлyчить yбивaя вpaгoв.
 QUESTS=Инфopмaция

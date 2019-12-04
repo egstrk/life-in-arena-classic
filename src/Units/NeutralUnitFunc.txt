@@ -225,7 +225,7 @@ Art=ReplaceableTextures\CommandButtons\BTNSpider.blp
 Specialart=Objects\Spawnmodels\Demon\DemonSmallDeathExplode\DemonSmallDeathExplode.mdl
 [n014]
 Art=ReplaceableTextures\CommandButtons\BTNMerchant.blp
-Sellitems=I06I,I01C,I06H,I06K,I07F
+Sellitems=I06I,I01C,I06H,I06K,I07F,I083
 [n015]
 Art=ReplaceableTextures\CommandButtons\BTNPurpleFelhound.blp
 Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl

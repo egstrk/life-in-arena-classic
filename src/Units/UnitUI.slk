@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;Y224;X51;D0 0 223 50
+B;Y225;X51;D0 0 224 50
 C;Y1;X1;K"unitUIID"
 C;X2;K"sortUI"
 C;X3;K"file"
@@ -5175,7 +5175,38 @@ C;X46;K80
 C;X47;K80
 C;X48;K1
 C;X49;K1
-C;Y182;X1;K"nba2"
+C;Y182;X1;K"n182"
+C;X3;K"units\creeps\HarpyWitch\HarpyWitch"
+C;X5;K"Harpy"
+C;X7;K"Custom_n182"
+C;X8;K"zzdemon"
+C;X21;K0.15
+C;X22;K1.20
+C;X23;K1
+C;X24;K33
+C;X25;K25
+C;X26;K0
+C;X27;K50
+C;X29;K200
+C;X30;K200
+C;X31;K230
+C;X32;K"MetalHeavySlice"
+C;X33;K"_"
+C;X34;K-1
+C;X36;K"Flesh"
+C;X37;K1
+C;X38;K255
+C;X39;K255
+C;X40;K255
+C;X41;K"_"
+C;X42;K"ShadowFlyer"
+C;X43;K"_"
+C;X44;K100
+C;X45;K100
+C;X46;K50
+C;X47;K50
+C;X48;K0
+C;Y183;X1;K"nba2"
 C;X3;K"units\demon\DoomGuard\DoomGuard"
 C;X5;K"DoomGuard"
 C;X7;K"doomguardsummoned"
@@ -5205,7 +5236,7 @@ C;X45;K180
 C;X46;K90
 C;X47;K90
 C;X48;K1
-C;Y183;X1;K"ndr1"
+C;Y184;X1;K"ndr1"
 C;X3;K"units\undead\Skeleton\Skeleton"
 C;X5;K"Skeleton"
 C;X7;K"darkminion1"
@@ -5235,7 +5266,7 @@ C;X45;K120
 C;X46;K50
 C;X47;K50
 C;X48;K1
-C;Y184;X1;K"ndr2"
+C;Y185;X1;K"ndr2"
 C;X3;K"units\undead\Skeleton\Skeleton"
 C;X5;K"Skeleton"
 C;X7;K"darkminion2"
@@ -5265,7 +5296,7 @@ C;X45;K120
 C;X46;K50
 C;X47;K50
 C;X48;K1
-C;Y185;X1;K"ndr3"
+C;Y186;X1;K"ndr3"
 C;X3;K"units\undead\Skeleton\Skeleton"
 C;X5;K"Skeleton"
 C;X7;K"darkminion3"
@@ -5295,7 +5326,7 @@ C;X45;K120
 C;X46;K50
 C;X47;K50
 C;X48;K1
-C;Y186;X1;K"nfa1"
+C;Y187;X1;K"nfa1"
 C;X3;K"Units\Creeps\HeroTinkerFactory\HeroTinkerFactory"
 C;X5;K"PocketFactory"
 C;X7;K"pocketfactory2"
@@ -5322,7 +5353,7 @@ C;X41;K"OMED"
 C;X42;K"_"
 C;X43;K"ShadowHumanBarracks"
 C;X48;K1
-C;Y187;X1;K"nfa2"
+C;Y188;X1;K"nfa2"
 C;X3;K"Units\Creeps\HeroTinkerFactory\HeroTinkerFactory"
 C;X5;K"PocketFactory"
 C;X7;K"pocketfactory3"
@@ -5349,7 +5380,7 @@ C;X41;K"OMED"
 C;X42;K"_"
 C;X43;K"ShadowHumanBarracks"
 C;X48;K1
-C;Y188;X1;K"nfac"
+C;Y189;X1;K"nfac"
 C;X3;K"Units\Creeps\HeroTinkerFactory\HeroTinkerFactory"
 C;X5;K"PocketFactory"
 C;X7;K"pocketfactory"
@@ -5376,7 +5407,7 @@ C;X41;K"OMED"
 C;X42;K"_"
 C;X43;K"ShadowHumanBarracks"
 C;X48;K1
-C;Y189;X1;K"nfrl"
+C;Y190;X1;K"nfrl"
 C;X3;K"units\creeps\Furbolg\Furbolg"
 C;X5;K"Furbolg"
 C;X7;K"furbolg"
@@ -5405,7 +5436,7 @@ C;X45;K140
 C;X46;K50
 C;X47;K50
 C;X48;K1
-C;Y190;X1;K"ninf"
+C;Y191;X1;K"ninf"
 C;X3;K"units\demon\Infernal\Infernal"
 C;X5;K"Infernal"
 C;X7;K"infernal"
@@ -5434,7 +5465,7 @@ C;X45;K200
 C;X46;K100
 C;X47;K100
 C;X48;K1
-C;Y191;X1;K"nsca"
+C;Y192;X1;K"nsca"
 C;X3;K"units\creeps\SkeletonArcher\SkeletonArcher"
 C;X5;K"SkeletonArcher"
 C;X7;K"skeletalarchersummoned"
@@ -5464,7 +5495,7 @@ C;X45;K120
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y192;X1;K"nsha"
+C;Y193;X1;K"nsha"
 C;X3;K"units\critters\Sheep\Sheep"
 C;X5;K"Sheep"
 C;X7;K"amphibioussheep"
@@ -5495,7 +5526,7 @@ C;X46;K30
 C;X47;K30
 C;X48;K1
 C;X49;K1
-C;Y193;X1;K"nshe"
+C;Y194;X1;K"nshe"
 C;X3;K"units\critters\Sheep\Sheep"
 C;X5;K"Sheep"
 C;X7;K"sheep"
@@ -5524,7 +5555,7 @@ C;X45;K60
 C;X46;K30
 C;X47;K30
 C;X48;K1
-C;Y194;X1;K"nshf"
+C;Y195;X1;K"nshf"
 C;X3;K"units\critters\FlyingSheep\FlyingSheep"
 C;X5;K"Sheep"
 C;X7;K"flyingsheep"
@@ -5555,7 +5586,7 @@ C;X45;K60
 C;X46;K30
 C;X47;K30
 C;X48;K1
-C;Y195;X1;K"nshw"
+C;Y196;X1;K"nshw"
 C;X3;K"units\critters\Sheep\Sheep"
 C;X5;K"Sheep"
 C;X7;K"watersheep"
@@ -5586,7 +5617,7 @@ C;X46;K30
 C;X47;K30
 C;X48;K1
 C;X49;K1
-C;Y196;X1;K"nwgt"
+C;Y197;X1;K"nwgt"
 C;X3;K"buildings\other\Waygate\Waygate"
 C;X5;K"Waygate"
 C;X7;K"waygate"
@@ -5612,7 +5643,7 @@ C;X41;K"HMED"
 C;X42;K"_"
 C;X43;K"BuildingShadowLarge"
 C;X48;K1
-C;Y197;X1;K"O000"
+C;Y198;X1;K"O000"
 C;X3;K"units\orc\HeroTaurenChieftain\HeroTaurenChieftain"
 C;X5;K"HeroTaurenChieftain"
 C;X7;K"Custom_O000"
@@ -5641,7 +5672,7 @@ C;X45;K230
 C;X46;K75
 C;X47;K75
 C;X48;K1
-C;Y198;X1;K"O001"
+C;Y199;X1;K"O001"
 C;X3;K"units\orc\Hellscream\Hellscream"
 C;X5;K"Grom"
 C;X7;K"Custom_O001"
@@ -5669,7 +5700,7 @@ C;X45;K140
 C;X46;K70
 C;X47;K70
 C;X48;K1
-C;Y199;X1;K"O002"
+C;Y200;X1;K"O002"
 C;X3;K"units\orc\HeroShadowHunter\HeroShadowHunter"
 C;X5;K"HeroShadowHunter"
 C;X7;K"Custom_O002"
@@ -5698,7 +5729,7 @@ C;X45;K200
 C;X46;K85
 C;X47;K85
 C;X48;K1
-C;Y200;X1;K"O003"
+C;Y201;X1;K"O003"
 C;X3;K"units\creeps\IronGolem\IronGolem"
 C;X5;K"IronGolem"
 C;X7;K"Custom_O003"
@@ -5727,7 +5758,7 @@ C;X45;K230
 C;X46;K75
 C;X47;K75
 C;X48;K1
-C;Y201;X1;K"O004"
+C;Y202;X1;K"O004"
 C;X3;K"units\demon\Infernal\Infernal"
 C;X5;K"Infernal"
 C;X7;K"Custom_O004"
@@ -5756,7 +5787,7 @@ C;X45;K230
 C;X46;K75
 C;X47;K75
 C;X48;K1
-C;Y202;X1;K"O005"
+C;Y203;X1;K"O005"
 C;X3;K"units\undead\Abomination\Abomination"
 C;X5;K"Abomination"
 C;X7;K"Custom_O005"
@@ -5785,7 +5816,7 @@ C;X45;K230
 C;X46;K75
 C;X47;K75
 C;X48;K1
-C;Y203;X1;K"O006"
+C;Y204;X1;K"O006"
 C;X3;K"units\orc\HeroBladeMaster\HeroBladeMaster"
 C;X5;K"HeroBladeMaster"
 C;X7;K"Custom_O006"
@@ -5814,7 +5845,7 @@ C;X45;K160
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y204;X1;K"o007"
+C;Y205;X1;K"o007"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o007"
 C;X8;K"OUnit21"
@@ -5842,7 +5873,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y205;X1;K"o008"
+C;Y206;X1;K"o008"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o008"
 C;X8;K"OUnit21"
@@ -5870,7 +5901,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y206;X1;K"o009"
+C;Y207;X1;K"o009"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o009"
 C;X8;K"OUnit21"
@@ -5898,7 +5929,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y207;X1;K"o00A"
+C;Y208;X1;K"o00A"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o00A"
 C;X8;K"OUnit21"
@@ -5926,7 +5957,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y208;X1;K"O00B"
+C;Y209;X1;K"O00B"
 C;X3;K"units\orc\HeadHunter\HeadHunter"
 C;X4;K2
 C;X5;K"HeadHunter"
@@ -5956,7 +5987,7 @@ C;X45;K140
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y209;X1;K"o00C"
+C;Y210;X1;K"o00C"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o00C"
 C;X8;K"OUnit21"
@@ -5984,7 +6015,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y210;X1;K"o00D"
+C;Y211;X1;K"o00D"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o00D"
 C;X8;K"OUnit21"
@@ -6012,7 +6043,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y211;X1;K"o00E"
+C;Y212;X1;K"o00E"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o00E"
 C;X8;K"OUnit21"
@@ -6040,7 +6071,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y212;X1;K"o00F"
+C;Y213;X1;K"o00F"
 C;X3;K"units\orc\SerpentWard\SerpentWard"
 C;X7;K"Custom_o00F"
 C;X8;K"OUnit21"
@@ -6068,7 +6099,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y213;X1;K"O00G"
+C;Y214;X1;K"O00G"
 C;X3;K"units\orc\Thrall\Thrall"
 C;X5;K"Thrall"
 C;X7;K"Custom_O00G"
@@ -6097,7 +6128,7 @@ C;X45;K200
 C;X46;K75
 C;X47;K75
 C;X48;K1
-C;Y214;X1;K"ohwd"
+C;Y215;X1;K"ohwd"
 C;X3;K"units\orc\HealingWard\HealingWard"
 C;X5;K"HealingWard"
 C;X7;K"healingward"
@@ -6127,7 +6158,7 @@ C;X45;K70
 C;X46;K25
 C;X47;K25
 C;X48;K1
-C;Y215;X1;K"otot"
+C;Y216;X1;K"otot"
 C;X3;K"Abilities\Spells\NightElf\CorrosiveBreath\ChimaeraAcidTargetArt"
 C;X5;K"StasisTotem"
 C;X7;K"stasistraptotem"
@@ -6152,7 +6183,7 @@ C;X40;K255
 C;X41;K"_"
 C;X42;K"Shadow"
 C;X43;K"_"
-C;Y216;X1;K"U000"
+C;Y217;X1;K"U000"
 C;X3;K"units\undead\HeroDreadLord\HeroDreadLord"
 C;X5;K"HeroDreadLord"
 C;X7;K"Custom_U000"
@@ -6181,7 +6212,7 @@ C;X45;K160
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y217;X1;K"u001"
+C;Y218;X1;K"u001"
 C;X3;K"Abilities\Spells\Human\ManaFlare\ManaFlareMissile"
 C;X7;K"Custom_u001"
 C;X9;K1
@@ -6209,7 +6240,7 @@ C;X45;K35
 C;X46;K17
 C;X47;K17
 C;X48;K1
-C;Y218;X1;K"U002"
+C;Y219;X1;K"U002"
 C;X3;K"units\creeps\VoidWalker\VoidWalker"
 C;X5;K"ObsidianDestroyer"
 C;X7;K"Custom_U002"
@@ -6238,7 +6269,7 @@ C;X45;K160
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y219;X1;K"u003"
+C;Y220;X1;K"u003"
 C;X3;K"Abilities\Spells\Human\ManaFlare\ManaFlareMissile"
 C;X7;K"Custom_u003"
 C;X9;K1
@@ -6266,7 +6297,7 @@ C;X45;K35
 C;X46;K17
 C;X47;K17
 C;X48;K1
-C;Y220;X1;K"u004"
+C;Y221;X1;K"u004"
 C;X3;K"Abilities\Spells\Human\ManaFlare\ManaFlareMissile"
 C;X7;K"Custom_u004"
 C;X9;K1
@@ -6294,7 +6325,7 @@ C;X45;K35
 C;X46;K17
 C;X47;K17
 C;X48;K1
-C;Y221;X1;K"U005"
+C;Y222;X1;K"U005"
 C;X3;K"units\undead\Skeleton\Skeleton"
 C;X5;K"Skeleton"
 C;X7;K"Custom_U005"
@@ -6323,7 +6354,7 @@ C;X45;K160
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y222;X1;K"u009"
+C;Y223;X1;K"u009"
 C;X3;K"Abilities\Weapons\FrostWyrmMissile\FrostWyrmMissile"
 C;X7;K"Custom_u009"
 C;X9;K1
@@ -6351,7 +6382,7 @@ C;X45;K35
 C;X46;K17
 C;X47;K17
 C;X48;K1
-C;Y223;X1;K"U00A"
+C;Y224;X1;K"U00A"
 C;X3;K"units\undead\HeroLich\HeroLich"
 C;X4;K2
 C;X5;K"HeroLich"
@@ -6381,7 +6412,7 @@ C;X45;K160
 C;X46;K60
 C;X47;K60
 C;X48;K1
-C;Y224;X1;K"U00B"
+C;Y225;X1;K"U00B"
 C;X3;K"units\undead\HeroCryptLord\HeroCryptLord"
 C;X5;K"HeroCryptLord"
 C;X7;K"Custom_U00B"

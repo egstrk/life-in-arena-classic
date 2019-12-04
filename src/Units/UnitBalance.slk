@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;Y224;X61;D0 0 223 60
+B;Y225;X61;D0 0 224 60
 C;Y1;X1;K"unitBalanceID"
 C;X2;K"sortBalance"
 C;X3;K"sort2"
@@ -5797,7 +5797,44 @@ C;X51;K"Z"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y182;X1;K"nba2"
+C;Y182;X1;K"n182"
+C;X5;K3
+C;X7;K"_"
+C;X8;K240
+C;X9;K30
+C;X10;K240
+C;X11;K30
+C;X13;K2
+C;X14;K1
+C;X15;K3
+C;X16;K100
+C;X20;K1
+C;X21;K410
+C;X22;K440
+C;X23;K280
+C;X24;K280
+C;X25;K0.5
+C;X26;K"always"
+C;X27;K300
+C;X28;K300
+C;X29;K300
+C;X30;K0.75
+C;X31;K0
+C;X32;K0
+C;X33;K0
+C;X34;K"small"
+C;X35;K350
+C;X38;K30
+C;X39;K30
+C;X40;K900
+C;X41;K800
+C;X49;K"_"
+C;X50;K"_"
+C;X51;K"B"
+C;X54;K"_"
+C;X55;K"_"
+C;X60;K24
+C;Y183;X1;K"nba2"
 C;X5;K8
 C;X7;K"_"
 C;X8;K340
@@ -5834,7 +5871,7 @@ C;X51;K"C,O,K"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K48
-C;Y183;X1;K"ndr1"
+C;Y184;X1;K"ndr1"
 C;X5;K2
 C;X7;K"undead"
 C;X14;K5
@@ -5861,7 +5898,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K31
-C;Y184;X1;K"ndr2"
+C;Y185;X1;K"ndr2"
 C;X5;K3
 C;X7;K"undead"
 C;X14;K5
@@ -5888,7 +5925,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K31
-C;Y185;X1;K"ndr3"
+C;Y186;X1;K"ndr3"
 C;X5;K4
 C;X7;K"undead"
 C;X14;K5
@@ -5915,7 +5952,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K31
-C;Y186;X1;K"nfa1"
+C;Y187;X1;K"nfa1"
 C;X5;K5
 C;X7;K"Mechanical"
 C;X23;K1000
@@ -5933,7 +5970,7 @@ C;X51;K"*"
 C;X54;K"unbuildable"
 C;X55;K"_"
 C;X60;K48
-C;Y187;X1;K"nfa2"
+C;Y188;X1;K"nfa2"
 C;X5;K6
 C;X7;K"Mechanical"
 C;X23;K1500
@@ -5951,7 +5988,7 @@ C;X51;K"*"
 C;X54;K"unbuildable"
 C;X55;K"_"
 C;X60;K48
-C;Y188;X1;K"nfac"
+C;Y189;X1;K"nfac"
 C;X5;K4
 C;X7;K"Mechanical"
 C;X23;K500
@@ -5969,7 +6006,7 @@ C;X51;K"*"
 C;X54;K"unbuildable"
 C;X55;K"_"
 C;X60;K48
-C;Y189;X1;K"nfrl"
+C;Y190;X1;K"nfrl"
 C;X5;K4
 C;X7;K"_"
 C;X8;K205
@@ -6002,7 +6039,7 @@ C;X51;K"A,C"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K48
-C;Y190;X1;K"ninf"
+C;Y191;X1;K"ninf"
 C;X5;K8
 C;X7;K"_"
 C;X8;K385
@@ -6035,7 +6072,7 @@ C;X51;K"C,O,K"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y191;X1;K"nsca"
+C;Y192;X1;K"nsca"
 C;X5;K1
 C;X7;K"undead"
 C;X8;K85
@@ -6064,7 +6101,7 @@ C;X51;K"D,N,G"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K32
-C;Y192;X1;K"nsha"
+C;Y193;X1;K"nsha"
 C;X7;K"_"
 C;X23;K15
 C;X24;K15
@@ -6084,7 +6121,7 @@ C;X51;K"L,F,W,Y,X,V,Q,J"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y193;X1;K"nshe"
+C;Y194;X1;K"nshe"
 C;X7;K"_"
 C;X23;K15
 C;X24;K15
@@ -6104,7 +6141,7 @@ C;X51;K"L,F,W,Y,X,V,Q,J"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y194;X1;K"nshf"
+C;Y195;X1;K"nshf"
 C;X7;K"_"
 C;X23;K15
 C;X24;K15
@@ -6125,7 +6162,7 @@ C;X54;K"_"
 C;X55;K"_"
 C;X56;K1
 C;X60;K16
-C;Y195;X1;K"nshw"
+C;Y196;X1;K"nshw"
 C;X7;K"_"
 C;X23;K15
 C;X24;K15
@@ -6147,7 +6184,7 @@ C;X55;K"_"
 C;X56;K1
 C;X58;K1
 C;X60;K16
-C;Y196;X1;K"nwgt"
+C;Y197;X1;K"nwgt"
 C;X7;K"Mechanical,neutral,standon"
 C;X8;K50
 C;X10;K50
@@ -6167,7 +6204,7 @@ C;X53;K1
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K50
-C;Y197;X1;K"O000"
+C;Y198;X1;K"O000"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6206,7 +6243,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y198;X1;K"O001"
+C;Y199;X1;K"O001"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6245,7 +6282,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y199;X1;K"O002"
+C;Y200;X1;K"O002"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6283,7 +6320,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y200;X1;K"O003"
+C;Y201;X1;K"O003"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6322,7 +6359,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y201;X1;K"O004"
+C;Y202;X1;K"O004"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6361,7 +6398,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y202;X1;K"O005"
+C;Y203;X1;K"O005"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6400,7 +6437,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y203;X1;K"O006"
+C;Y204;X1;K"O006"
 C;X5;K5
 C;X7;K"_"
 C;X8;K425
@@ -6436,7 +6473,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K32
-C;Y204;X1;K"o007"
+C;Y205;X1;K"o007"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6460,7 +6497,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y205;X1;K"o008"
+C;Y206;X1;K"o008"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6484,7 +6521,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y206;X1;K"o009"
+C;Y207;X1;K"o009"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6508,7 +6545,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y207;X1;K"o00A"
+C;Y208;X1;K"o00A"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6533,7 +6570,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y208;X1;K"O00B"
+C;Y209;X1;K"O00B"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6571,7 +6608,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y209;X1;K"o00C"
+C;Y210;X1;K"o00C"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6595,7 +6632,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y210;X1;K"o00D"
+C;Y211;X1;K"o00D"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6619,7 +6656,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y211;X1;K"o00E"
+C;Y212;X1;K"o00E"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6643,7 +6680,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y212;X1;K"o00F"
+C;Y213;X1;K"o00F"
 C;X5;K6
 C;X7;K"Ward"
 C;X13;K1
@@ -6668,7 +6705,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y213;X1;K"O00G"
+C;Y214;X1;K"O00G"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6706,7 +6743,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y214;X1;K"ohwd"
+C;Y215;X1;K"ohwd"
 C;X7;K"Ward"
 C;X20;K3
 C;X21;K30
@@ -6725,7 +6762,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y215;X1;K"otot"
+C;Y216;X1;K"otot"
 C;X5;K6
 C;X7;K"Ward"
 C;X20;K3
@@ -6745,7 +6782,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K16
-C;Y216;X1;K"U000"
+C;Y217;X1;K"U000"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6784,7 +6821,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y217;X1;K"u001"
+C;Y218;X1;K"u001"
 C;X7;K"_"
 C;X14;K6
 C;X15;K3
@@ -6806,7 +6843,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K8
-C;Y218;X1;K"U002"
+C;Y219;X1;K"U002"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6844,7 +6881,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y219;X1;K"u003"
+C;Y220;X1;K"u003"
 C;X7;K"_"
 C;X14;K6
 C;X15;K3
@@ -6866,7 +6903,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K8
-C;Y220;X1;K"u004"
+C;Y221;X1;K"u004"
 C;X7;K"_"
 C;X14;K6
 C;X15;K3
@@ -6888,7 +6925,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K8
-C;Y221;X1;K"U005"
+C;Y222;X1;K"U005"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6926,7 +6963,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y222;X1;K"u009"
+C;Y223;X1;K"u009"
 C;X7;K"_"
 C;X14;K6
 C;X15;K3
@@ -6948,7 +6985,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K8
-C;Y223;X1;K"U00A"
+C;Y224;X1;K"U00A"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8
@@ -6986,7 +7023,7 @@ C;X51;K"*"
 C;X54;K"_"
 C;X55;K"_"
 C;X60;K24
-C;Y224;X1;K"U00B"
+C;Y225;X1;K"U00B"
 C;X5;K5
 C;X7;K"_"
 C;X14;K8

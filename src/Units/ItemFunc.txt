@@ -240,6 +240,10 @@ Art=ReplaceableTextures\CommandButtons\BTNHealingWard.blp
 Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
 [I023]
 Art=ReplaceableTextures\CommandButtons\BTNManaStone.blp
+[I083]
+Art=ReplaceableTextures\CommandButtons\BTNHarpyWitch.blp
+[I082]
+Art=ReplaceableTextures\CommandButtons\BTNHarpyWitch.blp
 [I01D]
 Art=ReplaceableTextures\CommandButtons\BTNDoomGuard.blp
 [I01J]

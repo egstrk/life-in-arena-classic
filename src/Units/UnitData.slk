@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;Y224;X32;D0 0 223 31
+B;Y225;X32;D0 0 224 31
 C;Y1;X1;K"unitID"
 C;X2;K"sort"
 C;X3;K"comment(s)"
@@ -3090,7 +3090,26 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y182;X1;K"nba2"
+C;Y182;X1;K"n182"
+C;X4;K"human"
+C;X5;K8
+C;X6;K1
+C;X7;K1
+C;X8;K0
+C;X9;K3
+C;X11;K0
+C;X12;K"fly"
+C;X13;K240
+C;X14;K90
+C;X15;K0.5
+C;X16;K60
+C;X17;K1
+C;X19;K"air"
+C;X20;K"_"
+C;X22;K100
+C;X23;K"_"
+C;X26;K1
+C;Y183;X1;K"nba2"
 C;X4;K"demon"
 C;X5;K8
 C;X6;K1
@@ -3107,7 +3126,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y183;X1;K"ndr1"
+C;Y184;X1;K"ndr1"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3122,7 +3141,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y184;X1;K"ndr2"
+C;Y185;X1;K"ndr2"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3137,7 +3156,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y185;X1;K"ndr3"
+C;Y186;X1;K"ndr3"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3152,7 +3171,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y186;X1;K"nfa1"
+C;Y187;X1;K"nfa1"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3167,7 +3186,7 @@ C;X22;K100
 C;X23;K"buffer"
 C;X24;K9
 C;X26;K1
-C;Y187;X1;K"nfa2"
+C;Y188;X1;K"nfa2"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3182,7 +3201,7 @@ C;X22;K100
 C;X23;K"buffer"
 C;X24;K9
 C;X26;K1
-C;Y188;X1;K"nfac"
+C;Y189;X1;K"nfac"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3197,7 +3216,7 @@ C;X22;K100
 C;X23;K"buffer"
 C;X24;K9
 C;X26;K1
-C;Y189;X1;K"nfrl"
+C;Y190;X1;K"nfrl"
 C;X4;K"creeps"
 C;X5;K1
 C;X6;K1
@@ -3215,7 +3234,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y190;X1;K"ninf"
+C;Y191;X1;K"ninf"
 C;X4;K"demon"
 C;X5;K1
 C;X6;K1
@@ -3232,7 +3251,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y191;X1;K"nsca"
+C;Y192;X1;K"nsca"
 C;X4;K"creeps"
 C;X5;K1
 C;X6;K1
@@ -3248,7 +3267,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y192;X1;K"nsha"
+C;Y193;X1;K"nsha"
 C;X4;K"critters"
 C;X5;K1
 C;X6;K1
@@ -3265,7 +3284,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y193;X1;K"nshe"
+C;Y194;X1;K"nshe"
 C;X4;K"critters"
 C;X5;K1
 C;X6;K1
@@ -3282,7 +3301,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y194;X1;K"nshf"
+C;Y195;X1;K"nshf"
 C;X4;K"critters"
 C;X5;K1
 C;X6;K1
@@ -3300,7 +3319,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y195;X1;K"nshw"
+C;Y196;X1;K"nshw"
 C;X4;K"critters"
 C;X5;K1
 C;X6;K1
@@ -3317,7 +3336,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y196;X1;K"nwgt"
+C;Y197;X1;K"nwgt"
 C;X4;K"other"
 C;X5;K1
 C;X6;K1
@@ -3331,7 +3350,7 @@ C;X20;K"PathTextures\Waygate.tga"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y197;X1;K"O000"
+C;Y198;X1;K"O000"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3349,7 +3368,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y198;X1;K"O001"
+C;Y199;X1;K"O001"
 C;X4;K"human"
 C;X5;K11
 C;X6;K1
@@ -3367,7 +3386,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y199;X1;K"O002"
+C;Y200;X1;K"O002"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3386,7 +3405,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y200;X1;K"O003"
+C;Y201;X1;K"O003"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3404,7 +3423,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y201;X1;K"O004"
+C;Y202;X1;K"O004"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3422,7 +3441,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y202;X1;K"O005"
+C;Y203;X1;K"O005"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3440,7 +3459,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y203;X1;K"O006"
+C;Y204;X1;K"O006"
 C;X4;K"other"
 C;X5;K9
 C;X6;K1
@@ -3458,7 +3477,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y204;X1;K"o007"
+C;Y205;X1;K"o007"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3471,7 +3490,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y205;X1;K"o008"
+C;Y206;X1;K"o008"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3484,7 +3503,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y206;X1;K"o009"
+C;Y207;X1;K"o009"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3497,7 +3516,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y207;X1;K"o00A"
+C;Y208;X1;K"o00A"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3510,7 +3529,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y208;X1;K"O00B"
+C;Y209;X1;K"O00B"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3528,7 +3547,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y209;X1;K"o00C"
+C;Y210;X1;K"o00C"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3541,7 +3560,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y210;X1;K"o00D"
+C;Y211;X1;K"o00D"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3554,7 +3573,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y211;X1;K"o00E"
+C;Y212;X1;K"o00E"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3567,7 +3586,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y212;X1;K"o00F"
+C;Y213;X1;K"o00F"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3580,7 +3599,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y213;X1;K"O00G"
+C;Y214;X1;K"O00G"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3599,7 +3618,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K11
 C;X26;K1
-C;Y214;X1;K"ohwd"
+C;Y215;X1;K"ohwd"
 C;X4;K"orc"
 C;X5;K1
 C;X6;K1
@@ -3612,7 +3631,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y215;X1;K"otot"
+C;Y216;X1;K"otot"
 C;X4;K"orc"
 C;X5;K1
 C;X6;K1
@@ -3625,7 +3644,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y216;X1;K"U000"
+C;Y217;X1;K"U000"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3643,7 +3662,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y217;X1;K"u001"
+C;Y218;X1;K"u001"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3660,7 +3679,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y218;X1;K"U002"
+C;Y219;X1;K"U002"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3680,7 +3699,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y219;X1;K"u003"
+C;Y220;X1;K"u003"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3697,7 +3716,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y220;X1;K"u004"
+C;Y221;X1;K"u004"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3714,7 +3733,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y221;X1;K"U005"
+C;Y222;X1;K"U005"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3732,7 +3751,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y222;X1;K"u009"
+C;Y223;X1;K"u009"
 C;X4;K"human"
 C;X5;K1
 C;X6;K1
@@ -3749,7 +3768,7 @@ C;X20;K"_"
 C;X22;K100
 C;X23;K"_"
 C;X26;K1
-C;Y223;X1;K"U00A"
+C;Y224;X1;K"U00A"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1
@@ -3769,7 +3788,7 @@ C;X22;K100
 C;X23;K"_"
 C;X25;K1
 C;X26;K1
-C;Y224;X1;K"U00B"
+C;Y225;X1;K"U00B"
 C;X4;K"human"
 C;X5;K9
 C;X6;K1

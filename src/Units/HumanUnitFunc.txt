@@ -1,3 +1,10 @@
+[n182]
+Art=ReplaceableTextures\CommandButtons\BTNHarpyWitch.blp
+MissileArt=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
+Missilearc=0.15
+MissileSpeed=1200
+MissileHoming=1
+
 [E000]
 Art=ReplaceableTextures\CommandButtons\BTNHeroDemonHunter.blp
 Buttonpos=3,0

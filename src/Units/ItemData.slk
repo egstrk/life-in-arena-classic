@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;Y318;X35;D0 0 317 34
+B;Y320;X35;D0 0 319 34
 C;Y1;X1;K"itemID"
 C;X2;K"comment"
 C;X3;K"scriptname"
@@ -6014,7 +6014,56 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y290;X1;K"lmbr"
+C;Y290;X1;K"I082"
+C;X5;K"Artifact"
+C;X6;K6
+C;X7;K8
+C;X8;K"A182"
+C;X9;K"A182"
+C;X11;K1
+C;X12;K139
+C;X13;K1
+C;X14;K1
+C;X15;K1
+C;X16;K1
+C;X17;K1
+C;X18;K1
+C;X21;K1
+C;X22;K1
+C;X24;K130
+C;X26;K400000
+C;X28;K"Wood"
+C;X29;K"Objects\InventoryItems\TreasureChest\treasurechest.mdl"
+C;X30;K1
+C;X32;K255
+C;X33;K255
+C;X34;K255
+C;Y291;X1;K"I083"
+C;X5;K"Campaign"
+C;X6;K6
+C;X7;K8
+C;X8;K"_"
+C;X9;K"AIfu"
+C;X11;K1
+C;X12;K139
+C;X13;K1
+C;X14;K1
+C;X15;K1
+C;X16;K1
+C;X17;K1
+C;X18;K1
+C;X19;K1
+C;X21;K1
+C;X22;K30
+C;X24;K130
+C;X26;K400000
+C;X28;K"Wood"
+C;X29;K"Objects\InventoryItems\TreasureChest\treasurechest.mdl"
+C;X30;K1
+C;X32;K255
+C;X33;K255
+C;X34;K255
+C;Y292;X1;K"lmbr"
 C;X5;K"PowerUp"
 C;X8;K"AIlu"
 C;X9;K"AIlu"
@@ -6035,7 +6084,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y291;X1;K"mcri"
+C;Y293;X1;K"mcri"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X8;K"Amec"
@@ -6056,7 +6105,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y292;X1;K"moon"
+C;Y294;X1;K"moon"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X8;K"AIct"
@@ -6078,7 +6127,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y293;X1;K"ocor"
+C;Y295;X1;K"ocor"
 C;X5;K"Miscellaneous"
 C;X6;K3
 C;X7;K7
@@ -6098,7 +6147,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y294;X1;K"ofir"
+C;Y296;X1;K"ofir"
 C;X5;K"Miscellaneous"
 C;X6;K3
 C;X7;K7
@@ -6118,7 +6167,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y295;X1;K"oven"
+C;Y297;X1;K"oven"
 C;X5;K"Miscellaneous"
 C;X6;K3
 C;X7;K7
@@ -6138,7 +6187,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y296;X1;K"pams"
+C;Y298;X1;K"pams"
 C;X5;K"Miscellaneous"
 C;X8;K"AIxs"
 C;X9;K"Aami"
@@ -6159,7 +6208,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y297;X1;K"phea"
+C;Y299;X1;K"phea"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X7;K3
@@ -6183,7 +6232,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y298;X1;K"plcl"
+C;Y300;X1;K"plcl"
 C;X5;K"Purchasable"
 C;X8;K"AIpl"
 C;X9;K"AIpr"
@@ -6204,7 +6253,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y299;X1;K"pman"
+C;Y301;X1;K"pman"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X8;K"AIm1"
@@ -6227,7 +6276,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y300;X1;K"rhe2"
+C;Y302;X1;K"rhe2"
 C;X5;K"PowerUp"
 C;X8;K"APh2"
 C;X9;K"AIha"
@@ -6249,7 +6298,7 @@ C;X31;K80
 C;X32;K32
 C;X33;K127
 C;X34;K32
-C;Y301;X1;K"rman"
+C;Y303;X1;K"rman"
 C;X5;K"PowerUp"
 C;X8;K"APmr"
 C;X9;K"AImr"
@@ -6271,7 +6320,7 @@ C;X31;K80
 C;X32;K32
 C;X33;K32
 C;X34;K127
-C;Y302;X1;K"rnec"
+C;Y304;X1;K"rnec"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X8;K"AIrd"
@@ -6293,7 +6342,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y303;X1;K"rres"
+C;Y305;X1;K"rres"
 C;X5;K"PowerUp"
 C;X8;K"APra"
 C;X9;K"AIra"
@@ -6315,7 +6364,7 @@ C;X31;K80
 C;X32;K127
 C;X33;K32
 C;X34;K127
-C;Y304;X1;K"rspd"
+C;Y306;X1;K"rspd"
 C;X5;K"PowerUp"
 C;X8;K"APsa"
 C;X9;K"AIsp"
@@ -6337,7 +6386,7 @@ C;X31;K80
 C;X32;K24
 C;X33;K107
 C;X34;K80
-C;Y305;X1;K"rspl"
+C;Y307;X1;K"rspl"
 C;X5;K"PowerUp"
 C;X8;K"_"
 C;X9;K"Aspp"
@@ -6354,12 +6403,12 @@ C;X24;K150
 C;X26;K400000
 C;X28;K"Wood"
 C;X29;K"Objects\InventoryItems\Glyph\Glyph.mdl"
-C;X30;K0.80
+C;X30;K0.50
 C;X31;K80
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y306;X1;K"rsps"
+C;Y308;X1;K"rsps"
 C;X5;K"PowerUp"
 C;X8;K"ANse"
 C;X9;K"ANse"
@@ -6381,7 +6430,7 @@ C;X31;K80
 C;X32;K127
 C;X33;K127
 C;X34;K32
-C;Y307;X1;K"shea"
+C;Y309;X1;K"shea"
 C;X5;K"Purchasable"
 C;X6;K2
 C;X8;K"AIha"
@@ -6404,7 +6453,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y308;X1;K"skul"
+C;Y310;X1;K"skul"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X8;K"Ablp"
@@ -6425,7 +6474,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y309;X1;K"spre"
+C;Y311;X1;K"spre"
 C;X5;K"Miscellaneous"
 C;X8;K"ANpr"
 C;X9;K"ANpr"
@@ -6444,7 +6493,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y310;X1;K"sreg"
+C;Y312;X1;K"sreg"
 C;X5;K"Purchasable"
 C;X8;K"AIsl"
 C;X9;K"AIsl"
@@ -6465,7 +6514,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y311;X1;K"ssan"
+C;Y313;X1;K"ssan"
 C;X5;K"Purchasable"
 C;X8;K"ANsa"
 C;X9;K"ANsa"
@@ -6484,7 +6533,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y312;X1;K"stwp"
+C;Y314;X1;K"stwp"
 C;X5;K"Purchasable"
 C;X6;K2
 C;X8;K"AItp"
@@ -6507,7 +6556,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y313;X1;K"tdex"
+C;Y315;X1;K"tdex"
 C;X5;K"PowerUp"
 C;X6;K1
 C;X7;K1
@@ -6531,7 +6580,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y314;X1;K"tint"
+C;Y316;X1;K"tint"
 C;X5;K"PowerUp"
 C;X6;K1
 C;X7;K1
@@ -6555,7 +6604,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y315;X1;K"tsct"
+C;Y317;X1;K"tsct"
 C;X5;K"Purchasable"
 C;X6;K1
 C;X8;K"AIbt"
@@ -6577,7 +6626,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y316;X1;K"tstr"
+C;Y318;X1;K"tstr"
 C;X5;K"PowerUp"
 C;X6;K1
 C;X7;K1
@@ -6601,7 +6650,7 @@ C;X30;K1
 C;X32;K255
 C;X33;K255
 C;X34;K255
-C;Y317;X1;K"vamp"
+C;Y319;X1;K"vamp"
 C;X5;K"PowerUp"
 C;X8;K"_"
 C;X9;K"AIpv"
@@ -6622,7 +6671,7 @@ C;X30;K1
 C;X32;K127
 C;X33;K32
 C;X34;K32
-C;Y318;X1;K"whwd"
+C;Y320;X1;K"whwd"
 C;X5;K"Charged"
 C;X6;K5
 C;X7;K6
