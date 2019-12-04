@@ -1,4 +1,14 @@
 STRING 0
 {
+Life in Arena
+}
 
+STRING 1
+{
+Version
+}
+
+STRING 2
+{
+2.10.0
 }
