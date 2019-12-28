@@ -1,4 +1,5 @@
-﻿[I06C]
+﻿
+[I06C]
 Name="Health Stone"
 Tip="Health Stone (|cffffcc00Q|r) |cFF80808015"
 Ubertip="Increases the health regeneration rate of the Hero by 5 hit point per second when worn. Can be consumed for 400 health."
