@@ -1,4 +1,5 @@
-﻿[R000]
+﻿
+[R000]
 Name="Armor Upgrade"
 Tip="Armor Upgrade (|cffffcc00R|r) |cFF808080Level 1","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 2","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 3","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 4","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 5","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 6","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 7","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 8","Armor Upgrade (|cffffcc00R|r) |cFF808080Level 9"
 Ubertip="Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2","Increase Armor of the Hero by 2"

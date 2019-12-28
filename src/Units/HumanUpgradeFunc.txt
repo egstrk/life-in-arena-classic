@@ -1,3 +1,4 @@
+
 [R000]
 Art=ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp,ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp
 Buttonpos=3,0
