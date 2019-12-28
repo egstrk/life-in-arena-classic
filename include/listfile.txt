@@ -361,8 +361,6 @@ Units\CampaignAbilityFunc.txt
 Units\CampaignAbilityStrings.txt
 Units\CampaignUnitFunc.txt
 Units\CampaignUnitStrings.txt
-Units\CampaignUpgradeFunc.txt
-Units\CampaignUpgradeStrings.txt
 Units\CommandStrings.txt
 Units\CommonAbilityFunc.txt
 Units\CommonAbilityStrings.txt
